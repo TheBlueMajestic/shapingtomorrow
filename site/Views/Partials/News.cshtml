@@ -1,0 +1,12 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@foreach(var item in @Umbraco.Content(1171).Descendants().Where("Visible").Where("Level <= 4").OrderBy("@date desc")){
+
+	<a id="@item.Id" name="@item.Id" class="anchorFix">&nbsp;</a>
+	<h2>@item.name</h2>
+	<div>@item.date.ToString("MM/dd/yyyy")</div>
+	<br/>
+	@item.mainContent
+		
+
+}

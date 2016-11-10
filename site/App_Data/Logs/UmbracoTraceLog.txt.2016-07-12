@@ -1,0 +1,162 @@
+﻿2016-07-12 02:47:21,250 [7] INFO  umbraco.BusinessLogic.Log - [Thread 176] Log scrubbed.  Removed all items older than 2016-05-13 02:47:21
+2016-07-12 02:47:21,250 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 176] Application shutdown. Reason: HostingEnvironment
+2016-07-12 04:57:34,600 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-07-12 04:57:34,615 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 13ms)
+2016-07-12 04:57:34,631 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-07-12 04:57:34,647 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 35 (took 8ms)
+2016-07-12 04:57:34,725 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-07-12 04:57:34,725 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2016-07-12 04:57:34,725 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-07-12 04:57:34,740 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 0ms)
+2016-07-12 04:57:34,756 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-07-12 04:57:34,756 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2016-07-12 04:57:34,756 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-07-12 04:57:34,756 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 30 (took 2ms)
+2016-07-12 04:57:34,803 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-07-12 04:57:34,803 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2016-07-12 04:57:34,803 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-07-12 04:57:34,803 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-07-12 04:57:35,723 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2016-07-12 04:57:35,723 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 0ms)
+2016-07-12 04:57:35,770 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-12 04:57:35,770 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-12 04:57:35,785 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2016-07-12 04:57:35,785 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2016-07-12 04:57:35,785 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-07-12 04:57:35,957 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-07-12 04:57:36,300 [7] INFO  Umbraco.Web.UmbracoModule - [Thread 10] Setting OriginalRequestUrl: bsashapingtomorrow.com:80/umbraco
+2016-07-12 04:57:36,394 [7] INFO  umbraco.content - [Thread 10] Loading content from disk cache...
+2016-07-12 04:57:36,519 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-07-12 04:57:36,519 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 22 (took 1ms)
+2016-07-12 04:57:36,815 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-07-12 04:57:36,815 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 1ms)
+2016-07-12 05:04:06,272 [7] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-07-12 05:04:06,287 [7] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2016-07-12 05:04:06,350 [7] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-07-12 05:04:06,350 [7] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2016-07-12 11:14:55,573 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 220] User Id: 1 logged in
+2016-07-12 11:14:55,885 [7] INFO  Umbraco.Core.PluginManager - [Thread 240] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-12 11:14:55,885 [7] INFO  Umbraco.Core.PluginManager - [Thread 240] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-12 11:14:56,321 [7] INFO  Umbraco.Core.PluginManager - [Thread 241] Starting resolution types of umbraco.interfaces.ITree
+2016-07-12 11:14:56,321 [7] INFO  Umbraco.Core.PluginManager - [Thread 241] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
+2016-07-12 11:15:33,231 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 216] Content 'Teammate Resources' with Id '1126' has been published.
+2016-07-12 11:15:33,403 [7] INFO  Umbraco.Core.PluginManager - [Thread 216] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-07-12 11:15:33,403 [7] INFO  Umbraco.Core.PluginManager - [Thread 216] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 1ms)
+2016-07-12 11:15:37,490 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 229] Content 'Teammate Resources' with Id '1126' has been published.
+2016-07-12 11:25:17,237 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 249] Content 'Teammate Resources' with Id '1126' has been published.
+2016-07-12 11:45:24,811 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 241] User Id: 1 logged in
+2016-07-12 13:36:55,075 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 219] User Id: 1 logged in
+2016-07-12 13:37:19,645 [7] INFO  Umbraco.Core.PluginManager - [Thread 220] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-12 13:37:19,645 [7] INFO  Umbraco.Core.PluginManager - [Thread 220] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-12 13:37:59,347 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 249] Content 'Teammate Resources' with Id '1126' has been published.
+2016-07-12 13:46:08,645 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 209] Content 'Teammate Resources' with Id '1126' has been published.
+2016-07-12 13:51:30,475 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 235] Content 'Teammate Resources' with Id '1126' has been published.
+2016-07-12 13:52:02,112 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 223] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-07-12 13:52:02,128 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 223] New document 2098
+2016-07-12 13:52:02,143 [7] INFO  Umbraco.Core.PluginManager - [Thread 223] Starting resolution types of umbraco.interfaces.IDataType
+2016-07-12 13:52:02,143 [7] INFO  Umbraco.Core.PluginManager - [Thread 223] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 1ms)
+2016-07-12 13:52:02,221 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 223] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-07-12 13:52:02,377 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 223] Content 'Katie brown' with Id '2098' has been published.
+2016-07-12 13:52:02,393 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 223] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-07-12 13:52:02,408 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 223] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-07-12 13:52:11,690 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 226] Content 'Teammate Resources' with Id '1126' has been published.
+2016-07-12 13:52:45,543 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 218] Content 'Teammate Resources' with Id '1126' has been published.
+2016-07-12 13:53:11,064 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 226] Content 'Teammate Resources' with Id '1126' has been published.
+2016-07-12 13:55:09,906 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 249] Content 'Teammate Resources' with Id '1126' has been published.
+2016-07-12 13:55:13,011 [7] INFO  Umbraco.Core.PluginManager - [Thread 241] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-12 13:55:13,011 [7] INFO  Umbraco.Core.PluginManager - [Thread 241] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-12 14:04:37,033 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 218] User Id: 0 logged in
+2016-07-12 14:04:37,267 [7] INFO  Umbraco.Core.PluginManager - [Thread 222] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-12 14:04:37,267 [7] INFO  Umbraco.Core.PluginManager - [Thread 222] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-12 14:06:34,143 [7] INFO  Umbraco.Core.PluginManager - [Thread 218] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-12 14:06:34,143 [7] INFO  Umbraco.Core.PluginManager - [Thread 218] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-12 14:07:05,046 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 211] Couldn't find any page with nodeId=1389. This is most likely caused by the page not being published.
+2016-07-12 14:07:05,046 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 211] Couldn't find any page with nodeId=1154. This is most likely caused by the page not being published.
+2016-07-12 14:21:02,398 [7] INFO  Umbraco.Core.PluginManager - [Thread 206] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-12 14:21:02,398 [7] INFO  Umbraco.Core.PluginManager - [Thread 206] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-12 14:21:55,142 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 220] Content 'Teammate Resources' with Id '1126' has been published.
+2016-07-12 14:22:30,585 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 209] Content 'Teammate Resources' with Id '1126' has been published.
+2016-07-12 14:28:05,629 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 229] Content 'Teammate Resources' with Id '1126' has been published.
+2016-07-12 14:51:14,179 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 235] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-07-12 14:51:14,226 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 235] New document 2101
+2016-07-12 14:51:14,257 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 235] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-07-12 14:51:14,304 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 235] Content 'Lindsey Chilton' with Id '2101' has been published.
+2016-07-12 14:51:14,320 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 235] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-07-12 14:51:14,335 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 235] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-07-12 15:04:29,192 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 206] User Id: 0 logged in
+2016-07-12 15:04:29,988 [7] INFO  Umbraco.Core.PluginManager - [Thread 220] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-12 15:04:29,988 [7] INFO  Umbraco.Core.PluginManager - [Thread 220] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-12 15:06:50,810 [7] INFO  Umbraco.Core.PluginManager - [Thread 226] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-12 15:06:50,810 [7] INFO  Umbraco.Core.PluginManager - [Thread 226] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-12 15:43:46,790 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 206] User Id: 1 logged in
+2016-07-12 15:45:29,626 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 240] Content 'Milestones & Updates' with Id '1057' has been published.
+2016-07-12 16:03:38,374 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 220] User Id: 0 logged in
+2016-07-12 16:03:38,530 [7] INFO  Umbraco.Core.PluginManager - [Thread 228] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-12 16:03:38,530 [7] INFO  Umbraco.Core.PluginManager - [Thread 228] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-12 16:05:28,121 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 222] Content 'Teammate Resources' with Id '1126' has been published.
+2016-07-12 16:10:41,152 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 209] User Id: 0 logged in
+2016-07-12 16:10:41,340 [7] INFO  Umbraco.Core.PluginManager - [Thread 212] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-12 16:10:41,340 [7] INFO  Umbraco.Core.PluginManager - [Thread 212] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-12 16:16:10,081 [7] ERROR dashboardUtilities.FeedProxy - [Thread 249] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2016-07-12 16:16:17,116 [7] ERROR dashboardUtilities.FeedProxy - [Thread 228] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2016-07-12 16:16:49,736 [7] INFO  Umbraco.Core.PluginManager - [Thread 219] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-12 16:16:49,736 [7] INFO  Umbraco.Core.PluginManager - [Thread 219] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-12 16:17:50,187 [7] INFO  Umbraco.Core.PluginManager - [Thread 217] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-12 16:17:50,187 [7] INFO  Umbraco.Core.PluginManager - [Thread 217] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-12 16:22:10,272 [7] ERROR dashboardUtilities.FeedProxy - [Thread 223] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2016-07-12 16:22:21,769 [7] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - [Thread 249] Could not find persisted pre-value for field startNodeId
+2016-07-12 16:23:07,493 [7] INFO  Umbraco.Core.PluginManager - [Thread 218] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-12 16:23:07,493 [7] INFO  Umbraco.Core.PluginManager - [Thread 218] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-12 16:24:02,920 [7] INFO  Umbraco.Core.PluginManager - [Thread 211] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-12 16:24:02,920 [7] INFO  Umbraco.Core.PluginManager - [Thread 211] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-12 16:24:14,230 [7] ERROR dashboardUtilities.FeedProxy - [Thread 228] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2016-07-12 16:24:22,920 [7] ERROR dashboardUtilities.FeedProxy - [Thread 208] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2016-07-12 16:26:24,008 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 211] Content 'Teammate Resources' with Id '1126' has been published.
+2016-07-12 16:28:22,865 [7] ERROR dashboardUtilities.FeedProxy - [Thread 214] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2016-07-12 16:29:01,974 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 249] Content 'Teammate Resources' with Id '1126' has been published.
+2016-07-12 16:35:10,948 [7] ERROR dashboardUtilities.FeedProxy - [Thread 241] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2016-07-12 16:37:38,603 [7] ERROR dashboardUtilities.FeedProxy - [Thread 214] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2016-07-12 16:38:18,430 [7] ERROR dashboardUtilities.FeedProxy - [Thread 249] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2016-07-12 16:38:32,330 [7] ERROR dashboardUtilities.FeedProxy - [Thread 222] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2016-07-12 16:51:26,907 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 249] Content 'Teammate Resources' with Id '1126' has been published.
+2016-07-12 16:51:54,769 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 206] Content 'Teammate Resources' with Id '1126' has been published.

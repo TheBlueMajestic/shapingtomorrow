@@ -1,0 +1,15 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+	
+@foreach(var parent in CurrentPage.Children.Where("DocumentTypeAlias == \"Gallery\"")){
+	<h2>@parent.name</h2>
+	<div class="gallery-grid">
+	@foreach(var item2 in @parent.Children()){
+		var imageUrl = "/ImageGen.ashx?image=" + Umbraco.Media(item2.galleryImage).Url + "&width=1000&height=300&compression=80&format=jpg&constrain=true&ext=.jpg";
+		var imageLargeUrl = "/ImageGen.ashx?image=" + Umbraco.Media(item2.galleryImage).Url + "&width=1920&height=1200&compression=80&format=jpg&constrain=true&ext=.jpg";
+		<div class="gallery-box">
+			<a href="@imageLargeUrl" rel="gallery-@parent.id" style="background-image:url('@imageLargeUrl')" class="fancybox gallery-item" title="@item2.captionText"></a>
+		</div>
+	}
+	</div>
+}

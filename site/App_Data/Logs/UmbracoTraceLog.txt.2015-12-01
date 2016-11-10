@@ -1,0 +1,462 @@
+﻿2015-12-01 10:56:14,202 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 187] User Id: 1 logged in
+2015-12-01 10:56:14,530 [10] INFO  Umbraco.Core.PluginManager - [Thread 203] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-12-01 10:56:14,530 [10] INFO  Umbraco.Core.PluginManager - [Thread 203] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-12-01 10:56:15,045 [10] INFO  Umbraco.Core.PluginManager - [Thread 199] Starting resolution types of umbraco.interfaces.ITree
+2015-12-01 10:56:15,045 [10] INFO  Umbraco.Core.PluginManager - [Thread 199] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
+2015-12-01 11:03:03,237 [10] INFO  Umbraco.Core.PluginManager - [Thread 218] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2015-12-01 11:03:03,237 [10] INFO  Umbraco.Core.PluginManager - [Thread 218] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 1ms)
+2015-12-01 11:08:13,133 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 255] Content 'Tour the Towns' with Id '0' has been published.
+2015-12-01 11:08:58,561 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 153] Content 'Area Guides' with Id '0' has been published.
+2015-12-01 11:10:25,360 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 210] Content 'Area Guides' with Id '0' has been published.
+2015-12-01 11:10:36,717 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 223] Content 'Area Guides' with Id '0' has been published.
+2015-12-01 11:11:37,136 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 62] Content 'BELLEVUE' with Id '1842' has been published.
+2015-12-01 11:11:51,816 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 55] Content 'Area Guides' with Id '1843' has been unpublished.
+2015-12-01 11:12:21,222 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 193] Content 'BELLEVUE' with Id '0' has been published.
+2015-12-01 11:13:10,035 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 199] Content 'BELLEVUE' with Id '1844' has been unpublished.
+2015-12-01 11:13:34,636 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 132] Content 'BELLEVUE' with Id '0' has been published.
+2015-12-01 11:14:06,585 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 191] Content 'BELLEVUE' with Id '0' has been published.
+2015-12-01 11:14:50,234 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 218] Content 'Area Guides' with Id '1841' has been unpublished.
+2015-12-01 11:15:01,186 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 210] Content 'BRENTWOOD' with Id '0' has been published.
+2015-12-01 11:15:12,246 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 192] Content 'BRENTWOOD' with Id '0' has been published.
+2015-12-01 11:15:34,461 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 132] Content 'BRENTWOOD' with Id '0' has been published.
+2015-12-01 11:16:16,175 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 209] Content 'CRIEVE HALL/ BELMONT' with Id '0' has been published.
+2015-12-01 11:16:21,698 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 218] Content 'CRIEVE HALL/ BELMONT' with Id '0' has been published.
+2015-12-01 11:16:41,572 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 218] Content 'CRIEVE HALL/BELMONT' with Id '1850' has been published.
+2015-12-01 11:16:48,670 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 223] Content 'CRIEVE HALL/BELMONT' with Id '1851' has been published.
+2015-12-01 11:17:13,147 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 192] Content 'CRIEVE HALL/BELMONT' with Id '0' has been published.
+2015-12-01 11:17:42,054 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 192] Content 'Tour the Towns' with Id '1840' has been unpublished.
+2015-12-01 11:18:00,088 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 191] Content 'Tour the Towns' with Id '1840' has been published.
+2015-12-01 11:18:54,516 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 193] Content 'Tour the Towns' with Id '1840' has been unpublished.
+2015-12-01 11:35:27,947 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 193] User Id: 0 logged in
+2015-12-01 11:35:28,103 [10] INFO  Umbraco.Core.PluginManager - [Thread 201] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-12-01 11:35:28,103 [10] INFO  Umbraco.Core.PluginManager - [Thread 201] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-12-01 12:08:31,657 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 245] User Id: 1 logged in
+2015-12-01 12:10:31,669 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 245] Content '-' with Id '0' could not be published because its parent is not published.
+2015-12-01 12:10:43,276 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 235] Content 'Tour the Towns' with Id '1840' has been published.
+2015-12-01 12:11:13,181 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 220] Content '-' with Id '1853' has been published.
+2015-12-01 12:11:28,610 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 235] Content 'Tour the Towns' with Id '1840' has been published.
+2015-12-01 12:11:57,610 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 167] Content 'Second section' with Id '1853' has been published.
+2015-12-01 12:12:12,165 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 167] Content 'Second section' with Id '1853' has been published.
+2015-12-01 12:12:33,678 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 167] Content 'Second section' with Id '1853' has been published.
+2015-12-01 12:13:53,129 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 190] Content 'Tour the Towns' with Id '1840' has been unpublished.
+2015-12-01 12:15:18,540 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 189] User Id: 0 logged in
+2015-12-01 12:15:33,438 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 190] Couldn't find any page with nodeId=1842. This is most likely caused by the page not being published.
+2015-12-01 12:15:43,812 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 189] Couldn't find any page with nodeId=1849. This is most likely caused by the page not being published.
+2015-12-01 12:15:50,894 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 262] Couldn't find any page with nodeId=1853. This is most likely caused by the page not being published.
+2015-12-01 12:16:16,806 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 216] Couldn't find any page with nodeId=1842. This is most likely caused by the page not being published.
+2015-12-01 12:25:45,898 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 218] Couldn't find any page with nodeId=1853. This is most likely caused by the page not being published.
+2015-12-01 12:25:49,564 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 271] Couldn't find any page with nodeId=1850. This is most likely caused by the page not being published.
+2015-12-01 12:25:56,990 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 230] Couldn't find any page with nodeId=1852. This is most likely caused by the page not being published.
+2015-12-01 12:26:12,106 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 223] Couldn't find any page with nodeId=1846. This is most likely caused by the page not being published.
+2015-12-01 12:26:59,811 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 219] Couldn't find any page with nodeId=1853. This is most likely caused by the page not being published.
+2015-12-01 12:36:37,016 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 218] Couldn't find any page with nodeId=1846. This is most likely caused by the page not being published.
+2015-12-01 12:36:44,254 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 165] Content 'BELLEVUE' with Id '1846' could not be published because its parent is not published.
+2015-12-01 12:36:44,301 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 165] Couldn't find any page with nodeId=1846. This is most likely caused by the page not being published.
+2015-12-01 12:36:44,379 [10] INFO  Umbraco.Core.PluginManager - [Thread 165] Starting resolution types of umbraco.interfaces.IDataType
+2015-12-01 12:36:44,379 [10] INFO  Umbraco.Core.PluginManager - [Thread 165] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 1ms)
+2015-12-01 12:37:04,472 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 169] Couldn't find any page with nodeId=1853. This is most likely caused by the page not being published.
+2015-12-01 12:37:06,749 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 159] Content 'Second section' with Id '1853' could not be published because its parent is not published.
+2015-12-01 12:37:06,781 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 159] Couldn't find any page with nodeId=1853. This is most likely caused by the page not being published.
+2015-12-01 12:38:33,314 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 275] Content 'Second section' with Id '1853' could not be published because its parent is not published.
+2015-12-01 12:38:33,361 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 275] Couldn't find any page with nodeId=1853. This is most likely caused by the page not being published.
+2015-12-01 12:38:44,422 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 165] Couldn't find any page with nodeId=1852. This is most likely caused by the page not being published.
+2015-12-01 12:38:46,824 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 161] Content 'CRIEVE HALL/BELMONT' with Id '1852' could not be published because its parent is not published.
+2015-12-01 12:38:46,871 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 161] Couldn't find any page with nodeId=1852. This is most likely caused by the page not being published.
+2015-12-01 12:38:48,197 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 157] Couldn't find any page with nodeId=1850. This is most likely caused by the page not being published.
+2015-12-01 12:38:50,225 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 157] Content 'CRIEVE HALL/BELMONT' with Id '1850' could not be published because its parent is not published.
+2015-12-01 12:38:50,256 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 157] Couldn't find any page with nodeId=1850. This is most likely caused by the page not being published.
+2015-12-01 12:38:51,348 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 161] Couldn't find any page with nodeId=1846. This is most likely caused by the page not being published.
+2015-12-01 12:38:52,612 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 228] Couldn't find any page with nodeId=1842. This is most likely caused by the page not being published.
+2015-12-01 12:38:55,030 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 161] Content 'BELLEVUE' with Id '1842' could not be published because its parent is not published.
+2015-12-01 12:38:55,092 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 161] Couldn't find any page with nodeId=1842. This is most likely caused by the page not being published.
+2015-12-01 12:39:07,026 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 254] Couldn't find any page with nodeId=1842. This is most likely caused by the page not being published.
+2015-12-01 12:39:08,680 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 254] Couldn't find any page with nodeId=1845. This is most likely caused by the page not being published.
+2015-12-01 12:39:12,065 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 230] Couldn't find any page with nodeId=1846. This is most likely caused by the page not being published.
+2015-12-01 12:39:18,960 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 230] Content 'BELLEVUE' with Id '1846' could not be published because its parent is not published.
+2015-12-01 12:39:19,023 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 230] Couldn't find any page with nodeId=1846. This is most likely caused by the page not being published.
+2015-12-01 12:39:29,974 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 250] Content 'BELLEVUE' with Id '1846' could not be published because its parent is not published.
+2015-12-01 12:39:30,036 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 250] Couldn't find any page with nodeId=1846. This is most likely caused by the page not being published.
+2015-12-01 12:39:39,412 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 228] Couldn't find any page with nodeId=1847. This is most likely caused by the page not being published.
+2015-12-01 12:39:41,284 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 216] Content 'BRENTWOOD' with Id '1847' could not be published because its parent is not published.
+2015-12-01 12:39:41,315 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 216] Couldn't find any page with nodeId=1847. This is most likely caused by the page not being published.
+2015-12-01 12:39:42,969 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 161] Couldn't find any page with nodeId=1850. This is most likely caused by the page not being published.
+2015-12-01 12:39:44,903 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 250] Content 'CRIEVE HALL/BELMONT' with Id '1850' could not be published because its parent is not published.
+2015-12-01 12:39:44,966 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 250] Couldn't find any page with nodeId=1850. This is most likely caused by the page not being published.
+2015-12-01 12:39:50,176 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 250] Couldn't find any page with nodeId=1851. This is most likely caused by the page not being published.
+2015-12-01 12:39:52,033 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 275] Content 'CRIEVE HALL/BELMONT' with Id '1851' could not be published because its parent is not published.
+2015-12-01 12:39:52,064 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 275] Couldn't find any page with nodeId=1851. This is most likely caused by the page not being published.
+2015-12-01 12:39:53,764 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 169] Couldn't find any page with nodeId=1852. This is most likely caused by the page not being published.
+2015-12-01 12:39:54,404 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 165] Couldn't find any page with nodeId=1853. This is most likely caused by the page not being published.
+2015-12-01 12:39:56,557 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 230] Content 'Second section' with Id '1853' could not be published because its parent is not published.
+2015-12-01 12:39:56,619 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 230] Couldn't find any page with nodeId=1853. This is most likely caused by the page not being published.
+2015-12-01 12:40:11,080 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 275] Couldn't find any page with nodeId=1842. This is most likely caused by the page not being published.
+2015-12-01 12:40:13,061 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 275] Content 'BELLEVUE' with Id '1842' could not be published because its parent is not published.
+2015-12-01 12:40:13,108 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 275] Couldn't find any page with nodeId=1842. This is most likely caused by the page not being published.
+2015-12-01 12:40:14,153 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 267] Couldn't find any page with nodeId=1847. This is most likely caused by the page not being published.
+2015-12-01 12:40:16,026 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 165] Content 'BRENTWOOD' with Id '1847' could not be published because its parent is not published.
+2015-12-01 12:40:16,072 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 165] Couldn't find any page with nodeId=1847. This is most likely caused by the page not being published.
+2015-12-01 12:40:17,289 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 165] Couldn't find any page with nodeId=1850. This is most likely caused by the page not being published.
+2015-12-01 12:40:19,083 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 233] Content 'CRIEVE HALL/BELMONT' with Id '1850' could not be published because its parent is not published.
+2015-12-01 12:40:19,146 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 233] Couldn't find any page with nodeId=1850. This is most likely caused by the page not being published.
+2015-12-01 12:40:27,944 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 161] Couldn't find any page with nodeId=1853. This is most likely caused by the page not being published.
+2015-12-01 12:40:30,034 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 230] Content 'Second section' with Id '1853' could not be published because its parent is not published.
+2015-12-01 12:40:30,081 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 230] Couldn't find any page with nodeId=1853. This is most likely caused by the page not being published.
+2015-12-01 13:55:07,532 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 175] User Id: 1 logged in
+2015-12-01 13:55:07,610 [10] INFO  Umbraco.Core.PluginManager - [Thread 131] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-12-01 13:55:07,610 [10] INFO  Umbraco.Core.PluginManager - [Thread 131] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-12-01 13:56:32,272 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 182] Content 'Tour the Towns' with Id '1840' has been published.
+2015-12-01 13:56:32,693 [10] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 131] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2015-12-01 13:56:32,755 [10] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 211] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2015-12-01 13:57:34,469 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 176] Content 'Tour the Towns' with Id '1840' has been unpublished.
+2015-12-01 14:41:41,699 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 145] User Id: 0 logged in
+2015-12-01 14:41:41,793 [10] INFO  Umbraco.Core.PluginManager - [Thread 192] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-12-01 14:41:41,793 [10] INFO  Umbraco.Core.PluginManager - [Thread 192] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-12-01 15:40:10,866 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 267] User Id: 0 logged in
+2015-12-01 15:40:11,022 [10] INFO  Umbraco.Core.PluginManager - [Thread 199] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-12-01 15:40:11,022 [10] INFO  Umbraco.Core.PluginManager - [Thread 199] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-12-01 15:45:49,857 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 192] Content 'BRENTWOOD' with Id '1847' has been published.
+2015-12-01 15:45:49,857 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 192] Content 'Second section' with Id '1853' has been published.
+2015-12-01 15:45:49,857 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 192] Content 'CRIEVE HALL/BELMONT' with Id '1850' has been published.
+2015-12-01 15:46:17,250 [10] INFO  Umbraco.Core.PluginManager - [Thread 176] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-12-01 15:46:17,266 [10] INFO  Umbraco.Core.PluginManager - [Thread 176] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-12-01 15:47:12,927 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 192] Couldn't find any page with nodeId=1850. This is most likely caused by the page not being published.
+2015-12-01 15:47:18,169 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 55] Couldn't find any page with nodeId=1847. This is most likely caused by the page not being published.
+2015-12-01 15:47:26,577 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 173] Couldn't find any page with nodeId=1847. This is most likely caused by the page not being published.
+2015-12-01 15:47:29,931 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 201] Content 'BRENTWOOD' with Id '1847' could not be published because its parent is not published.
+2015-12-01 15:47:29,978 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 201] Couldn't find any page with nodeId=1847. This is most likely caused by the page not being published.
+2015-12-01 15:47:36,234 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 160] Couldn't find any page with nodeId=1847. This is most likely caused by the page not being published.
+2015-12-01 15:47:46,358 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 172] Couldn't find any page with nodeId=1850. This is most likely caused by the page not being published.
+2015-12-01 15:47:54,080 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 192] Content 'CRIEVE HALL/BELMONT' with Id '1850' could not be published because its parent is not published.
+2015-12-01 15:47:54,112 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 192] Couldn't find any page with nodeId=1850. This is most likely caused by the page not being published.
+2015-12-01 15:47:55,672 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 267] Couldn't find any page with nodeId=1853. This is most likely caused by the page not being published.
+2015-12-01 15:47:59,712 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 175] Couldn't find any page with nodeId=1847. This is most likely caused by the page not being published.
+2015-12-01 15:48:01,303 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 262] Couldn't find any page with nodeId=1853. This is most likely caused by the page not being published.
+2015-12-01 15:48:08,869 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 256] Content 'Second section' with Id '1853' could not be published because its parent is not published.
+2015-12-01 15:48:08,900 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 256] Couldn't find any page with nodeId=1853. This is most likely caused by the page not being published.
+2015-12-01 15:48:10,117 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 182] Couldn't find any page with nodeId=1850. This is most likely caused by the page not being published.
+2015-12-01 15:48:12,020 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 262] Content 'CRIEVE HALL/BELMONT' with Id '1850' could not be published because its parent is not published.
+2015-12-01 15:48:12,052 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 262] Couldn't find any page with nodeId=1850. This is most likely caused by the page not being published.
+2015-12-01 15:48:39,289 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 174] Content 'Tour the Towns' with Id '1840' has been published.
+2015-12-01 15:48:44,921 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 55] Content 'Tour the Towns' with Id '1840' has been unpublished.
+2015-12-01 15:51:17,116 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 201] Couldn't find any page with nodeId=1847. This is most likely caused by the page not being published.
+2015-12-01 15:52:40,327 [10] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 267] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\Project7102-cms\Views\Int.cshtml(38): error CS0103: The name 'count' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-12-01 15:52:42,526 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 173] Content 'Tour the Towns' with Id '1840' has been published.
+2015-12-01 15:52:44,586 [10] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 55] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\Project7102-cms\Views\Int.cshtml(38): error CS0103: The name 'count' does not exist in the current context
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-12-01 15:52:48,642 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 145] Content 'Tour the Towns' with Id '1840' has been unpublished.
+2015-12-01 15:52:48,704 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 145] Couldn't find any page with nodeId=1840. This is most likely caused by the page not being published.
+2015-12-01 15:52:50,124 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 172] Couldn't find any page with nodeId=1840. This is most likely caused by the page not being published.
+2015-12-01 15:52:50,841 [10] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 55] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\Project7102-cms\Views\Int.cshtml(38): error CS0103: The name 'count' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-12-01 15:52:51,684 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 182] Couldn't find any page with nodeId=1847. This is most likely caused by the page not being published.
+2015-12-01 15:52:57,487 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 192] Couldn't find any page with nodeId=1840. This is most likely caused by the page not being published.
+2015-12-01 15:53:14,007 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 145] Couldn't find any page with nodeId=1840. This is most likely caused by the page not being published.
+2015-12-01 15:53:28,048 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 201] Content 'Tour the Towns' with Id '1840' has been unpublished.
+2015-12-01 15:53:28,110 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 201] Couldn't find any page with nodeId=1840. This is most likely caused by the page not being published.
+2015-12-01 15:53:30,122 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 175] Content 'BRENTWOOD' with Id '1847' has been unpublished.
+2015-12-01 15:53:32,852 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 200] Couldn't find any page with nodeId=1840. This is most likely caused by the page not being published.
+2015-12-01 15:53:46,393 [10] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 192] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\Project7102-cms\Views\Int.cshtml(38): error CS0103: The name 'count' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-12-01 15:53:46,440 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 132] Couldn't find any page with nodeId=1840. This is most likely caused by the page not being published.
+2015-12-01 15:53:49,420 [10] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 160] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\Project7102-cms\Views\Int.cshtml(38): error CS0103: The name 'count' does not exist in the current context
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-12-01 15:53:59,341 [10] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 210] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\Project7102-cms\Views\Int.cshtml(38): error CS0103: The name 'count' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-12-01 15:54:01,728 [10] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 192] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\Project7102-cms\Views\Int.cshtml(38): error CS0103: The name 'count' does not exist in the current context
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-12-01 15:54:03,600 [10] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 182] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\Project7102-cms\Views\Int.cshtml(38): error CS0103: The name 'count' does not exist in the current context
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-12-01 15:54:10,449 [10] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 145] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\inetpub\wwwroot\Project7102-cms\Views\Int.cshtml(38): error CS0103: The name 'count' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-12-01 15:55:28,699 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 145] Couldn't find any page with nodeId=1840. This is most likely caused by the page not being published.
+2015-12-01 15:56:13,580 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 132] Content 'BRENTWOOD' with Id '1847' has been published.
+2015-12-01 15:56:13,768 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 132] Couldn't find any page with nodeId=1847. This is most likely caused by the page not being published.
+2015-12-01 15:56:15,468 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 55] Couldn't find any page with nodeId=1840. This is most likely caused by the page not being published.
+2015-12-01 15:56:20,460 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 175] Content 'Tour the Towns' with Id '1840' has been unpublished.
+2015-12-01 15:56:20,600 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 175] Couldn't find any page with nodeId=1840. This is most likely caused by the page not being published.
+2015-12-01 15:56:31,130 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 267] Couldn't find any page with nodeId=1840. This is most likely caused by the page not being published.
+2015-12-01 15:56:48,306 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 131] Couldn't find any page with nodeId=1840. This is most likely caused by the page not being published.
+2015-12-01 15:58:52,421 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 55] Couldn't find any page with nodeId=1840. This is most likely caused by the page not being published.
+2015-12-01 15:58:57,444 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 192] Couldn't find any page with nodeId=1840. This is most likely caused by the page not being published.
+2015-12-01 15:59:02,171 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 55] Content 'Tour the Towns' with Id '1840' has been published.
+2015-12-01 15:59:05,681 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 192] Content 'Tour the Towns' with Id '1840' has been unpublished.
+2015-12-01 16:02:12,991 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 160] Content 'CRIEVE HALL/BELMONT' with Id '1850' has been published.
+2015-12-01 16:02:12,991 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 160] Content 'Second section' with Id '1853' has been published.
+2015-12-01 16:02:49,527 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 160] Content 'Tour the Towns' with Id '1840' has been published.
+2015-12-01 16:02:51,602 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 210] Content 'Tour the Towns' with Id '1840' has been unpublished.
+2015-12-01 16:03:03,879 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 175] Couldn't find any page with nodeId=1850. This is most likely caused by the page not being published.
+2015-12-01 16:03:06,344 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 172] Content 'CRIEVE HALL/BELMONT' with Id '1850' could not be published because its parent is not published.
+2015-12-01 16:03:06,390 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 172] Couldn't find any page with nodeId=1850. This is most likely caused by the page not being published.
+2015-12-01 16:03:11,882 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 173] Content 'Tour the Towns' with Id '1840' has been published.
+2015-12-01 16:03:12,475 [10] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 256] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2015-12-01 16:03:15,985 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 256] Content 'CRIEVE HALL/BELMONT' with Id '1850' has been published.
+2015-12-01 16:03:16,156 [10] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 131] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2015-12-01 16:03:19,510 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 145] Content 'Second section' with Id '1853' has been published.
+2015-12-01 16:03:31,319 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 256] Content 'Tour the Towns' with Id '1840' has been unpublished.
+2015-12-01 16:05:03,064 [10] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 210] An unhandled exception occurred
+System.Web.HttpParseException (0x80004005): Unexpected "if" keyword after "@" character.  Once inside code, you do not need to prefix constructs like "if" with "@".
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   at System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2015-12-01 16:09:52,992 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 174] Content 'Tour the Towns' with Id '1840' has been published.
+2015-12-01 16:09:55,082 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 256] Content 'Tour the Towns' with Id '1840' has been unpublished.
+2015-12-01 16:33:47,750 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 160] An error occurred with the scheduled publishing
+System.Net.WebException: The underlying connection was closed: A connection that was expected to be kept alive was closed by the server.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2015-12-01 19:07:09,335 [10] INFO  umbraco.BusinessLogic.Log - [Thread 28] Log scrubbed.  Removed all items older than 2015-10-02 19:07:09
+2015-12-01 23:59:07,481 [10] INFO  umbraco.BusinessLogic.Log - [Thread 348] Log scrubbed.  Removed all items older than 2015-10-02 23:59:07
+2015-12-01 23:59:07,481 [10] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 348] Application shutdown. Reason: HostingEnvironment

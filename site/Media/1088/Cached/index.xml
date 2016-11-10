@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_s>
+    <image>
+      <originalFileName>st2.png</originalFileName>
+      <size>684012</size>
+      <dateLastModified>Mon, 12 Oct 2015 16:08:52 GMT</dateLastModified>
+      <width>725</width>
+      <height>402</height>
+      <cachedImage>
+        <fileName>ST2_a9d8c4ae19687ce4d389bf36d4b9de91cc7cf28d0a1b6667ab93b9e2b1fbc814.jpeg</fileName>
+        <dateCreated>Tue, 10 Nov 2015 18:44:56 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1920</width>
+        <height>1065</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_s>
+</imageIndex>

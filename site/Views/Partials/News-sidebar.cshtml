@@ -1,0 +1,24 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@{
+	var inc = 0;
+}
+	
+@foreach(var item in @Umbraco.Content(1171).Descendants().Where("Visible").Where("Level <= 4").OrderBy("@date desc")){
+	
+	inc = inc + 1;
+	
+	if(inc < 4){
+	
+		@item.name<br/>
+		<a href="/teammate-resources/news/#@item.Id" class="more">Read More &nbsp;<img src="/site-images/ask-arrow.gif"></a><br/>
+		<br/>
+			
+	}
+
+}
+
+	
+<a href="/teammate-resources/news/" class="viewAll">View All News &nbsp;<img src="/site-images/ask-arrow.gif"></a>
+		
+	

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_b>
+    <image>
+      <originalFileName>bsa-gopreformance-fitness.jpg</originalFileName>
+      <size>857095</size>
+      <dateLastModified>Tue, 10 Nov 2015 20:43:53 GMT</dateLastModified>
+      <width>1000</width>
+      <height>667</height>
+      <cachedImage>
+        <fileName>BSA_3468c8a410d9b1d8d8e9346fcb02459cd54db490d862cc24accd073596ac1cb3.jpeg</fileName>
+        <dateCreated>Tue, 10 Nov 2015 21:06:23 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1799</width>
+        <height>1200</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_b>
+</imageIndex>

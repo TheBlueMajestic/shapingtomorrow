@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_b>
+    <image>
+      <originalFileName>bsa-the-farm-house.jpg</originalFileName>
+      <size>168933</size>
+      <dateLastModified>Tue, 10 Nov 2015 20:43:54 GMT</dateLastModified>
+      <width>1080</width>
+      <height>1080</height>
+      <cachedImage>
+        <fileName>BSA_e038af5e1b7d026ccc283cd7fd36a79ff4cf151cc03cdbced264e8453b523916.jpeg</fileName>
+        <dateCreated>Tue, 10 Nov 2015 21:14:01 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1200</width>
+        <height>1200</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_b>
+</imageIndex>

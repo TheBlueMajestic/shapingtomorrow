@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_n>
+    <image>
+      <originalFileName>news-hq-stack.png</originalFileName>
+      <size>575474</size>
+      <dateLastModified>Fri, 21 Oct 2016 14:13:35 GMT</dateLastModified>
+      <width>563</width>
+      <height>819</height>
+      <cachedImage>
+        <fileName>NEW_8f7965d53db71ad19c2ecdd510e028acd3ab919fcbcb3447b9b1425e17c026ca.jpeg</fileName>
+        <dateCreated>Fri, 21 Oct 2016 15:54:44 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>825</width>
+        <height>1200</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_n>
+</imageIndex>

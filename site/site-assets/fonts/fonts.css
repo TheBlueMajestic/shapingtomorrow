@@ -1,0 +1,28 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 2881932, 2014-09-11T15:53:04-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Alternate Gothic No 3 D by URW++
+ * URL: http://www.myfonts.com/fonts/urw/alternate-gothic/no3-d/
+ * Copyright: Copyright 2010 URW++ Design &amp; Development Hamburg
+ * Licensed pageviews: 10,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2881932
+ * 
+ * © 2014 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2bf98c");
+
+  
+@font-face {font-family: 'AlternateGotNo3D';src: url('AlternateGotNo3D/2BF98C_0_0.eot');src: url('AlternateGotNo3D/2BF98C_0_0.eot?#iefix') format('embedded-opentype'),url('AlternateGotNo3D/2BF98C_0_0.woff') format('woff'),url('AlternateGotNo3D/2BF98C_0_0.ttf') format('truetype');}
+ 

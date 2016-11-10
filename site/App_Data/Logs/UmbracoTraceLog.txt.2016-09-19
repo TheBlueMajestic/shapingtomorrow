@@ -1,0 +1,28 @@
+﻿2016-09-19 06:30:50,219 [10] INFO  Umbraco.Core.PluginManager - [Thread 195] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-09-19 06:30:50,219 [10] INFO  Umbraco.Core.PluginManager - [Thread 195] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2016-09-19 06:30:50,297 [10] INFO  Umbraco.Core.PluginManager - [Thread 195] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-09-19 06:30:50,313 [10] INFO  Umbraco.Core.PluginManager - [Thread 195] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2016-09-19 13:14:00,049 [10] INFO  Umbraco.Core.PluginManager - [Thread 280] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-09-19 13:14:00,049 [10] INFO  Umbraco.Core.PluginManager - [Thread 280] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 1ms)
+2016-09-19 13:14:00,112 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 280] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-19 13:14:00,751 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 280] New document 2261
+2016-09-19 13:14:00,782 [10] INFO  Umbraco.Core.PluginManager - [Thread 280] Starting resolution types of umbraco.interfaces.IDataType
+2016-09-19 13:14:00,782 [10] INFO  Umbraco.Core.PluginManager - [Thread 280] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 3ms)
+2016-09-19 13:14:00,798 [10] INFO  Umbraco.Core.PluginManager - [Thread 280] Starting resolution types of umbraco.interfaces.ITree
+2016-09-19 13:14:00,798 [10] INFO  Umbraco.Core.PluginManager - [Thread 280] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 0ms)
+2016-09-19 13:14:00,985 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 280] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-19 13:14:01,266 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 280] Content 'Phillip Brasher' with Id '2261' has been published.
+2016-09-19 13:14:01,328 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 280] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-19 13:14:01,328 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 280] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-19 13:19:56,215 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 323] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-19 13:19:56,231 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 323] New document 2262
+2016-09-19 13:19:56,262 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 323] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-19 13:19:56,325 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 323] Content 'Logan  Taylor' with Id '2262' has been published.
+2016-09-19 13:19:56,356 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 323] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-19 13:19:56,356 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 323] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-19 19:36:39,327 [10] INFO  umbraco.BusinessLogic.Log - [Thread 315] Log scrubbed.  Removed all items older than 2016-07-21 19:36:39
+2016-09-19 22:04:04,606 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 353] User Id: 1 logged in
+2016-09-19 22:04:04,918 [10] INFO  Umbraco.Core.PluginManager - [Thread 345] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-09-19 22:04:04,918 [10] INFO  Umbraco.Core.PluginManager - [Thread 345] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-09-19 22:09:49,556 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 348] Content 'When will my Transition Bonus be paid?' with Id '2078' has been published.
+2016-09-19 22:23:45,800 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 308] Content 'Milestones & Updates' with Id '1057' has been published.

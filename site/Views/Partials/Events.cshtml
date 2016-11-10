@@ -1,0 +1,31 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+	<script type="text/javascript">(function () {
+            if (window.addtocalendar)if(typeof window.addtocalendar.start == "function")return;
+            if (window.ifaddtocalendar == undefined) { window.ifaddtocalendar = 1;
+                var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+                s.type = 'text/javascript';s.charset = 'UTF-8';s.async = true;
+                s.src = ('https:' == window.location.protocol ? 'https' : 'http')+'://addtocalendar.com/atc/1.5/atc.min.js';
+                var h = d[g]('body')[0];h.appendChild(s); }})();
+    </script>
+	
+	
+@foreach(var item in @Umbraco.Content(2316).Descendants().Where("Visible").Where("Level <= 4").OrderBy("@date")){
+
+	<div style="font-weight: bold;">@item.date.ToString("MM/dd/yyyy")</div>
+	<h2 style="margin: 0px;">@item.name</h2>	
+	<br/>
+	@item.mainContent
+	<br/>
+		
+		
+	@Html.Raw(@item.eventDetails)
+	
+	<br/>
+	<br/>
+	<hr/>
+	<br/>
+	
+
+}
+<br><br>

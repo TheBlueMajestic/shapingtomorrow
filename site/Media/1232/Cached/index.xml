@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_b>
+    <image>
+      <originalFileName>break2.jpg</originalFileName>
+      <size>352012</size>
+      <dateLastModified>Fri, 05 Aug 2016 12:47:48 GMT</dateLastModified>
+      <width>1426</width>
+      <height>1080</height>
+      <cachedImage>
+        <fileName>BRE_3b872b4eeaf7c9583761f8eef36924b75f682f9af661ba774542d37061e533b7.jpeg</fileName>
+        <dateCreated>Fri, 05 Aug 2016 12:50:58 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1584</width>
+        <height>1200</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_b>
+</imageIndex>

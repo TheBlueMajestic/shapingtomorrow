@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_b>
+    <image>
+      <originalFileName>bsa-14_lounge-at-stair.jpg</originalFileName>
+      <size>1514824</size>
+      <dateLastModified>Tue, 10 Nov 2015 20:46:17 GMT</dateLastModified>
+      <width>1920</width>
+      <height>1247</height>
+      <cachedImage>
+        <fileName>BSA_6cecad80ee36125dd58a76abd0cfc753e7b8e54bcc2c93f1cf5d3f27ed1e1e7b.jpeg</fileName>
+        <dateCreated>Tue, 10 Nov 2015 22:00:18 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1848</width>
+        <height>1200</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_b>
+</imageIndex>

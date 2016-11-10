@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_s>
+    <image>
+      <originalFileName>soc-conference-rooms.jpg</originalFileName>
+      <size>191684</size>
+      <dateLastModified>Tue, 01 Nov 2016 16:08:07 GMT</dateLastModified>
+      <width>1322</width>
+      <height>646</height>
+      <cachedImage>
+        <fileName>SOC_83298937a11db45d58c256d73660e3ad2f72d2fe891639794ca4f33757054aef.jpeg</fileName>
+        <dateCreated>Tue, 01 Nov 2016 16:14:54 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1920</width>
+        <height>938</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_s>
+</imageIndex>

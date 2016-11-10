@@ -1,0 +1,40 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@{
+
+	var pageName = CurrentPage.Name.ToLower();
+}
+	
+@foreach(var item in @Umbraco.Content(1584).Descendants().Where("Visible").Where("Level <= 5")){
+	
+	<a id="@item.Id" name="@item.Id" class="anchorFix">&nbsp;</a>
+	<h2>@item.name</h2>
+	@item.answer
+
+
+}
+
+<br>
+<hr>
+<br>
+	
+<h1 style="padding-bottom: 15px;">@Umbraco.Content(1588).name</h1>
+	
+@foreach(var item in @Umbraco.Content(1588).Descendants().Where("Visible").Where("Level <= 5")){
+
+	
+	<h2>@item.name</h2>
+		
+	foreach(var item2 in @item.Descendants().Where("Visible").Where("Level <= 6")){	
+	
+		<div class="accord">
+			<a class="trigger" href="#"><span>+</span> @Html.Raw(item2.question)</a>
+			<div class="reveal">@item2.answers</div>          
+		</div>
+	
+	}
+
+}
+
+<br>
+<br>

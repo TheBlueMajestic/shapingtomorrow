@@ -1,0 +1,119 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "umbLayout.cshtml";	
+	var featuredImage = Umbraco.Media(@CurrentPage.featuredImage).Url;
+}
+
+@section head1{
+	
+	<script src="/site-assets/resizeDis.js"></script>
+
+	<script src="/site-assets/scroller.js"></script>	
+}
+	
+<div id="header" style="background-image:url('@featuredImage')">
+	
+	@CurrentPage.panel1
+	
+    <a href="#" id="scrollDownBtn"><img src="/site-images/h-downClickBtn.png"></a>
+
+	</div>
+
+
+<div id="contentBlockC">
+   
+   <!-- MAIN Content **************************** -->
+    <a name="whatsNewAncorhLink" id="whatsNewAncorhLink"></a>
+	<div id="whatsNewC">
+   
+       <div class="contentBlock white lgTxt" >
+            
+		   @CurrentPage.panelWhatsNew
+       </div>
+   
+   </div><!-- whatsNewC -->
+	
+	<div id="ourVisionC">
+        <div class="contentBlock lgTxt" >
+			
+			<br /><br />
+			<video width="700" height="395" controls poster="/site-videos/home/home.jpg" preload="none">
+    			<source src="/site-videos/home/Announcement_v5-700.mp4" type="video/mp4" />
+    			<source src="/site-videos/home/Announcement_v5-700.webm" type="video/webm" />
+			</video>
+			
+			<div id="flashVid" style="display: none;" data-iframeSRC="/site-videos/home/flash/home.html">
+				<iframe src="" width="700" height="395" frameborder="0"></iframe>
+			</div>
+			
+			<div style="font-size: 9px;">If you're having problems viewing the video dowload the <a href="/site-videos/home/Announcement_v5-700.wmv" target="_blank">Windows Media</a> or <a href="/site-videos/home/Announcement_v5-SD.mpg" target="_blank">QuickTime</a> formats.</div>
+			
+			
+			<br><br>
+			
+            @CurrentPage.panel2
+			
+        </div>
+    </div><!-- ourVisionC -->
+    
+    
+    
+    <div id="campusC">
+        <div id="campusImg"></div>
+        <div id="campusTextC">
+            <div id="campusText" class="white lgTxt">
+                
+                @CurrentPage.panel3
+				
+            </div>
+        </div><!-- campusTextC -->   
+    </div><!-- campusC -->   
+    
+    
+    
+
+    <div id="questionsC">
+        <div class="contentBlock">
+            
+			@CurrentPage.panel4
+            
+        </div>
+    </div><!-- questionsC -->
+    
+    
+    
+    
+    <div id="discoverImages">
+        <div id="image1" class="images"></div>
+        <div id="image2" class="images"></div>
+        <div id="image3" class="images"></div>
+    </div>
+    <div id="discoverTextC">
+        <div class="contentBlock white">
+            
+			@CurrentPage.panel5
+            
+        </div>
+    </div>
+    
+    <div id="timelineC">
+        <div class="contentBlock">
+            
+			@CurrentPage.panel6
+
+        </div>
+    </div><!-- timelineC -->
+    
+    <!-- FOOTER **************************** -->
+    <footer>
+        <div id="disclaimer">
+           <img src="/site-images/footer-logo.gif">&copy;2016 Bridgestone Corporation 
+        </div>
+		<div class="footer-text">
+            BSAShapingTomorrow.com is intended for Bridgestone Americas teammates and their immediate families only. Logins must not be shared with others. While visiting, we respectfully request that you adhere to the Code of Conduct for this site: be honest and accurate, use good judgment and be respectful.
+        </div>
+    </footer><!-- *** Close footerC *** -->
+    
+</div>	
+	
+	

@@ -1,0 +1,260 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "umbLayout.cshtml";
+	
+	var pageName = CurrentPage.Name.ToLower();
+	var catName = CurrentPage.AncestorOrSelf(2).Name.ToLower();
+	
+	var counter = 0;
+	
+	//HeaderImg Path
+	var getImagePath = Umbraco.Media(CurrentPage.headerImage.ToString());
+	var count = 0;
+}
+
+@section head1{
+
+	<script src="/site-assets/accordion.js"></script>
+}
+
+	
+	
+<div id="int-header" style="background:#CCC url(@getImagePath.umbracoFile) center top no-repeat; background-size: cover;" ></div>
+
+   <div id="intContentBlockC">
+        
+        <div id="intContentBlock">
+            
+            <div id="contentLft">
+           
+	
+               <h1>@CurrentPage.Name</h1>
+			   	
+	
+			   @CurrentPage.mainContent
+			   
+			
+			@foreach(var child in CurrentPage.Children()){
+				
+				string type = child.DocumentTypeAlias;
+				switch(type){
+					
+					@* Accordion Links *@
+					case "AccordionLinks":
+						foreach(var item2 in @child.Children()){
+							
+							<div class="accord">
+								
+								<a href="#" class="trigger"><span>+</span> @item2.name</a>
+								<div class="reveal">
+									
+									@foreach(var item3 in @item2.Children()){
+										if(item3.DocumentTypeAlias == "AccordionLinkItem"){
+											<a href="@item3.Link" target="_blank">@item3.name</a><br/>
+										}
+										else {
+											<p>@item3.content</p>
+										}
+									}
+								
+								</div>
+							
+							</div>
+						}
+						break;
+					
+					@* Gallery *@
+					case "Gallery":
+						if(child.hideGalleryTitle != true){
+							<h2>@child.name</h2>
+						}
+						<div class="gallery-grid">
+						@foreach(var item2 in @child.Children()){
+							var imageUrl = "/ImageGen.ashx?image=" + Umbraco.Media(item2.galleryImage).Url + "&width=1000&height=300&compression=80&format=jpg&constrain=true&ext=.jpg";
+							var imageLargeUrl = "/ImageGen.ashx?image=" + Umbraco.Media(item2.galleryImage).Url + "&width=1920&height=1200&compression=80&format=jpg&constrain=true&ext=.jpg";
+							<div class="gallery-box">
+								<a href="@imageLargeUrl" rel="gallery-@child.id" style="background-image:url('@imageLargeUrl')" class="fancybox gallery-item" title="@item2.captionText"></a>
+							</div>
+						}
+						</div>
+						break;
+					
+					@* General Content *@
+					case "GeneralContent":
+						<div class="general-content">
+							@child.content
+						</div>
+						break;
+					
+				}
+			}
+
+			
+			   @* Render Recent Questions *@
+			   @if(pageName == "recent questions"){
+				   
+			   		Html.RenderPartial("recent-questions");
+				   
+			   }
+
+			   @* Events *@
+			   @if(pageName == "event calendar"){
+				   
+			   		Html.RenderPartial("events");
+				   
+			   }
+
+			   @* FAQ *@
+			   @if(pageName == "faq"){
+				   
+			   		Html.RenderPartial("FAQs");
+				   
+			   }
+
+			   @* News *@
+			   @if(pageName == "news"){
+				   
+			   		Html.RenderPartial("news");
+				   
+			   }
+
+
+               
+                
+            </div><!-- contentLft -->
+            
+            <div id="contentRt">
+                
+				@* Count number of children for 1st level nav item *@
+				@foreach(var item in @Model.Content.AncestorOrSelf(2).Children().Where("Visible")){
+					counter = counter + 1;				
+				}
+				
+				@if(@counter > 0){
+				
+	
+					<div id="sideNav">
+						@{ Html.RenderPartial("sideNav"); }
+					</div>
+						
+					if(pageName != "conversation board"){
+						<hr>
+					}
+                
+				}
+				
+
+				@if(catName == "milestones & updates"){
+					
+					<div id="see-transformation">
+					
+						<h2>See the Transformation</h2>
+						
+						See for yourself! Watch our time-lapse videos that show the latest construction progress on the downtown HQ building.
+						
+						<a href="https://oxblue.com/open/bfusa/7102" target="_blank" class="watch-now">Watch Now</a>
+					
+					</div>
+					
+					<hr />
+					
+				}
+				
+				@if(pageName == "discover nashville"){
+					
+					
+					<div id="discover-nashville">
+					
+						<h2>Area Guide</h2>
+						
+						<a href="http://bsashapingtomorrow.com/media/1173/bebridgestone-nashvilleguidecompressed.pdf" target="_blank" class="discussionBtn">Download Guide</a>
+					
+					</div>
+					
+					<hr />
+					
+				}
+				
+				
+				<div id="ask-proj-team">
+					
+				<h2>Ask the Project Team</h2>
+					
+					@{ Html.RenderPartial("recent-questions-sidebar"); }
+					
+				</div>
+						
+				<hr>
+						
+				
+				@if(pageName != "conversation board"){
+				
+					<!--
+					<div id="forum-team">
+					
+					<h2>Join the Discussion</h2>
+					
+						<a href="/teammate-resources/conversation-board/" class="discussionBtn">Join Discussion</a>
+					
+					</div>
+						
+					<hr>
+					-->
+				}
+				
+				<div id="recent-news">
+					
+					<h2>Recent News</h2>
+	
+					@{ Html.RenderPartial("news-sidebar"); }
+	
+				</div>
+				
+                
+            </div><!-- contentRt -->
+            
+        </div><!-- intContentBlock -->
+				
+        @if(pageName == "conversation board"){	
+			<div id="fullWidthC">
+				<div id="fullWidth">		
+						<script>
+							//Resize Frame
+							setFrameHeight = function (height) {
+								$("#fullWidth").height(height);
+								//$(window).scrollTop(500);
+							}
+							//Pass-through verifcation hash to iFrame
+							$(document).ready(function() {
+							function getParameterByName(name) {
+								name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+								var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+								results = regex.exec(location.search);
+								return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+							}
+								if(getParameterByName("k")!="") {
+									$("#forum").attr('src','/forum/approve?k='+getParameterByName("k"));
+								}
+							});
+							
+	
+	
+						</script>
+						<iframe src="/forum/" id="forum" frameborder="0" width="100%" height="100%" marginheight="0" marginwidth="0" scrolling="no"></iframe>
+						
+				</div><!-- fullWidth -->			
+			</div><!-- fullWidthC -->
+		}   
+        
+        <div id="intFooterC">
+            <div id="intFooter"><img src="/site-images/footer-logo.gif">&copy;2016 Bridgestone Corporation</div>
+			<div class="footer-text">
+            BSAShapingTomorrow.com is intended for Bridgestone Americas teammates and their immediate families only. Logins must not be shared with others. While visiting, we respectfully request that you adhere to the Code of Conduct for this site: be honest and accurate, use good judgment and be respectful.
+			</div>
+        </div>
+        
+    </div><!-- contentBlockC -->
+
+
+
+		

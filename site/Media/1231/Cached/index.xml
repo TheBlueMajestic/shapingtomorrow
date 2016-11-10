@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_b>
+    <image>
+      <originalFileName>break.jpg</originalFileName>
+      <size>417194</size>
+      <dateLastModified>Fri, 05 Aug 2016 12:47:45 GMT</dateLastModified>
+      <width>1920</width>
+      <height>1075</height>
+      <cachedImage>
+        <fileName>BRE_44105f47c9a11b0675770cd796fc013c893a219d308089976dd0ead156d881a5.jpeg</fileName>
+        <dateCreated>Fri, 05 Aug 2016 12:50:59 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1920</width>
+        <height>1075</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_b>
+</imageIndex>

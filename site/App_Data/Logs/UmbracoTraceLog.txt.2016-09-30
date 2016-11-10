@@ -1,0 +1,37 @@
+﻿2016-09-30 09:36:46,131 [7] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-09-30 09:36:46,131 [7] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 1ms)
+2016-09-30 09:36:46,178 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 9] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-30 09:36:46,833 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 9] New document 2270
+2016-09-30 09:36:46,864 [7] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.interfaces.IDataType
+2016-09-30 09:36:46,864 [7] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 3ms)
+2016-09-30 09:36:46,880 [7] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.interfaces.ITree
+2016-09-30 09:36:46,880 [7] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 0ms)
+2016-09-30 09:36:47,067 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 9] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-30 09:36:47,364 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Karen Moecker' with Id '2270' has been published.
+2016-09-30 09:36:47,426 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 9] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-30 09:36:47,426 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 9] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-30 09:46:32,851 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 71] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-30 09:46:32,867 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 71] New document 2271
+2016-09-30 09:46:32,898 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 71] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-30 09:46:32,929 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 71] Content 'Karen Moecker (1)' with Id '2271' has been published.
+2016-09-30 09:46:32,961 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 71] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-30 09:46:32,976 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 71] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-30 09:54:06,549 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 63] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-30 09:54:06,565 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 63] New document 2272
+2016-09-30 09:54:06,581 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 63] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-30 09:54:06,627 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 63] Content 'Karen Moecker (2)' with Id '2272' has been published.
+2016-09-30 09:54:06,643 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 63] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-30 09:54:06,659 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 63] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-30 10:10:57,109 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 23] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-30 10:10:57,125 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 23] New document 2273
+2016-09-30 10:10:57,140 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 23] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-30 10:10:57,203 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Karen Moecker (3)' with Id '2273' has been published.
+2016-09-30 10:10:57,249 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 23] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-30 10:10:57,249 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 23] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-30 15:55:48,271 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 43] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-30 15:55:48,318 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 43] New document 2274
+2016-09-30 15:55:48,349 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 43] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-30 15:55:48,396 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 43] Content 'Don Lewis' with Id '2274' has been published.
+2016-09-30 15:55:48,442 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 43] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-30 15:55:48,442 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 43] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-30 19:05:39,317 [7] INFO  umbraco.BusinessLogic.Log - [Thread 477] Log scrubbed.  Removed all items older than 2016-08-01 19:05:39

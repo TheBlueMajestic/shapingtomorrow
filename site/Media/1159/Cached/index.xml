@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_b>
+    <image>
+      <originalFileName>bsa-15_reception.jpg</originalFileName>
+      <size>1190167</size>
+      <dateLastModified>Tue, 10 Nov 2015 20:46:17 GMT</dateLastModified>
+      <width>1920</width>
+      <height>1132</height>
+      <cachedImage>
+        <fileName>BSA_3f7603414e4614c03b6d853077d8574917308aace8b46d21855fec2c2701f66c.jpeg</fileName>
+        <dateCreated>Tue, 10 Nov 2015 22:00:19 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1920</width>
+        <height>1132</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_b>
+</imageIndex>

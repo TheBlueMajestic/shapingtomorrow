@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_a>
+    <image>
+      <originalFileName>access-entry-rendering-for-site.jpg</originalFileName>
+      <size>326487</size>
+      <dateLastModified>Tue, 02 Aug 2016 12:48:08 GMT</dateLastModified>
+      <width>1372</width>
+      <height>1080</height>
+      <cachedImage>
+        <fileName>ACC_94cecefb790fe8a23054b8ef962f5d654c6d37a5a562cf13c5534d209a60f742.jpeg</fileName>
+        <dateCreated>Tue, 02 Aug 2016 12:56:29 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1524</width>
+        <height>1200</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_a>
+</imageIndex>

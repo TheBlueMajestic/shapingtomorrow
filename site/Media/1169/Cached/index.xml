@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_b>
+    <image>
+      <originalFileName>bsa-building.jpg</originalFileName>
+      <size>1326953</size>
+      <dateLastModified>Tue, 10 Nov 2015 21:41:12 GMT</dateLastModified>
+      <width>1000</width>
+      <height>1667</height>
+      <cachedImage>
+        <fileName>BSA_abe50cdc6b1227d933d16f51cc9fcf1ec9bf5e2c083be5500e87bc6f9408e6e0.jpeg</fileName>
+        <dateCreated>Tue, 10 Nov 2015 22:00:17 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>720</width>
+        <height>1200</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_b>
+</imageIndex>

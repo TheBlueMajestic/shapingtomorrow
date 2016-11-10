@@ -1,0 +1,166 @@
+﻿2016-07-06 09:24:37,436 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 215] User Id: 1 logged in
+2016-07-06 09:24:37,779 [10] INFO  Umbraco.Core.PluginManager - [Thread 111] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-06 09:24:37,779 [10] INFO  Umbraco.Core.PluginManager - [Thread 111] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-06 09:24:38,403 [10] INFO  Umbraco.Core.PluginManager - [Thread 82] Starting resolution types of umbraco.interfaces.ITree
+2016-07-06 09:24:38,403 [10] INFO  Umbraco.Core.PluginManager - [Thread 82] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
+2016-07-06 09:37:08,222 [10] INFO  Umbraco.Core.PluginManager - [Thread 97] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-07-06 09:37:08,222 [10] INFO  Umbraco.Core.PluginManager - [Thread 97] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2016-07-06 09:37:08,285 [10] INFO  Umbraco.Core.PluginManager - [Thread 97] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-07-06 09:37:08,285 [10] INFO  Umbraco.Core.PluginManager - [Thread 97] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2016-07-06 09:39:34,972 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 98] Content 'q3' with Id '1592' has been unpublished.
+2016-07-06 09:39:35,628 [10] INFO  Umbraco.Core.PluginManager - [Thread 98] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-07-06 09:39:35,628 [10] INFO  Umbraco.Core.PluginManager - [Thread 98] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 1ms)
+2016-07-06 09:44:51,592 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 98] Content 'q3' with Id '1597' has been published.
+2016-07-06 09:56:18,138 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 105] Content 'q3' with Id '1597' has been published.
+2016-07-06 12:18:52,662 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 105] User Id: 0 logged in
+2016-07-06 12:18:53,052 [10] INFO  Umbraco.Core.PluginManager - [Thread 135] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-06 12:18:53,052 [10] INFO  Umbraco.Core.PluginManager - [Thread 135] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-06 12:20:07,418 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 95] User Id: 0 logged in
+2016-07-06 12:20:07,761 [10] INFO  Umbraco.Core.PluginManager - [Thread 104] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-06 12:20:07,761 [10] INFO  Umbraco.Core.PluginManager - [Thread 104] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-06 12:20:40,849 [10] INFO  Umbraco.Core.PluginManager - [Thread 82] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-06 12:20:40,849 [10] INFO  Umbraco.Core.PluginManager - [Thread 82] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-06 14:43:47,353 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 215] User Id: 0 logged in
+2016-07-06 14:43:47,431 [10] INFO  Umbraco.Core.PluginManager - [Thread 97] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-06 14:43:47,431 [10] INFO  Umbraco.Core.PluginManager - [Thread 97] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-06 14:43:50,863 [10] ERROR dashboardUtilities.FeedProxy - [Thread 107] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2016-07-06 14:49:46,514 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 104] User Id: 0 logged in
+2016-07-06 14:49:46,624 [10] INFO  Umbraco.Core.PluginManager - [Thread 85] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-06 14:49:46,624 [10] INFO  Umbraco.Core.PluginManager - [Thread 85] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-06 14:51:50,488 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 82] User Id: 1 logged in
+2016-07-06 14:51:50,566 [10] INFO  Umbraco.Core.PluginManager - [Thread 215] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-06 14:51:50,566 [10] INFO  Umbraco.Core.PluginManager - [Thread 215] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-06 14:55:44,584 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 85] Content 'Home' with Id '1052' has been published.
+2016-07-06 14:57:29,573 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 104] User Id: 1 logged in
+2016-07-06 14:57:29,635 [10] INFO  Umbraco.Core.PluginManager - [Thread 115] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-06 14:57:29,651 [10] INFO  Umbraco.Core.PluginManager - [Thread 115] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-06 14:58:34,032 [10] INFO  Umbraco.Core.PluginManager - [Thread 98] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-06 14:58:34,032 [10] INFO  Umbraco.Core.PluginManager - [Thread 98] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-06 14:59:18,040 [10] INFO  Umbraco.Core.PluginManager - [Thread 111] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-06 14:59:18,040 [10] INFO  Umbraco.Core.PluginManager - [Thread 111] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-06 15:02:20,234 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 117] Content 'Our Future Home' with Id '1053' has been published.
+2016-07-06 15:02:58,688 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 30] Content 'Downtown HQ' with Id '1282' has been published.
+2016-07-06 15:04:35,861 [10] INFO  Umbraco.Core.PluginManager - [Thread 64] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-06 15:04:35,861 [10] INFO  Umbraco.Core.PluginManager - [Thread 64] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-06 15:04:54,628 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 117] Content 'Our Future Home' with Id '1053' has been published.
+2016-07-06 15:05:36,967 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 97] Content 'Site Selection' with Id '1054' has been published.
+2016-07-06 15:06:28,697 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 62] Content 'Our Future Home' with Id '1053' has been published.
+2016-07-06 15:06:39,944 [10] INFO  Umbraco.Core.PluginManager - [Thread 117] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-06 15:06:39,944 [10] INFO  Umbraco.Core.PluginManager - [Thread 117] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-06 15:06:42,082 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 62] An error occurred with the scheduled publishing
+System.Net.WebException: The underlying connection was closed: A connection that was expected to be kept alive was closed by the server. ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-07-06 15:06:48,213 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 117] Content 'The BASOC' with Id '0' has been published.
+2016-07-06 15:07:55,574 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 85] Content 'Why are we doing this?' with Id '0' has been published.
+2016-07-06 15:08:29,832 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 215] Content 'How did you choose who would work in the satellite facility?' with Id '0' has been published.
+2016-07-06 15:08:47,413 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 30] Content 'Where will the satellite office be located?' with Id '0' has been published.
+2016-07-06 15:09:02,108 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 82] Content 'What are we going to call the satellite facility?' with Id '0' has been published.
+2016-07-06 15:09:06,086 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 115] Content 'Nearby Amenities' with Id '1055' has been published.
+2016-07-06 15:09:31,983 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 98] Content 'What is the BASOC like? How about the surrounding neighborhood?' with Id '0' has been published.
+2016-07-06 15:09:55,414 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 30] Content 'Did You Know?' with Id '1532' has been published.
+2016-07-06 15:09:56,896 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 107] Content 'Will we have the same amenities in this building as the new building downtown?' with Id '0' has been published.
+2016-07-06 15:10:42,308 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 84] Content 'Headquarters' with Id '1779' has been published.
+2016-07-06 15:10:56,847 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 104] Content 'Headquarters' with Id '1779' has been published.
+2016-07-06 15:10:57,690 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 215] Content 'How safe is this area of Nashville?' with Id '0' has been published.
+2016-07-06 15:11:35,738 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 105] Content 'When will this move take place?' with Id '0' has been published.
+2016-07-06 15:11:54,848 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 105] Content 'Has any thought been given to expanding the downtown location?' with Id '0' has been published.
+2016-07-06 15:12:12,804 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 215] Content 'Who/what group of people were responsible for making this decision?' with Id '0' has been published.
+2016-07-06 15:12:27,219 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 135] Content 'How many people will be in the BASOC?' with Id '0' has been published.
+2016-07-06 15:16:56,664 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 70] Content 'The BASOC' with Id '1990' has been published.
+2016-07-06 15:16:56,866 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 70] Content 'Why are we doing this?' with Id '1991' has been published.
+2016-07-06 15:16:56,991 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 70] Content 'How did you choose who would work in the satellite facility?' with Id '1992' has been published.
+2016-07-06 15:16:57,085 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 70] Content 'Where will the satellite office be located?' with Id '1993' has been published.
+2016-07-06 15:16:57,194 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 70] Content 'What are we going to call the satellite facility?' with Id '1994' has been published.
+2016-07-06 15:16:57,366 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 70] Content 'What is the BASOC like? How about the surrounding neighborhood?' with Id '1995' has been published.
+2016-07-06 15:16:57,459 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 70] Content 'Will we have the same amenities in this building as the new building downtown?' with Id '1996' has been published.
+2016-07-06 15:16:57,568 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 70] Content 'How safe is this area of Nashville?' with Id '1997' has been published.
+2016-07-06 15:16:57,678 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 70] Content 'When will this move take place?' with Id '1998' has been published.
+2016-07-06 15:16:57,787 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 70] Content 'Has any thought been given to expanding the downtown location?' with Id '1999' has been published.
+2016-07-06 15:16:57,880 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 70] Content 'Who/what group of people were responsible for making this decision?' with Id '2000' has been published.
+2016-07-06 15:16:58,021 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 70] Content 'How many people will be in the BASOC?' with Id '2001' has been published.
+2016-07-06 15:16:58,239 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 135] Content 'The BASOC' with Id '1990' has been published.
+2016-07-06 15:16:58,489 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 135] Content 'Why are we doing this?' with Id '1991' has been published.
+2016-07-06 15:16:58,598 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 135] Content 'How did you choose who would work in the satellite facility?' with Id '1992' has been published.
+2016-07-06 15:16:58,707 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 135] Content 'Where will the satellite office be located?' with Id '1993' has been published.
+2016-07-06 15:16:58,785 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 135] Content 'What are we going to call the satellite facility?' with Id '1994' has been published.
+2016-07-06 15:16:58,926 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 135] Content 'What is the BASOC like? How about the surrounding neighborhood?' with Id '1995' has been published.
+2016-07-06 15:16:59,035 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 135] Content 'Will we have the same amenities in this building as the new building downtown?' with Id '1996' has been published.
+2016-07-06 15:16:59,144 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 135] Content 'How safe is this area of Nashville?' with Id '1997' has been published.
+2016-07-06 15:16:59,269 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 135] Content 'When will this move take place?' with Id '1998' has been published.
+2016-07-06 15:16:59,378 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 135] Content 'Has any thought been given to expanding the downtown location?' with Id '1999' has been published.
+2016-07-06 15:16:59,534 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 135] Content 'Who/what group of people were responsible for making this decision?' with Id '2000' has been published.
+2016-07-06 15:16:59,643 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 135] Content 'How many people will be in the BASOC?' with Id '2001' has been published.
+2016-07-06 15:17:07,709 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 103] Content 'Milestones & Updates' with Id '1057' has been published.
+2016-07-06 15:18:40,779 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 62] Content 'Facility Development' with Id '1058' has been published.
+2016-07-06 15:19:39,108 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 117] Content 'The BASOC' with Id '1990' has been published.
+2016-07-06 15:20:46,828 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 62] Content 'Discover Nashville' with Id '1059' has been published.
+2016-07-06 15:22:30,178 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 117] Content 'Interactive Map' with Id '1611' has been published.
+2016-07-06 15:22:51,644 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 62] Content 'Teammate Resources' with Id '1126' has been published.
+2016-07-06 15:23:22,782 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 111] Content 'Conversation Board' with Id '1512' has been published.
+2016-07-06 15:23:22,969 [10] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 22] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2016-07-06 15:23:51,330 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 107] Content 'Ask the Project Team' with Id '1087' has been published.
+2016-07-06 15:24:41,141 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 82] Content 'Our Future Home' with Id '1053' has been published.
+2016-07-06 15:28:26,360 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 98] Content 'Headquarters' with Id '1779' has been published.
+2016-07-06 15:29:54,407 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 105] Content 'Interactive Map' with Id '1611' has been published.
+2016-07-06 15:29:56,482 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Interactive Map' with Id '1611' has been published.
+2016-07-06 15:44:21,555 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 111] User Id: 0 logged in
+2016-07-06 15:45:03,644 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 85] Content 'The BASOC' with Id '1990' has been published.
+2016-07-06 15:46:44,593 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 95] Content 'Our Future Home' with Id '1053' has been published.
+2016-07-06 15:47:24,654 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 104] Content 'Our Future Home' with Id '1053' has been published.
+2016-07-06 15:51:25,800 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 22] User Id: 1 logged in
+2016-07-06 15:55:46,400 [10] INFO  Umbraco.Core.PluginManager - [Thread 62] Starting resolution types of umbraco.interfaces.IDataType
+2016-07-06 15:55:46,400 [10] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 1ms)
+2016-07-06 15:55:51,236 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 105] User Id: 1 logged in
+2016-07-06 15:55:51,298 [10] INFO  Umbraco.Core.PluginManager - [Thread 22] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-06 15:55:51,298 [10] INFO  Umbraco.Core.PluginManager - [Thread 22] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-06 16:00:10,916 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Our Future Home' with Id '1053' has been published.
+2016-07-06 16:00:54,674 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 82] Content 'Home' with Id '1052' has been published.
+2016-07-06 16:01:13,831 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 70] Content 'Our Future Home' with Id '1053' has been published.
+2016-07-06 16:01:48,057 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 215] Content 'Home' with Id '1052' has been published.
+2016-07-06 16:04:28,941 [10] INFO  Umbraco.Core.PluginManager - [Thread 107] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-06 16:04:28,941 [10] INFO  Umbraco.Core.PluginManager - [Thread 107] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-06 16:04:49,861 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 117] Content 'The Bridgestone Americas Service Operations Center (BASOC)' with Id '1990' has been published.
+2016-07-06 16:12:35,649 [10] INFO  Umbraco.Core.PluginManager - [Thread 98] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-06 16:12:35,649 [10] INFO  Umbraco.Core.PluginManager - [Thread 98] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-06 16:13:06,069 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Home' with Id '1052' has been published.
+2016-07-06 16:17:40,507 [10] ERROR Umbraco.Web.Scheduling.KeepAlive - [Thread 64] Error in ping
+System.Net.WebException: The operation has timed out
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at Umbraco.Web.Scheduling.KeepAlive.Start(Object sender)
+2016-07-06 16:21:19,392 [10] ERROR Umbraco.Web.Scheduling.KeepAlive - [Thread 135] Error in ping
+System.Net.WebException: The request was aborted: The operation has timed out.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at Umbraco.Web.Scheduling.KeepAlive.Start(Object sender)
+2016-07-06 16:21:47,581 [10] INFO  Umbraco.Core.PluginManager - [Thread 135] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-06 16:21:47,581 [10] INFO  Umbraco.Core.PluginManager - [Thread 135] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-06 16:32:10,010 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Our Future Home' with Id '1053' has been published.
+2016-07-06 16:50:38,866 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 30] Content 'Our Future Home' with Id '1053' has been published.
+2016-07-06 17:06:34,872 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Our Future Home' with Id '1053' has been published.
+2016-07-06 17:07:18,927 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 62] Content 'Our Future Home' with Id '1053' has been published.
+2016-07-06 17:07:36,898 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 82] Content 'Our Future Home' with Id '1053' has been published.
+2016-07-06 20:56:47,102 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 70] An error occurred with the scheduled publishing
+System.Net.WebException: The underlying connection was closed: A connection that was expected to be kept alive was closed by the server. ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-07-06 23:29:59,952 [10] INFO  umbraco.BusinessLogic.Log - [Thread 115] Log scrubbed.  Removed all items older than 2016-05-07 23:29:59

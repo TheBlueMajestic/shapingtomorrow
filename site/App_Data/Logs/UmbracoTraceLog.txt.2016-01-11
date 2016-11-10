@@ -1,0 +1,213 @@
+﻿2016-01-11 01:53:01,183 [10] INFO  umbraco.BusinessLogic.Log - [Thread 39] Log scrubbed.  Removed all items older than 2015-11-12 01:53:01
+2016-01-11 01:53:01,183 [10] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 39] Application shutdown. Reason: HostingEnvironment
+2016-01-11 01:54:36,063 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-01-11 01:54:36,079 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 10ms)
+2016-01-11 01:54:36,094 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-11 01:54:36,110 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 35 (took 10ms)
+2016-01-11 01:54:36,203 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-11 01:54:36,203 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2016-01-11 01:54:36,203 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-11 01:54:36,203 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 1ms)
+2016-01-11 01:54:36,235 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-11 01:54:36,235 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2016-01-11 01:54:36,235 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-11 01:54:36,235 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 30 (took 2ms)
+2016-01-11 01:54:36,281 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-11 01:54:36,297 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2016-01-11 01:54:36,297 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-11 01:54:36,297 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-01-11 01:54:37,264 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-01-11 01:54:37,264 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-01-11 01:54:37,280 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2016-01-11 01:54:37,280 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2016-01-11 01:54:37,295 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-01-11 01:54:37,451 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-01-11 01:54:37,467 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2016-01-11 01:54:37,467 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 0ms)
+2016-01-11 01:55:07,591 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 16] An error occurred with the scheduled publishing
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.UploadString(String address, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-01-11 01:55:37,293 [10] ERROR Umbraco.Web.Scheduling.KeepAlive - [Thread 19] Error in ping
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.DownloadString(String address)
+   at Umbraco.Web.Scheduling.KeepAlive.Start(Object sender)
+2016-01-11 01:56:07,308 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 14] An error occurred with the scheduled publishing
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.UploadString(String address, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-01-11 01:57:07,322 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 11] An error occurred with the scheduled publishing
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.UploadString(String address, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-01-11 01:58:07,335 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 15] An error occurred with the scheduled publishing
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.UploadString(String address, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-01-11 01:59:07,349 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 15] An error occurred with the scheduled publishing
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.UploadString(String address, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-01-11 02:00:07,363 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 19] An error occurred with the scheduled publishing
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.UploadString(String address, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-01-11 02:00:37,299 [10] ERROR Umbraco.Web.Scheduling.KeepAlive - [Thread 26] Error in ping
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.DownloadString(String address)
+   at Umbraco.Web.Scheduling.KeepAlive.Start(Object sender)
+2016-01-11 02:01:07,376 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 18] An error occurred with the scheduled publishing
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.UploadString(String address, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-01-11 02:02:07,390 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 41] An error occurred with the scheduled publishing
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.UploadString(String address, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-01-11 02:03:07,403 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 29] An error occurred with the scheduled publishing
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.UploadString(String address, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-01-11 02:04:07,417 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 46] An error occurred with the scheduled publishing
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.UploadString(String address, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-01-11 02:05:07,431 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 51] An error occurred with the scheduled publishing
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.UploadString(String address, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-01-11 02:05:37,305 [10] ERROR Umbraco.Web.Scheduling.KeepAlive - [Thread 54] Error in ping
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.DownloadString(String address)
+   at Umbraco.Web.Scheduling.KeepAlive.Start(Object sender)
+2016-01-11 02:06:07,444 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 18] An error occurred with the scheduled publishing
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.UploadString(String address, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-01-11 02:07:07,458 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 47] An error occurred with the scheduled publishing
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.UploadString(String address, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-01-11 02:08:07,472 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 59] An error occurred with the scheduled publishing
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.UploadString(String address, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-01-11 02:09:07,485 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 42] An error occurred with the scheduled publishing
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.UploadString(String address, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-01-11 02:10:01,524 [10] INFO  Umbraco.Web.UmbracoModule - [Thread 60] Setting OriginalRequestUrl: bsashapingtomorrow.com:80/umbraco
+2016-01-11 02:10:01,649 [10] INFO  umbraco.content - [Thread 27] Loading content from disk cache...
+2016-01-11 02:10:01,805 [10] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-01-11 02:10:01,805 [10] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 22 (took 2ms)
+2016-01-11 02:10:02,179 [10] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-01-11 02:10:02,195 [10] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 2ms)
+2016-01-11 02:10:06,220 [10] INFO  Umbraco.Core.PluginManager - [Thread 43] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-01-11 02:10:06,220 [10] INFO  Umbraco.Core.PluginManager - [Thread 43] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2016-01-11 02:10:06,298 [10] INFO  Umbraco.Core.PluginManager - [Thread 43] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-01-11 02:10:06,298 [10] INFO  Umbraco.Core.PluginManager - [Thread 43] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 0ms)
+2016-01-11 14:52:57,213 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 379] User Id: 0 logged in
+2016-01-11 14:52:57,713 [10] INFO  Umbraco.Core.PluginManager - [Thread 237] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-01-11 14:52:57,713 [10] INFO  Umbraco.Core.PluginManager - [Thread 237] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-01-11 14:52:58,446 [10] INFO  Umbraco.Core.PluginManager - [Thread 202] Starting resolution types of umbraco.interfaces.ITree
+2016-01-11 14:52:58,446 [10] INFO  Umbraco.Core.PluginManager - [Thread 202] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
+2016-01-11 15:09:14,950 [10] INFO  umbraco.BusinessLogic.Log - [Thread 309] Log scrubbed.  Removed all items older than 2015-11-12 15:09:14
+2016-01-11 15:09:14,950 [10] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 309] Application shutdown. Reason: ConfigurationChange
+2016-01-11 15:09:28,320 [183] INFO  Umbraco.Core.PluginManager - [Thread 305] Determining hash of code files on disk
+2016-01-11 15:09:28,335 [183] INFO  Umbraco.Core.PluginManager - [Thread 305] Hash determined (took 10ms)
+2016-01-11 15:09:28,351 [183] INFO  Umbraco.Core.PluginManager - [Thread 305] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-11 15:09:28,382 [183] INFO  Umbraco.Core.PluginManager - [Thread 305] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 35 (took 30ms)
+2016-01-11 15:09:28,523 [183] INFO  Umbraco.Core.PluginManager - [Thread 305] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-11 15:09:28,538 [183] INFO  Umbraco.Core.PluginManager - [Thread 305] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+2016-01-11 15:09:28,538 [183] INFO  Umbraco.Core.PluginManager - [Thread 305] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-11 15:09:28,538 [183] INFO  Umbraco.Core.PluginManager - [Thread 305] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 1ms)
+2016-01-11 15:09:28,554 [183] INFO  Umbraco.Core.PluginManager - [Thread 305] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-11 15:09:28,569 [183] INFO  Umbraco.Core.PluginManager - [Thread 305] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2016-01-11 15:09:28,569 [183] INFO  Umbraco.Core.PluginManager - [Thread 305] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-11 15:09:28,569 [183] INFO  Umbraco.Core.PluginManager - [Thread 305] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 30 (took 2ms)
+2016-01-11 15:09:28,632 [183] INFO  Umbraco.Core.PluginManager - [Thread 305] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-11 15:09:28,632 [183] INFO  Umbraco.Core.PluginManager - [Thread 305] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2016-01-11 15:09:28,632 [183] INFO  Umbraco.Core.PluginManager - [Thread 305] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-11 15:09:28,632 [183] INFO  Umbraco.Core.PluginManager - [Thread 305] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-01-11 15:09:29,864 [183] INFO  Umbraco.Core.PluginManager - [Thread 305] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-01-11 15:09:29,864 [183] INFO  Umbraco.Core.PluginManager - [Thread 305] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-01-11 15:09:29,880 [183] INFO  Umbraco.Core.PluginManager - [Thread 305] Starting resolution types of umbraco.interfaces.ITree
+2016-01-11 15:09:29,880 [183] INFO  Umbraco.Core.PluginManager - [Thread 305] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2016-01-11 15:09:29,911 [183] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 305] Initializing Examine and binding to business logic events
+2016-01-11 15:09:30,114 [183] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 305] Adding examine event handlers for index providers: 3
+2016-01-11 15:09:30,114 [183] INFO  Umbraco.Core.PluginManager - [Thread 305] Starting resolution types of umbraco.interfaces.IApplication
+2016-01-11 15:09:30,114 [183] INFO  Umbraco.Core.PluginManager - [Thread 305] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 0ms)
+2016-01-11 15:09:30,301 [183] INFO  Umbraco.Web.UmbracoModule - [Thread 388] Setting OriginalRequestUrl: www.bsashapingtomorrow.com:80/umbraco
+2016-01-11 15:09:37,992 [183] INFO  Umbraco.Core.PluginManager - [Thread 253] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-01-11 15:09:37,992 [183] INFO  Umbraco.Core.PluginManager - [Thread 253] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 1ms)
+2016-01-11 15:09:41,564 [183] INFO  Umbraco.Core.PluginManager - [Thread 302] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-01-11 15:09:41,564 [183] INFO  Umbraco.Core.PluginManager - [Thread 302] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 22 (took 0ms)
+2016-01-11 15:09:41,705 [183] INFO  Umbraco.Web.Security.WebSecurity - [Thread 302] User Id: 1 logged in
+2016-01-11 15:09:41,970 [183] INFO  Umbraco.Core.PluginManager - [Thread 290] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-01-11 15:09:41,970 [183] INFO  Umbraco.Core.PluginManager - [Thread 290] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-01-11 15:09:42,469 [183] INFO  Umbraco.Core.PluginManager - [Thread 291] Starting resolution types of umbraco.interfaces.ITree
+2016-01-11 15:09:42,469 [183] INFO  Umbraco.Core.PluginManager - [Thread 291] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 0ms)
+2016-01-11 15:09:52,843 [183] INFO  umbraco.content - [Thread 388] Loading content from disk cache...
+2016-01-11 17:43:05,833 [183] INFO  Umbraco.Web.Security.WebSecurity - [Thread 241] User Id: 1 logged in
+2016-01-11 17:43:05,896 [183] INFO  Umbraco.Core.PluginManager - [Thread 242] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-01-11 17:43:05,896 [183] INFO  Umbraco.Core.PluginManager - [Thread 242] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-01-11 17:43:56,892 [183] INFO  Umbraco.Core.PluginManager - [Thread 705] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-01-11 17:43:56,892 [183] INFO  Umbraco.Core.PluginManager - [Thread 705] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-01-11 17:46:53,954 [183] INFO  Umbraco.Core.PluginManager - [Thread 232] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-01-11 17:46:53,969 [183] INFO  Umbraco.Core.PluginManager - [Thread 232] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 1ms)
+2016-01-11 17:52:31,056 [183] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 366] Content 'Nashville Crowned Destination of the Year' with Id '1860' has been published.
+2016-01-11 17:53:19,994 [183] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 366] Content 'Nashville Crowned Destination of the Year' with Id '1860' has been published.

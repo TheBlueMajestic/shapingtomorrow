@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_s>
+    <image>
+      <originalFileName>soc-floorplan.png</originalFileName>
+      <size>277635</size>
+      <dateLastModified>Tue, 01 Nov 2016 16:08:14 GMT</dateLastModified>
+      <width>1135</width>
+      <height>784</height>
+      <cachedImage>
+        <fileName>SOC_950406f08635bd2ecda122077cccd587f77887c03cd58e6174351f982069ee68.jpeg</fileName>
+        <dateCreated>Tue, 01 Nov 2016 16:11:56 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1737</width>
+        <height>1200</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_s>
+</imageIndex>

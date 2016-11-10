@@ -1,0 +1,19 @@
+﻿2016-07-01 14:01:01,568 [10] INFO  Umbraco.Core.PluginManager - [Thread 127] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-07-01 14:01:01,568 [10] INFO  Umbraco.Core.PluginManager - [Thread 127] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2016-07-01 14:01:01,646 [10] INFO  Umbraco.Core.PluginManager - [Thread 127] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-07-01 14:01:01,646 [10] INFO  Umbraco.Core.PluginManager - [Thread 127] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2016-07-01 14:02:29,381 [10] INFO  Umbraco.Core.PluginManager - [Thread 61] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-07-01 14:02:29,381 [10] INFO  Umbraco.Core.PluginManager - [Thread 61] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 0ms)
+2016-07-01 14:02:29,444 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 61] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-07-01 14:02:30,005 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 61] New document 1988
+2016-07-01 14:02:30,036 [10] INFO  Umbraco.Core.PluginManager - [Thread 61] Starting resolution types of umbraco.interfaces.IDataType
+2016-07-01 14:02:30,036 [10] INFO  Umbraco.Core.PluginManager - [Thread 61] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 3ms)
+2016-07-01 14:02:30,052 [10] INFO  Umbraco.Core.PluginManager - [Thread 61] Starting resolution types of umbraco.interfaces.ITree
+2016-07-01 14:02:30,052 [10] INFO  Umbraco.Core.PluginManager - [Thread 61] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 0ms)
+2016-07-01 14:02:30,255 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 61] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-07-01 14:02:30,520 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 61] Content 'Becky Lance' with Id '1988' has been published.
+2016-07-01 14:02:30,582 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 61] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-07-01 14:02:30,582 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 61] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-07-01 16:47:21,553 [10] INFO  umbraco.BusinessLogic.Log - [Thread 333] Log scrubbed.  Removed all items older than 2016-05-02 16:47:21
+2016-07-01 21:34:43,951 [10] INFO  umbraco.BusinessLogic.Log - [Thread 201] Log scrubbed.  Removed all items older than 2016-05-02 21:34:43
+2016-07-01 21:34:43,966 [10] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 201] Application shutdown. Reason: HostingEnvironment

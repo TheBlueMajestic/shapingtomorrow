@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_b>
+    <image>
+      <originalFileName>bsa-the-southern.jpg</originalFileName>
+      <size>73816</size>
+      <dateLastModified>Tue, 10 Nov 2015 20:43:54 GMT</dateLastModified>
+      <width>800</width>
+      <height>533</height>
+      <cachedImage>
+        <fileName>BSA_5c7482ab1282d7e0ce3130c0b72315c71b3b20d6748145c067c66998550d4513.jpeg</fileName>
+        <dateCreated>Tue, 10 Nov 2015 21:14:01 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1801</width>
+        <height>1200</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_b>
+</imageIndex>

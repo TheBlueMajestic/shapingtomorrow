@@ -1,0 +1,7 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+	
+@foreach(var item in CurrentPage.Children.Where("DocumentTypeAlias == \"GeneralContent\"")){
+	<div class="general-content">
+		@item.content
+	</div>
+}

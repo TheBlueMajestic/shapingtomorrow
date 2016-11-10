@@ -1,0 +1,190 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "umbLayout.cshtml";
+	
+	var pageName = CurrentPage.Name.ToLower();
+	
+	var counter = 0;
+	
+	//HeaderImg Path
+	var getImagePath = Umbraco.Media(CurrentPage.headerImage.ToString());
+}
+
+@section head1{
+	
+
+	<script src="/site-assets/accordion.js"></script>
+
+}
+
+	
+	
+<div id="int-header" style="background: #CCC url(@getImagePath.umbracoFile) center top no-repeat; background-size: cover;" ></div>
+
+   <div id="intContentBlockC">
+        
+        <div id="intContentBlock">
+            
+            
+            <div id="contentLft">
+	
+               <h1>@CurrentPage.Name</h1>
+	
+			   @CurrentPage.mainContent
+	        </div>
+	        <div id="contentRt">
+	          <div id="sideNav">
+						@{ Html.RenderPartial("sideNav"); }
+			  </div>
+			</div>
+	<div id="fullWidthC" style="width:100%;float:left;">
+	<div>
+	<div id="Explore">
+		<div class="wrapper">
+			
+			<div id="MapFilters">
+				<div class="wrapper clear-fix">
+					<ul class="inline-block">
+						<li>
+							<h4>Layers</h4>
+							<ul class="inline-block">
+								<li class="clear-fix">
+									Counties
+									<input type="checkbox" class="hide" id="Counties">
+									<label class="clear-fix" for="Counties">
+										<span class="toggleSwitch-inactive">
+											<span class="toggleSwitch-text">Off</span>
+										</span><span class="toggleSwitch-active">
+											<span class="toggleSwitch-text">On</span>
+										</span>
+										<span class="toggleSwitch-switch"></span>
+									</label>
+								</li><li class="clear-fix">
+									Median Home Price
+									<input type="checkbox" class="hide" id="Median_Home_Price">
+									<label class="clear-fix" for="Median_Home_Price">
+										<span class="toggleSwitch-inactive">
+											<span class="toggleSwitch-text">Off</span>
+										</span><span class="toggleSwitch-active">
+											<span class="toggleSwitch-text">On</span>
+										</span>
+										<span class="toggleSwitch-switch"></span>
+									</label>
+								</li>
+							</ul>
+						</li><li>
+							<h4>Recreation</h4>
+							<ul class="inline-block">
+								<li class="clear-fix">
+									Greenways
+									<input type="checkbox" class="hide" id="Greenways">
+									<label class="clear-fix" for="Greenways">
+										<span class="toggleSwitch-inactive">
+											<span class="toggleSwitch-text">Off</span>
+										</span><span class="toggleSwitch-active">
+											<span class="toggleSwitch-text">On</span>
+										</span>
+										<span class="toggleSwitch-switch"></span>
+									</label>
+								</li><li class="clear-fix">
+									State Parks
+									<input type="checkbox" class="hide" id="State_Parks">
+									<label class="clear-fix" for="State_Parks">
+										<span class="toggleSwitch-inactive">
+											<span class="toggleSwitch-text">Off</span>
+										</span><span class="toggleSwitch-active">
+											<span class="toggleSwitch-text">On</span>
+										</span>
+										<span class="toggleSwitch-switch"></span>
+									</label>
+								</li>
+							</ul>
+						</li><li>
+							<h4>Schools</h4>
+							<ul class="inline-block">
+								<li class="clear-fix">
+									Pre-K - 12
+									<input type="checkbox" class="hide" id="Schools">
+									<label class="clear-fix" for="Schools">
+										<span class="toggleSwitch-inactive">
+											<span class="toggleSwitch-text">Off</span>
+										</span><span class="toggleSwitch-active">
+											<span class="toggleSwitch-text">On</span>
+										</span>
+										<span class="toggleSwitch-switch"></span>
+									</label>
+								</li><li class="clear-fix">
+									Universities
+									<input type="checkbox" class="hide" id="Universities">
+									<label class="clear-fix" for="Universities">
+										<span class="toggleSwitch-inactive">
+											<span class="toggleSwitch-text">Off</span>
+										</span><span class="toggleSwitch-active">
+											<span class="toggleSwitch-text">On</span>
+										</span>
+										<span class="toggleSwitch-switch"></span>
+									</label>
+								</li>
+							</ul>
+						</li><li>
+							<h4>Traffic</h4>
+							<ul class="inline-block">
+								<li class="clear-fix">
+									Current Traffic
+									<input type="checkbox" class="hide" id="Traffic">
+									<label class="clear-fix" for="Traffic">
+										<span class="toggleSwitch-inactive">
+											<span class="toggleSwitch-text">Off</span>
+										</span><span class="toggleSwitch-active">
+											<span class="toggleSwitch-text">On</span>
+										</span>
+										<span class="toggleSwitch-switch"></span>
+									</label>
+								</li><li class="clear-fix">
+									Estimate Drive
+									<input type="checkbox" class="hide" id="Calculate_Drive_Time">
+									<label class="clear-fix" for="Calculate_Drive_Time">
+										<span class="toggleSwitch-inactive">
+											<span class="toggleSwitch-text">Off</span>
+										</span><span class="toggleSwitch-active">
+											<span class="toggleSwitch-text">On</span>
+										</span>
+										<span class="toggleSwitch-switch"></span>
+									</label>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="DirectionsPanel" class="hide">
+				<input type="checkbox" class="hide" id="Directions">
+				<label for="Directions">
+					<span class="glyphicon"></span> Directions
+				</label>
+				<div class="small wrapper"></div>
+			</div>
+			<div id="MapCanvas"></div>
+		</div>
+	</div>
+			</div>
+	        </div>
+	
+            
+     
+
+        </div><!-- intContentBlock -->
+        		
+					
+        <div id="intFooterC">
+            <div id="intFooter"><img src="/site-images/footer-logo.gif">&copy;2016 Bridgestone Corporation</div>
+			<div class="footer-text">
+            BSAShapingTomorrow.com is intended for Bridgestone Americas teammates and their immediate families only. Logins must not be shared with others. While visiting, we respectfully request that you adhere to the Code of Conduct for this site: be honest and accurate, use good judgment and be respectful.
+			</div>
+        </div>
+        
+    </div><!-- contentBlockC -->
+
+
+
+		

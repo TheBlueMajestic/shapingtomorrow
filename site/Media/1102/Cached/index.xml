@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_b>
+    <image>
+      <originalFileName>bsa-ingram-garden.jpg</originalFileName>
+      <size>231535</size>
+      <dateLastModified>Tue, 10 Nov 2015 19:54:25 GMT</dateLastModified>
+      <width>1280</width>
+      <height>630</height>
+      <cachedImage>
+        <fileName>BSA_bb992c4e14fade7a8ba7b7b82017eca139e6a9f21d1f0531bf56a0fae8b4ea2d.jpeg</fileName>
+        <dateCreated>Tue, 10 Nov 2015 21:29:30 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1920</width>
+        <height>945</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_b>
+</imageIndex>

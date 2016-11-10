@@ -1,0 +1,27 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+
+@foreach(var item in CurrentPage.Children.Where("DocumentTypeAlias == \"AccordionLinks\"")){
+	
+	foreach(var item2 in @item.Children()){
+		
+		<div class="accord">
+			
+			<a href="#" class="trigger"><span>+</span> @item2.name</a>
+			<div class="reveal">
+				
+				@foreach(var item3 in @item2.Children()){
+					if(item3.DocumentTypeAlias == "AccordionLinkItem"){
+						<a href="@item3.Link" target="_blank">@item3.name</a><br/>
+					}
+					else {
+						<p>@item3.content</p>
+					}
+				}
+			
+			</div>
+		
+		</div>
+	}
+
+}

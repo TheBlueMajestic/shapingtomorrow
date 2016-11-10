@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_b>
+    <image>
+      <originalFileName>bsa-bb-king-sign.jpg</originalFileName>
+      <size>438155</size>
+      <dateLastModified>Tue, 10 Nov 2015 20:42:04 GMT</dateLastModified>
+      <width>1013</width>
+      <height>1519</height>
+      <cachedImage>
+        <fileName>BSA_cb9e63a2e75b33988ea8dad75bdf2cbfb0c889bba7a00ed07a5b6e5829e7606e.jpeg</fileName>
+        <dateCreated>Tue, 10 Nov 2015 20:58:59 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>800</width>
+        <height>1200</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_b>
+</imageIndex>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_o>
+    <image>
+      <originalFileName>option-1-sharp.jpg</originalFileName>
+      <size>298761</size>
+      <dateLastModified>Wed, 03 Aug 2016 18:59:33 GMT</dateLastModified>
+      <width>1313</width>
+      <height>735</height>
+      <cachedImage>
+        <fileName>OPT_b1221d213c90f38c69527544dbda94c7670df88009f1bb74f949f5c93e84e5c3.jpeg</fileName>
+        <dateCreated>Wed, 03 Aug 2016 19:01:26 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1920</width>
+        <height>1075</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_o>
+</imageIndex>

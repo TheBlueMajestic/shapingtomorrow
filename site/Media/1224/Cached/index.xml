@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_i>
+    <image>
+      <originalFileName>individual-work-rendering-for-site.jpg</originalFileName>
+      <size>253841</size>
+      <dateLastModified>Wed, 03 Aug 2016 14:10:22 GMT</dateLastModified>
+      <width>1638</width>
+      <height>1080</height>
+      <cachedImage>
+        <fileName>IND_3cbb0daeb7d17800d4d9206f126932eaaeaced7964b7caddde85175b63eec7b3.jpeg</fileName>
+        <dateCreated>Wed, 03 Aug 2016 14:13:13 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1820</width>
+        <height>1200</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_i>
+</imageIndex>

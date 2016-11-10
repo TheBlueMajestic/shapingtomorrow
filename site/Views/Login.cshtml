@@ -1,0 +1,50 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+    var authSettings = Umbraco.Content(1873);
+}
+
+<html>
+<head>
+    <title>Shaping Tomorrow</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/site-assets/fonts/fonts.css" type="text/css">
+    <link rel="stylesheet" href="~/css/styles.css?v=1.5" type="text/css">
+    <link rel="stylesheet" href="~/Scripts/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+
+    <!--[if lte IE 8]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript" src="/Scripts/fancybox/lib/jquery-1.10.1.min.js"></script>
+    <script src="/site-assets/authForm.js"></script>
+
+</head>
+
+
+<body>
+    <div id="main">
+        <form id="authForm" method="post" action="/Login">
+            <div id="authContainer">
+                <div id="logo-container" class="authLeft"></div>
+                <div id="formContainer" class="authLeft">
+                    <input type="password" id="password" placeholder="Password" />
+                    <div id="errorContainer">
+                        <label id="errorMessage"></label>
+                    </div>
+                    <label id="description">@authSettings.loginInstructions</label>
+                    <a href="javascript:{}" onclick=" $('#authForm').submit(); " class="submit-auth">Submit</a>
+                </div>
+            </div>
+            <div id="forgotPassword">
+                <a href="mailto:BSAShapingTomorrow@bfusa.com?subject=BSAShaping Tomorrow Password Request">FORGOT PASSWORD</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

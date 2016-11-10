@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_l>
+    <image>
+      <originalFileName>lunch.jpg</originalFileName>
+      <size>380972</size>
+      <dateLastModified>Fri, 05 Aug 2016 12:47:55 GMT</dateLastModified>
+      <width>1708</width>
+      <height>1080</height>
+      <cachedImage>
+        <fileName>LUN_a61318b34fcc2facf842e0ce67e91fe83fddd622e28111d8cbddaf34d8b84c5a.jpeg</fileName>
+        <dateCreated>Fri, 05 Aug 2016 12:50:58 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1898</width>
+        <height>1200</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_l>
+</imageIndex>

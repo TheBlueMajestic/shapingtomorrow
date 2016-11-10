@@ -1,0 +1,151 @@
+﻿2015-06-26 08:43:49,670 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 76] User Id: 1 logged in
+2015-06-26 08:43:49,951 [10] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-06-26 08:43:49,951 [10] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-06-26 08:46:31,662 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 435] Content 'Teammate Resources' with Id '1126' has been published.
+2015-06-26 08:47:05,499 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content 'Teammate Resources' with Id '1126' has been published.
+2015-06-26 11:22:06,613 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 5] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-06-26 11:22:06,644 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 5] New document 1535
+2015-06-26 11:22:06,675 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 5] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-06-26 11:22:06,722 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 5] Content 'Sandro Daidoji (1)' with Id '1535' has been published.
+2015-06-26 11:22:06,738 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 5] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-06-26 11:22:06,738 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 5] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-06-26 11:47:10,261 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 422] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-06-26 11:47:10,277 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 422] New document 1536
+2015-06-26 11:47:10,277 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 422] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-06-26 11:47:10,323 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 422] Content 'Rob Dore' with Id '1536' has been published.
+2015-06-26 11:47:10,339 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 422] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-06-26 11:47:10,339 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 422] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-06-26 13:18:24,652 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 35] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-06-26 13:18:24,684 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 35] New document 1537
+2015-06-26 13:18:24,699 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 35] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-06-26 13:18:24,746 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'John Taylor' with Id '1537' has been published.
+2015-06-26 13:18:24,762 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 35] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-06-26 13:18:24,777 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 35] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-06-26 13:57:58,272 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 368] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-06-26 13:57:58,272 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 368] New document 1538
+2015-06-26 13:57:58,303 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 368] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-06-26 13:57:58,350 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 368] Content 'John Pusateri' with Id '1538' has been published.
+2015-06-26 13:57:58,365 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 368] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-06-26 13:57:58,365 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 368] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-06-26 14:07:36,896 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 458] An error occurred with the scheduled publishing
+System.Net.WebException: The request was aborted: The operation has timed out.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2015-06-26 14:27:28,276 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 425] User Id: 1 logged in
+2015-06-26 14:27:28,385 [10] INFO  Umbraco.Core.PluginManager - [Thread 375] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-06-26 14:27:28,385 [10] INFO  Umbraco.Core.PluginManager - [Thread 375] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-06-26 14:28:18,696 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 480] Content 'Did You Know?' with Id '1532' has been published.
+2015-06-26 15:34:39,392 [10] INFO  umbraco.BusinessLogic.Log - [Thread 463] Log scrubbed.  Removed all items older than 2015-04-27 15:34:39
+2015-06-26 15:53:16,438 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 392] User Id: 1 logged in
+2015-06-26 15:53:16,531 [10] INFO  Umbraco.Core.PluginManager - [Thread 405] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-06-26 15:53:16,531 [10] INFO  Umbraco.Core.PluginManager - [Thread 405] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-06-26 15:54:42,753 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 379] Content 'Teammate Resources' with Id '1126' has been published.
+2015-06-26 15:58:37,535 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content 'Fisk University' with Id '0' has been published.
+2015-06-26 16:00:56,719 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 386] Content 'Teammate Resources' with Id '1126' has been published.
+2015-06-26 20:34:24,745 [10] INFO  umbraco.BusinessLogic.Log - [Thread 377] Log scrubbed.  Removed all items older than 2015-04-27 20:34:24
+2015-06-26 20:34:24,761 [10] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 377] Application shutdown. Reason: HostingEnvironment
+2015-06-26 20:38:31,134 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2015-06-26 20:38:31,149 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 11ms)
+2015-06-26 20:38:31,165 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-06-26 20:38:31,180 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 35 (took 10ms)
+2015-06-26 20:38:31,258 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-06-26 20:38:31,258 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2015-06-26 20:38:31,258 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-06-26 20:38:31,274 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 1ms)
+2015-06-26 20:38:31,290 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-06-26 20:38:31,290 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2015-06-26 20:38:31,290 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-06-26 20:38:31,290 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 30 (took 2ms)
+2015-06-26 20:38:31,336 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-06-26 20:38:31,336 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2015-06-26 20:38:31,336 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-06-26 20:38:31,336 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2015-06-26 20:38:32,288 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-06-26 20:38:32,288 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-06-26 20:38:32,304 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2015-06-26 20:38:32,304 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2015-06-26 20:38:32,319 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2015-06-26 20:38:32,491 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2015-06-26 20:38:32,491 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2015-06-26 20:38:32,491 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 0ms)
+2015-06-26 20:39:02,615 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 18] An error occurred with the scheduled publishing
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.UploadString(String address, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2015-06-26 20:39:32,317 [10] ERROR Umbraco.Web.Scheduling.KeepAlive - [Thread 13] Error in ping
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.DownloadString(String address)
+   at Umbraco.Web.Scheduling.KeepAlive.Start(Object sender)
+2015-06-26 20:40:02,332 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 5] An error occurred with the scheduled publishing
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.UploadString(String address, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2015-06-26 20:41:02,345 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 8] An error occurred with the scheduled publishing
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.UploadString(String address, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2015-06-26 20:42:02,359 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 11] An error occurred with the scheduled publishing
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.UploadString(String address, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2015-06-26 20:43:02,373 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 20] An error occurred with the scheduled publishing
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.UploadString(String address, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2015-06-26 20:44:02,386 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 5] An error occurred with the scheduled publishing
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.UploadString(String address, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2015-06-26 20:44:32,323 [10] ERROR Umbraco.Web.Scheduling.KeepAlive - [Thread 15] Error in ping
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.DownloadString(String address)
+   at Umbraco.Web.Scheduling.KeepAlive.Start(Object sender)
+2015-06-26 20:45:02,400 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 25] An error occurred with the scheduled publishing
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.UploadString(String address, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2015-06-26 20:46:02,414 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 25] An error occurred with the scheduled publishing
+System.ArgumentException: URI formats are not supported.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String path)
+   at System.Net.WebClient.UploadString(String address, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2015-06-26 20:46:11,368 [10] INFO  Umbraco.Web.UmbracoModule - [Thread 15] Setting OriginalRequestUrl: www.bsashapingtomorrow.com:80/umbraco
+2015-06-26 20:46:11,477 [10] INFO  umbraco.content - [Thread 15] Loading content from disk cache...
+2015-06-26 20:46:11,618 [10] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-06-26 20:46:11,618 [10] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 22 (took 2ms)
+2015-06-26 20:46:11,961 [10] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-06-26 20:46:11,976 [10] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 2ms)
+2015-06-26 20:50:59,814 [10] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-06-26 20:50:59,814 [10] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2015-06-26 20:50:59,876 [10] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-06-26 20:50:59,876 [10] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 0ms)

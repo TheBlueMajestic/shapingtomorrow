@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_b>
+    <image>
+      <originalFileName>bsa-ryman-auditorium.jpg</originalFileName>
+      <size>201336</size>
+      <dateLastModified>Tue, 10 Nov 2015 20:42:05 GMT</dateLastModified>
+      <width>1280</width>
+      <height>630</height>
+      <cachedImage>
+        <fileName>BSA_add05aff27cdd9358b02b0420cf8d7068076a78a7bb9b707c9860a26fa847052.jpeg</fileName>
+        <dateCreated>Tue, 10 Nov 2015 20:55:05 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1920</width>
+        <height>945</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_b>
+</imageIndex>

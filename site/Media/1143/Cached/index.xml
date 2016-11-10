@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_b>
+    <image>
+      <originalFileName>bsa-reds-classic-barber-shop.jpg</originalFileName>
+      <size>98883</size>
+      <dateLastModified>Tue, 10 Nov 2015 20:44:00 GMT</dateLastModified>
+      <width>553</width>
+      <height>820</height>
+      <cachedImage>
+        <fileName>BSA_0e017c096070ed0dc090ac8c73a033727b44b674001cdb2a8af6453655107cce.jpeg</fileName>
+        <dateCreated>Tue, 10 Nov 2015 21:14:01 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>809</width>
+        <height>1200</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_b>
+</imageIndex>

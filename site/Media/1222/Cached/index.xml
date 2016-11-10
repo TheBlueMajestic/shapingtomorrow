@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_l>
+    <image>
+      <originalFileName>lobby-desk-rendering-for-site.jpg</originalFileName>
+      <size>587055</size>
+      <dateLastModified>Tue, 02 Aug 2016 16:04:24 GMT</dateLastModified>
+      <width>1500</width>
+      <height>753</height>
+      <cachedImage>
+        <fileName>LOB_b5d9b3fe135f91e9f39d2c52cf764dc0ddbd759d9a46fbe63a93b5f5ef1e11d0.jpeg</fileName>
+        <dateCreated>Tue, 02 Aug 2016 16:07:26 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1920</width>
+        <height>964</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_l>
+</imageIndex>

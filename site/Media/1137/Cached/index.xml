@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_b>
+    <image>
+      <originalFileName>bsa-parlour-juke.jpg</originalFileName>
+      <size>734441</size>
+      <dateLastModified>Tue, 10 Nov 2015 20:43:53 GMT</dateLastModified>
+      <width>1000</width>
+      <height>667</height>
+      <cachedImage>
+        <fileName>BSA_f572ca2452c6e2fde50782552bd5c5f731ad8f4910be1b111246c9a93121e739.jpeg</fileName>
+        <dateCreated>Tue, 10 Nov 2015 21:14:00 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1799</width>
+        <height>1200</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_b>
+</imageIndex>

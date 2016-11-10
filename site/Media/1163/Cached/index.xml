@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_b>
+    <image>
+      <originalFileName>bsa-14_servery_a.jpg</originalFileName>
+      <size>1585767</size>
+      <dateLastModified>Tue, 10 Nov 2015 20:46:19 GMT</dateLastModified>
+      <width>1920</width>
+      <height>1135</height>
+      <cachedImage>
+        <fileName>BSA_d9cc899895d4000d3d1a024c25df8c09b3619976ece89c4f2d7ee164e9cf83b3.jpeg</fileName>
+        <dateCreated>Tue, 10 Nov 2015 22:00:18 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1920</width>
+        <height>1135</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_b>
+</imageIndex>

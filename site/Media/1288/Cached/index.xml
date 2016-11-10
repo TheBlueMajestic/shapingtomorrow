@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_s>
+    <image>
+      <originalFileName>soc-workspace.png</originalFileName>
+      <size>199004</size>
+      <dateLastModified>Tue, 01 Nov 2016 16:08:22 GMT</dateLastModified>
+      <width>589</width>
+      <height>331</height>
+      <cachedImage>
+        <fileName>SOC_1840cd631be5b94496ef77b8675909f887da61492caea6d26819308a0d7df111.jpeg</fileName>
+        <dateCreated>Tue, 01 Nov 2016 16:14:54 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1920</width>
+        <height>1079</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_s>
+</imageIndex>

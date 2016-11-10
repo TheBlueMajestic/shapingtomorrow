@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_H>
+    <image>
+      <imageText>Hello, world!</imageText>
+      <cachedImage>
+        <fileName>HEL_da3aed17fe101000e2bda7938d59ce9731adb33dc74aa9e5c14c926b0b6f97f7.gif</fileName>
+        <dateCreated>Tue, 10 Nov 2015 17:08:37 GMT</dateCreated>
+        <imageFormat>gif</imageFormat>
+        <width>0</width>
+        <height>0</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>False</constrain>
+        <pad>False</pad>
+        <antiAlias>True</antiAlias>
+        <fontName>Arial</fontName>
+        <fontSize>32</fontSize>
+        <lineHeight>-1</lineHeight>
+        <fontStyle>Regular</fontStyle>
+        <fontColor>#000000</fontColor>
+        <align>left</align>
+        <valign>middle</valign>
+      </cachedImage>
+    </image>
+  </_H>
+</imageIndex>

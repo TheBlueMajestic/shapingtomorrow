@@ -1,0 +1,28 @@
+﻿@using umbraco.MacroEngines;
+@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@*
+	Model = The current page the macro is executed on
+			@Model.bodyText
+
+	Parameter = collection of parameter values passed from the macro
+			@Paramter.myParam
+
+    Library = utillity library with common methods
+    		@Library.NodeById(1233)
+*@
+
+@* The fun starts here *@
+
+	
+<video width='@Parameter.Width' height="@Parameter.Height" controls poster="@Parameter.imagePath" preload="none">
+	<source src="@Parameter.mp4Path" type="video/mp4" />
+	<source src="@Parameter.webmPath" type="video/webm" />
+</video>
+	
+<div id="flashVid" style="display: none;" data-iframeSRC="@Parameter.flashVersion">
+	<iframe src="" width="@Parameter.Width" height="@Parameter.Height" frameborder="0"></iframe>
+</div>
+			
+<div align="center" style="font-size: 9px;">If you're having problems viewing the video dowload the <a href="@Parameter.wmvPath" target="_blank">Windows Media</a> or <a href="@Parameter.quickTimePath" target="_blank">QuickTime</a> formats.</div>
+	

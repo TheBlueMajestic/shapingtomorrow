@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_s>
+    <image>
+      <originalFileName>soc-seating-area-2.jpg</originalFileName>
+      <size>206016</size>
+      <dateLastModified>Tue, 01 Nov 2016 16:08:19 GMT</dateLastModified>
+      <width>1352</width>
+      <height>708</height>
+      <cachedImage>
+        <fileName>SOC_53145897025a23e9fed1526e6053b24f05b54878598d19aa3153c4478efd3917.jpeg</fileName>
+        <dateCreated>Tue, 01 Nov 2016 16:14:54 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1920</width>
+        <height>1005</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_s>
+</imageIndex>

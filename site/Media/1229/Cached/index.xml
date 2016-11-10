@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_j>
+    <image>
+      <originalFileName>juice_bar.jpg</originalFileName>
+      <size>318766</size>
+      <dateLastModified>Thu, 04 Aug 2016 13:59:40 GMT</dateLastModified>
+      <width>1920</width>
+      <height>1047</height>
+      <cachedImage>
+        <fileName>JUI_375ccc32b3b3c997f16c3d670086d008992f5b26faf33f227e1491ea88badec0.jpeg</fileName>
+        <dateCreated>Thu, 04 Aug 2016 14:01:09 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1920</width>
+        <height>1047</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_j>
+</imageIndex>

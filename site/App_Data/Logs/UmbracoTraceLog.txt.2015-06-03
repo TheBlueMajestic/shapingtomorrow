@@ -1,0 +1,21 @@
+﻿2015-06-03 15:22:31,318 [10] INFO  Umbraco.Core.PluginManager - [Thread 577] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2015-06-03 15:22:31,318 [10] INFO  Umbraco.Core.PluginManager - [Thread 577] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 3ms)
+2015-06-03 15:22:31,365 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 577] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-06-03 15:22:31,895 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 577] New document 1522
+2015-06-03 15:22:31,926 [10] INFO  Umbraco.Core.PluginManager - [Thread 577] Starting resolution types of umbraco.interfaces.IDataType
+2015-06-03 15:22:31,926 [10] INFO  Umbraco.Core.PluginManager - [Thread 577] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 3ms)
+2015-06-03 15:22:31,942 [10] INFO  Umbraco.Core.PluginManager - [Thread 577] Starting resolution types of umbraco.interfaces.ITree
+2015-06-03 15:22:31,942 [10] INFO  Umbraco.Core.PluginManager - [Thread 577] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
+2015-06-03 15:22:32,129 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 577] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-06-03 15:22:32,379 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 577] Content 'Jeff Kramer' with Id '1522' has been published.
+2015-06-03 15:22:32,425 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 577] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-06-03 15:22:32,425 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 577] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-06-03 15:22:33,673 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 606] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-06-03 15:22:33,673 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 606] New document 1523
+2015-06-03 15:22:33,689 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 606] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-06-03 15:22:33,705 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 606] Content 'Jeff Kramer (1)' with Id '1523' has been published.
+2015-06-03 15:22:33,720 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 606] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-06-03 15:22:33,720 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 606] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-06-03 18:40:39,009 [10] INFO  umbraco.BusinessLogic.Log - [Thread 501] Log scrubbed.  Removed all items older than 2015-04-04 18:40:39
+2015-06-03 23:40:26,265 [10] INFO  umbraco.BusinessLogic.Log - [Thread 458] Log scrubbed.  Removed all items older than 2015-04-04 23:40:26
+2015-06-03 23:40:26,265 [10] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 458] Application shutdown. Reason: HostingEnvironment

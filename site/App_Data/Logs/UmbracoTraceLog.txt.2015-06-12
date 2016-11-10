@@ -1,0 +1,12 @@
+﻿2015-06-12 11:33:54,754 [6] INFO  Umbraco.Core.PluginManager - [Thread 1361] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-06-12 11:33:54,754 [6] INFO  Umbraco.Core.PluginManager - [Thread 1361] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2015-06-12 11:33:54,832 [6] INFO  Umbraco.Core.PluginManager - [Thread 1361] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-06-12 11:33:54,832 [6] INFO  Umbraco.Core.PluginManager - [Thread 1361] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2015-06-12 14:26:42,167 [6] INFO  Umbraco.Web.Security.WebSecurity - [Thread 1663] User Id: 0 logged in
+2015-06-12 14:26:42,448 [6] INFO  Umbraco.Core.PluginManager - [Thread 1657] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-06-12 14:26:42,448 [6] INFO  Umbraco.Core.PluginManager - [Thread 1657] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-06-12 14:26:42,744 [6] INFO  Umbraco.Core.PluginManager - [Thread 1652] Starting resolution types of umbraco.interfaces.ITree
+2015-06-12 14:26:42,744 [6] INFO  Umbraco.Core.PluginManager - [Thread 1652] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
+2015-06-12 16:33:19,531 [6] INFO  umbraco.BusinessLogic.Log - [Thread 1529] Log scrubbed.  Removed all items older than 2015-04-13 16:33:19
+2015-06-12 21:25:24,026 [6] INFO  umbraco.BusinessLogic.Log - [Thread 1267] Log scrubbed.  Removed all items older than 2015-04-13 21:25:24
+2015-06-12 21:25:24,026 [6] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 1267] Application shutdown. Reason: HostingEnvironment

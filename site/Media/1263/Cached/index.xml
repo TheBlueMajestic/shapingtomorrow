@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_b>
+    <image>
+      <originalFileName>bridgestone-street-level-1.jpg</originalFileName>
+      <size>404360</size>
+      <dateLastModified>Tue, 20 Sep 2016 03:18:51 GMT</dateLastModified>
+      <width>810</width>
+      <height>1080</height>
+      <cachedImage>
+        <fileName>BRI_ccbf3fe1a9e537926bcf62abac7d4d6437b5d517847e21f616aab79aa7127100.jpeg</fileName>
+        <dateCreated>Fri, 21 Oct 2016 15:44:04 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>900</width>
+        <height>1200</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_b>
+</imageIndex>

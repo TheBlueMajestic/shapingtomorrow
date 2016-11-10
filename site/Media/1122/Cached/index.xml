@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_b>
+    <image>
+      <originalFileName>bsa-pinewood-social.jpg</originalFileName>
+      <size>655644</size>
+      <dateLastModified>Tue, 10 Nov 2015 20:42:55 GMT</dateLastModified>
+      <width>1280</width>
+      <height>630</height>
+      <cachedImage>
+        <fileName>BSA_5eecaa4c37ee405e50bc7f02d4a94ffb527da03d834242cda37100366cded328.jpeg</fileName>
+        <dateCreated>Tue, 10 Nov 2015 21:01:24 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1920</width>
+        <height>945</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_b>
+</imageIndex>

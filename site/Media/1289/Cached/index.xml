@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_s>
+    <image>
+      <originalFileName>soc-workstations.png</originalFileName>
+      <size>724937</size>
+      <dateLastModified>Tue, 01 Nov 2016 16:08:25 GMT</dateLastModified>
+      <width>1372</width>
+      <height>665</height>
+      <cachedImage>
+        <fileName>SOC_8b0ca922cb7e00ed96683c4ec32f1fe05a92984d3c976a10c46f5e242a52f441.jpeg</fileName>
+        <dateCreated>Tue, 01 Nov 2016 16:14:54 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1920</width>
+        <height>931</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_s>
+</imageIndex>

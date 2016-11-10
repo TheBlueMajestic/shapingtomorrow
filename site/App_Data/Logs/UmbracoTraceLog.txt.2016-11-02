@@ -1,0 +1,100 @@
+﻿2016-11-02 11:23:58,217 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 207] User Id: 1 logged in
+2016-11-02 11:23:58,607 [7] INFO  Umbraco.Core.PluginManager - [Thread 193] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-11-02 11:23:58,607 [7] INFO  Umbraco.Core.PluginManager - [Thread 193] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-11-02 11:23:59,184 [7] INFO  Umbraco.Core.PluginManager - [Thread 193] Starting resolution types of umbraco.interfaces.ITree
+2016-11-02 11:23:59,184 [7] INFO  Umbraco.Core.PluginManager - [Thread 193] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
+2016-11-02 13:41:18,165 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 126] User Id: 0 logged in
+2016-11-02 13:41:18,259 [7] INFO  Umbraco.Core.PluginManager - [Thread 162] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-11-02 13:41:18,259 [7] INFO  Umbraco.Core.PluginManager - [Thread 162] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-11-02 13:43:57,068 [7] INFO  Umbraco.Core.PluginManager - [Thread 185] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-11-02 13:43:57,068 [7] INFO  Umbraco.Core.PluginManager - [Thread 185] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-11-02 13:45:18,922 [7] INFO  Umbraco.Core.PluginManager - [Thread 182] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-11-02 13:45:18,922 [7] INFO  Umbraco.Core.PluginManager - [Thread 182] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 1ms)
+2016-11-02 14:44:04,812 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 188] User Id: 1 logged in
+2016-11-02 14:44:04,921 [7] INFO  Umbraco.Core.PluginManager - [Thread 126] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-11-02 14:44:04,921 [7] INFO  Umbraco.Core.PluginManager - [Thread 126] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-11-02 14:47:56,131 [7] INFO  Umbraco.Core.PluginManager - [Thread 191] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-11-02 14:47:56,131 [7] INFO  Umbraco.Core.PluginManager - [Thread 191] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-11-02 14:49:05,801 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 126] Content 'Life on Demonbreun Street' with Id '0' has been published.
+2016-11-02 14:51:23,909 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 180] Content 'Life on Demonbreun Street' with Id '0' has been published.
+2016-11-02 14:51:43,378 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 182] Content 'Life on Demonbreun Street' with Id '2366' has been unpublished.
+2016-11-02 14:51:54,204 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 126] Content 'Life on Demonbreun Street' with Id '2367' has been published.
+2016-11-02 14:52:06,216 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 128] Content 'Life on Demonbreun Street' with Id '2367' has been published.
+2016-11-02 14:52:17,495 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 182] Content 'Life on Demonbreun Street' with Id '2367' has been published.
+2016-11-02 14:52:27,713 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 188] Content 'Life on Demonbreun Street' with Id '2367' has been published.
+2016-11-02 14:52:38,930 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 162] Content 'Life on Demonbreun Street' with Id '2367' has been published.
+2016-11-02 14:53:02,642 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 182] Content 'Life on Demonbreun Street' with Id '2367' has been published.
+2016-11-02 14:53:21,050 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 185] Content 'Antioch Among Fastest-Growing Areas of Davidson County' with Id '2289' has been published.
+2016-11-02 14:58:04,223 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 123] Content 'Home' with Id '1052' has been published.
+2016-11-02 14:58:54,346 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 195] Content 'Home' with Id '1052' has been published.
+2016-11-02 15:14:56,296 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 191] User Id: 1 logged in
+2016-11-02 15:14:56,374 [7] INFO  Umbraco.Core.PluginManager - [Thread 188] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-11-02 15:14:56,374 [7] INFO  Umbraco.Core.PluginManager - [Thread 188] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-11-02 16:12:45,215 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 102] User Id: 1 logged in
+2016-11-02 16:14:47,052 [7] INFO  Umbraco.Core.PluginManager - [Thread 182] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-11-02 16:14:47,052 [7] INFO  Umbraco.Core.PluginManager - [Thread 182] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-11-02 16:15:05,631 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 189] Content 'q11' with Id '0' has been published.
+2016-11-02 16:15:41,403 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 180] Content 'q11' with Id '2368' has been published.
+2016-11-02 16:16:05,942 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 184] Content 'How soon can I start the relocation process once I accept my offer?' with Id '2282' has been unpublished.
+2016-11-02 16:17:14,379 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 205] Content 'q12' with Id '0' has been published.
+2016-11-02 16:17:28,310 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 179] Content 'If I accept the offer and move to Nashville but do not stay the full two years after the move date, do I have to pay back a pro-rata share of the Relocation Benefits, the Transition Bonus or both?' with Id '2172' has been unpublished.
+2016-11-02 16:18:52,488 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 185] Content 'q10' with Id '0' has been published.
+2016-11-02 16:18:59,696 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 162] Content 'Have we been working with the city's traffic department to improve traffic flow?' with Id '2177' has been unpublished.
+2016-11-02 16:19:53,188 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 185] Content 'q11' with Id '0' has been published.
+2016-11-02 16:20:03,219 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 162] Content 'Will Bridgestone teammates receive a discounted rate when parking in the new building during non-business hours?' with Id '2174' has been unpublished.
+2016-11-02 16:21:19,535 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 209] Content 'q12' with Id '0' has been published.
+2016-11-02 16:28:48,553 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 128] Content 'For the parking garage at the new downtown building will there be assigned levels to park on based on the time of day we come into work or the department we work in?' with Id '2227' has been published.
+2016-11-02 16:29:02,858 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 179] Content 'For the parking garage at the new downtown building will there be assigned levels to park on based on the time of day we come into work or the department we work in?' with Id '2227' has been unpublished.
+2016-11-02 16:29:43,309 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 179] Content 'q13' with Id '0' has been published.
+2016-11-02 16:29:51,421 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 127] Content 'Will there be a concierge service in the parking garage for auto service?' with Id '2229' has been unpublished.
+2016-11-02 16:30:55,975 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 205] Content 'q4' with Id '0' has been published.
+2016-11-02 16:31:02,152 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 128] Content 'Will the SOC location in Antioch have a Task Bar?' with Id '2173' has been unpublished.
+2016-11-02 16:32:49,528 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 185] Content 'q5' with Id '0' has been published.
+2016-11-02 16:33:07,655 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 209] Content 'Will there be any renderings of what the SOC in Antioch will look like and all the amenities that will be there?' with Id '2239' has been unpublished.
+2016-11-02 16:35:34,187 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 127] Content 'q3' with Id '0' has been published.
+2016-11-02 16:35:48,851 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 162] Content 'Can we revisit the four-day work week?' with Id '2178' has been unpublished.
+2016-11-02 16:37:35,306 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 194] Content 'q4' with Id '0' has been published.
+2016-11-02 16:38:20,063 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 207] Content 'q5' with Id '0' has been published.
+2016-11-02 16:38:28,971 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 184] Content 'Will standing desks be an option in the new building?' with Id '2232' has been unpublished.
+2016-11-02 16:39:54,818 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 188] Content 'q6' with Id '0' has been published.
+2016-11-02 16:40:02,790 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 188] Content 'Is there any option that can raise the Facility Department's walls up a little more to make them taller and cut down on some of the noise? If not, how can a person concentrate when there is so much noise around them?' with Id '2234' has been unpublished.
+2016-11-02 16:41:34,565 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 195] Content 'q7' with Id '0' has been published.
+2016-11-02 16:42:34,392 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 184] Content 'q8' with Id '0' has been published.
+2016-11-02 16:43:33,329 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 195] Content 'q9' with Id '0' has been published.
+2016-11-02 16:43:58,882 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 180] Content 'Can we have a desktop surface that we can use dry erase markers on to jot down quick notes, to do list, illustrations, calculations, etc.?' with Id '2228' has been unpublished.
+2016-11-02 16:44:07,696 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 184] Content 'There has been much discussion on the Shaping Tomorrow website regarding "collaborative work space" and the definition of this phrase. Can the Shaping Tomorrow team offer greater clarification for all?' with Id '2237' has been unpublished.
+2016-11-02 16:44:16,635 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 128] Content 'Besides each teammate's office space, will there be any common storage/file space per department? This would be for reference materials and documents which are shared amongst several teammates within a department.' with Id '2235' has been unpublished.
+2016-11-02 16:45:07,101 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 195] Content 'Why can't the group that is scheduled to be moved to Antioch go to the second floor of the Goo Goo Cluster/Standard Candy Co. office building at Two Dell Parkway?' with Id '2240' has been unpublished.
+2016-11-02 18:20:40,501 [7] INFO  umbraco.BusinessLogic.Log - [Thread 209] Log scrubbed.  Removed all items older than 2016-09-03 18:20:40
+2016-11-02 23:20:22,033 [7] INFO  umbraco.BusinessLogic.Log - [Thread 283] Log scrubbed.  Removed all items older than 2016-09-03 23:20:22
+2016-11-02 23:20:22,033 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 283] Application shutdown. Reason: HostingEnvironment
+2016-11-02 23:52:25,199 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-11-02 23:52:25,230 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 17ms)
+2016-11-02 23:52:25,230 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-11-02 23:52:25,246 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 35 (took 10ms)
+2016-11-02 23:52:25,339 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-11-02 23:52:25,339 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2016-11-02 23:52:25,339 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-11-02 23:52:25,339 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 0ms)
+2016-11-02 23:52:25,370 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-11-02 23:52:25,370 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2016-11-02 23:52:25,370 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-11-02 23:52:25,370 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 30 (took 2ms)
+2016-11-02 23:52:25,417 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-11-02 23:52:25,417 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2016-11-02 23:52:25,417 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-11-02 23:52:25,433 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-11-02 23:52:26,369 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2016-11-02 23:52:26,369 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 0ms)
+2016-11-02 23:52:26,416 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-11-02 23:52:26,416 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-11-02 23:52:26,431 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2016-11-02 23:52:26,431 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2016-11-02 23:52:26,431 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-11-02 23:52:26,634 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-11-02 23:52:26,977 [10] INFO  Umbraco.Web.UmbracoModule - [Thread 11] Setting OriginalRequestUrl: 23.253.69.79:80/umbraco
+2016-11-02 23:52:27,071 [10] INFO  umbraco.content - [Thread 11] Loading content from disk cache...
+2016-11-02 23:52:27,430 [10] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-11-02 23:52:27,445 [10] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 22 (took 1ms)
+2016-11-02 23:52:27,742 [10] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-11-02 23:52:27,742 [10] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 1ms)

@@ -1,0 +1,114 @@
+﻿2015-11-12 06:50:39,296 [10] INFO  umbraco.BusinessLogic.Log - [Thread 524] Log scrubbed.  Removed all items older than 2015-09-13 06:50:39
+2015-11-12 08:38:24,825 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 604] User Id: 1 logged in
+2015-11-12 09:46:58,887 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 434] User Id: 1 logged in
+2015-11-12 10:16:03,385 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 415] User Id: 1 logged in
+2015-11-12 10:19:33,643 [10] INFO  Umbraco.Core.PluginManager - [Thread 436] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-11-12 10:19:33,643 [10] INFO  Umbraco.Core.PluginManager - [Thread 436] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-11-12 10:19:37,356 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 433] Content 'Safety' with Id '0' has been published.
+2015-11-12 10:19:44,095 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 427] Content 'Safety' with Id '0' has been published.
+2015-11-12 10:19:55,592 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 430] Content 'Safety' with Id '0' has been published.
+2015-11-12 10:20:12,924 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 426] Content 'Our New Headquarters' with Id '1779' has been published.
+2015-11-12 10:20:12,924 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 426] Content 'Cost of Parking' with Id '1783' has been published.
+2015-11-12 10:20:12,924 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 426] Content 'Safety' with Id '1790' has been published.
+2015-11-12 10:20:12,924 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 426] Content 'Moving to Nashville' with Id '1789' has been published.
+2015-11-12 10:20:33,782 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 435] Content 'Residency and In-State Tuition for Public Colleges and Universities' with Id '0' has been published.
+2015-11-12 10:20:39,850 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 429] Content 'Residency and In-State Tuition for Public Colleges and Universities' with Id '0' has been published.
+2015-11-12 10:21:24,576 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 439] Content 'Residency and In-State Tuition for Public Colleges and Universities' with Id '0' has been published.
+2015-11-12 10:22:24,542 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 429] Content 'Fitness Center (1)' with Id '1780' has been published.
+2015-11-12 10:22:24,542 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 429] Content 'Cost of Parking' with Id '1783' has been published.
+2015-11-12 10:23:06,195 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 397] Content 'Space Availability' with Id '0' has been published.
+2015-11-12 10:23:12,341 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 428] Content 'Space Availability' with Id '0' has been published.
+2015-11-12 10:23:21,951 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 447] Content 'Space Availability' with Id '0' has been published.
+2015-11-12 10:23:34,758 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 445] Content 'Space Availability' with Id '1796' has been published.
+2015-11-12 10:23:34,758 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 445] Content 'Moving to Nashville' with Id '1789' has been published.
+2015-11-12 10:23:34,758 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 445] Content 'Residency and In-State Tuition for Public Colleges and Universities' with Id '1793' has been published.
+2015-11-12 10:24:07,316 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 446] Content 'Parking Safety' with Id '1792' has been published.
+2015-11-12 10:24:21,684 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 443] Content 'Parking Space Availability' with Id '1798' has been published.
+2015-11-12 10:24:37,034 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 454] Content 'Parking Safety' with Id '1791' has been published.
+2015-11-12 10:24:45,474 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 426] Content 'Parking Safety' with Id '1790' has been published.
+2015-11-12 10:24:54,428 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 432] Content 'Parking Space Availability' with Id '1797' has been published.
+2015-11-12 10:25:01,979 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 443] Content 'Parking Space Availability' with Id '1796' has been published.
+2015-11-12 10:25:47,687 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 437] Content 'Badging In' with Id '0' has been published.
+2015-11-12 10:26:05,970 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 397] Content 'Size of Parking Spaces' with Id '0' has been published.
+2015-11-12 10:26:15,892 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 443] Content 'Electric Vehicles' with Id '0' has been published.
+2015-11-12 10:26:27,311 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 446] Content 'Cycling to Work' with Id '0' has been published.
+2015-11-12 10:26:37,015 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 446] Content 'A/V Technology' with Id '0' has been published.
+2015-11-12 10:26:47,014 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 428] Content 'Amenities' with Id '0' has been published.
+2015-11-12 10:26:56,858 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 436] Content 'Traffic & Public Transportation' with Id '0' has been published.
+2015-11-12 10:27:08,043 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 416] Content 'Pre-tax Commuter Benefits' with Id '0' has been published.
+2015-11-12 10:27:48,915 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 437] Content 'Moving to Nashville' with Id '1789' has been published.
+2015-11-12 10:27:48,915 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 437] Content 'Residency and In-State Tuition for Public Colleges and Universities' with Id '1793' has been published.
+2015-11-12 10:27:48,915 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 437] Content 'Our New Headquarters' with Id '1779' has been published.
+2015-11-12 10:27:48,915 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 437] Content 'Fitness Center (1)' with Id '1780' has been published.
+2015-11-12 10:27:48,915 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 437] Content 'Cost of Parking' with Id '1783' has been published.
+2015-11-12 10:27:48,915 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 437] Content 'Parking Options' with Id '1786' has been published.
+2015-11-12 10:27:48,915 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 437] Content 'Parking Safety' with Id '1790' has been published.
+2015-11-12 10:27:48,915 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 437] Content 'Parking Space Availability' with Id '1796' has been published.
+2015-11-12 10:27:49,134 [10] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 397] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2015-11-12 10:28:28,774 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 445] Content 'Badging In' with Id '0' has been published.
+2015-11-12 10:28:41,488 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 447] Content 'Badging In' with Id '0' has been published.
+2015-11-12 10:28:51,363 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 429] Content 'Size of Parking Spaces' with Id '0' has been published.
+2015-11-12 10:29:00,660 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 437] Content 'Size of Parking Spaces' with Id '0' has been published.
+2015-11-12 10:29:10,161 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 397] Content 'Electric Vehicles' with Id '0' has been published.
+2015-11-12 10:29:20,083 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 429] Content 'Electric Vehicles' with Id '0' has been published.
+2015-11-12 10:29:28,226 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 439] Content 'Cycling to Work' with Id '0' has been published.
+2015-11-12 10:29:37,695 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 440] Content 'Cycling to Work' with Id '0' has been published.
+2015-11-12 10:29:46,837 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 441] Content 'A/V Technology' with Id '0' has been published.
+2015-11-12 10:29:56,181 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 428] Content 'A/V Technology' with Id '0' has been published.
+2015-11-12 10:30:07,975 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 437] Content 'Amenities' with Id '0' has been published.
+2015-11-12 10:30:17,117 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 447] Content 'Amenities' with Id '0' has been published.
+2015-11-12 10:30:30,813 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 439] Content 'Traffic & Public Transportation' with Id '0' has been published.
+2015-11-12 10:30:44,791 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 446] Content 'Traffic & Public Transportation' with Id '0' has been published.
+2015-11-12 10:30:55,134 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 439] Content 'Pre-tax Commuter Benefits' with Id '0' has been published.
+2015-11-12 10:31:06,257 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 429] Content 'Pre-tax Commuter Benefits' with Id '0' has been published.
+2015-11-12 11:50:23,542 [10] INFO  umbraco.BusinessLogic.Log - [Thread 445] Log scrubbed.  Removed all items older than 2015-09-13 11:50:23
+2015-11-12 11:50:23,558 [10] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 445] Application shutdown. Reason: HostingEnvironment
+2015-11-12 11:50:23,932 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2015-11-12 11:50:23,948 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 12ms)
+2015-11-12 11:50:23,948 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-11-12 11:50:23,963 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 35 (took 18ms)
+2015-11-12 11:50:24,057 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-11-12 11:50:24,057 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2015-11-12 11:50:24,057 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-11-12 11:50:24,057 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 1ms)
+2015-11-12 11:50:24,088 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-11-12 11:50:24,088 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2015-11-12 11:50:24,088 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-11-12 11:50:24,088 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 30 (took 2ms)
+2015-11-12 11:50:24,135 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-11-12 11:50:24,135 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2015-11-12 11:50:24,135 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-11-12 11:50:24,135 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2015-11-12 11:50:25,165 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-11-12 11:50:25,165 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-11-12 11:50:25,180 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2015-11-12 11:50:25,180 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2015-11-12 11:50:25,196 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2015-11-12 11:50:25,399 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2015-11-12 11:50:25,399 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2015-11-12 11:50:25,399 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 0ms)
+2015-11-12 11:50:25,523 [10] INFO  Umbraco.Web.UmbracoModule - [Thread 11] Setting OriginalRequestUrl: bsashapingtomorrow.com:80/umbraco
+2015-11-12 11:50:25,648 [10] INFO  umbraco.content - [Thread 13] Loading content from disk cache...
+2015-11-12 11:50:25,820 [10] INFO  Umbraco.Core.PluginManager - [Thread 13] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-11-12 11:50:25,820 [10] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 22 (took 1ms)
+2015-11-12 11:50:26,241 [10] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-11-12 11:50:26,241 [10] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 2ms)
+2015-11-12 12:08:36,003 [10] INFO  Umbraco.Core.PluginManager - [Thread 31] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-11-12 12:08:36,003 [10] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2015-11-12 12:08:36,065 [10] INFO  Umbraco.Core.PluginManager - [Thread 31] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-11-12 12:08:36,065 [10] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2015-11-12 12:14:37,005 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 27] User Id: 0 logged in
+2015-11-12 12:14:37,488 [10] INFO  Umbraco.Core.PluginManager - [Thread 13] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-11-12 12:14:37,488 [10] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-11-12 12:14:37,863 [10] INFO  Umbraco.Core.PluginManager - [Thread 31] Starting resolution types of umbraco.interfaces.ITree
+2015-11-12 12:14:37,863 [10] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
+2015-11-12 12:14:55,413 [10] INFO  Umbraco.Core.PluginManager - [Thread 47] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2015-11-12 12:14:55,413 [10] INFO  Umbraco.Core.PluginManager - [Thread 47] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 1ms)
+2015-11-12 22:34:27,672 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 434] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-11-12 22:34:28,218 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 434] New document 1823
+2015-11-12 22:34:28,249 [10] INFO  Umbraco.Core.PluginManager - [Thread 434] Starting resolution types of umbraco.interfaces.IDataType
+2015-11-12 22:34:28,296 [10] INFO  Umbraco.Core.PluginManager - [Thread 434] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 41ms)
+2015-11-12 22:34:28,389 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 434] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-11-12 22:34:28,655 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 434] Content 'Luis Rivas' with Id '1823' has been published.
+2015-11-12 22:34:28,686 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 434] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-11-12 22:34:28,701 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 434] There is no current Umbraco user logged in, the notifications will be sent from the administrator

@@ -1,0 +1,21 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+
+@foreach(var item in @Umbraco.Content(1143).Descendants().Where("Visible").Where("Level <= 4")){
+	
+	if(item.addToSideBar){
+	
+		@item.name<br>
+		<a href="/faq/recent-questions/#@item.Id" class="answer">Get the Answer &nbsp;<img src="/site-images/ask-arrow.gif"></a><br/>
+		<br/>
+			
+	}
+	
+}
+
+@if(CurrentPage.Name.ToLower() != "recent questions"){
+	<a href="/faq/recent-questions/" class="viewAll">View All Questions &nbsp;<img src="/site-images/ask-arrow.gif"></a>
+}
+
+<a href="/faq/ask-the-project-team/" class="ask-question">Ask A Question</a>
+

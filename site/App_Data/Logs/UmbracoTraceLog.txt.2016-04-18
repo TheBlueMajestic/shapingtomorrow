@@ -1,0 +1,47 @@
+﻿2016-04-18 12:16:01,278 [7] INFO  umbraco.BusinessLogic.Log - [Thread 356] Log scrubbed.  Removed all items older than 2016-02-18 12:16:01
+2016-04-18 16:18:20,988 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 433] User Id: 1 logged in
+2016-04-18 16:18:21,316 [7] INFO  Umbraco.Core.PluginManager - [Thread 379] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-04-18 16:18:21,316 [7] INFO  Umbraco.Core.PluginManager - [Thread 379] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-04-18 16:18:22,174 [7] INFO  Umbraco.Core.PluginManager - [Thread 379] Starting resolution types of umbraco.interfaces.ITree
+2016-04-18 16:18:22,174 [7] INFO  Umbraco.Core.PluginManager - [Thread 379] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
+2016-04-18 16:18:41,206 [7] INFO  Umbraco.Core.PluginManager - [Thread 435] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-04-18 16:18:41,206 [7] INFO  Umbraco.Core.PluginManager - [Thread 435] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-04-18 16:20:14,354 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 410] Content 'Nashville: Live It' with Id '0' has been published.
+2016-04-18 16:20:15,041 [7] INFO  Umbraco.Core.PluginManager - [Thread 410] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-04-18 16:20:15,056 [7] INFO  Umbraco.Core.PluginManager - [Thread 410] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 1ms)
+2016-04-18 16:21:05,647 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 433] Content 'Nashville: Live It' with Id '1960' has been published.
+2016-04-18 16:21:45,552 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 415] Content 'Nashville: Live It' with Id '1960' has been published.
+2016-04-18 16:23:38,825 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 435] Content 'Nashville: Live It' with Id '1960' has been published.
+2016-04-18 16:24:10,540 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 415] Content 'Nashville: Live It' with Id '1960' has been published.
+2016-04-18 17:15:55,181 [7] INFO  umbraco.BusinessLogic.Log - [Thread 368] Log scrubbed.  Removed all items older than 2016-02-18 17:15:55
+2016-04-18 17:15:55,196 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 368] Application shutdown. Reason: HostingEnvironment
+2016-04-18 17:19:05,377 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-04-18 17:19:05,393 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 13ms)
+2016-04-18 17:19:05,393 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-04-18 17:19:05,408 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 35 (took 8ms)
+2016-04-18 17:19:05,502 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-04-18 17:19:05,502 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2016-04-18 17:19:05,502 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-04-18 17:19:05,502 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 0ms)
+2016-04-18 17:19:05,517 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-04-18 17:19:05,517 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2016-04-18 17:19:05,517 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-04-18 17:19:05,517 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 30 (took 2ms)
+2016-04-18 17:19:05,580 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-04-18 17:19:05,580 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2016-04-18 17:19:05,580 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-04-18 17:19:05,580 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-04-18 17:19:06,531 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2016-04-18 17:19:06,531 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 1ms)
+2016-04-18 17:19:06,578 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-04-18 17:19:06,578 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-04-18 17:19:06,594 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2016-04-18 17:19:06,594 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2016-04-18 17:19:06,594 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-04-18 17:19:06,765 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-04-18 17:19:07,109 [7] INFO  Umbraco.Web.UmbracoModule - [Thread 11] Setting OriginalRequestUrl: bsashapingtomorrow.com:80/umbraco
+2016-04-18 17:19:07,202 [7] INFO  umbraco.content - [Thread 11] Loading content from disk cache...
+2016-04-18 17:19:07,343 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-04-18 17:19:07,343 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 22 (took 1ms)
+2016-04-18 17:19:07,655 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-04-18 17:19:07,655 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 1ms)

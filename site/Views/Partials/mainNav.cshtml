@@ -1,0 +1,46 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@{
+	var inc = 0;
+	var mLinkID = "";
+	var category = @Model.Content.AncestorOrSelf(2).Name;
+	var activate = "";
+}
+
+
+@*Main Navigation*@
+<ul>
+@foreach(var item in @Umbraco.Content(1052).Descendants().Where("Visible").Where("Level <= 2")){	
+	
+	inc = inc + 1;
+	mLinkID = "dd" + inc;
+		
+	<li class="navItem">
+		
+		@* Setup Active States *@
+		@if(category == @item.Name){
+			activate = "active";
+		}else{
+			activate = "";
+		}
+		  	
+		<a href="@item.Url" class="@activate">@item.Name</a>
+		
+		<ul id='@mLinkID' class="dd" style="display: none">
+			@foreach(var item2 in @item.Descendants().Where("Visible").Where("Level <= 3")){
+				
+				<li><a href="@item2.Url">@item2.Name</a></li>
+							
+			}
+		</ul>
+			
+	</li>
+			
+}
+
+	<li class="navItem"><a href="/#whatsNewAncorhLink" class="red">What's New</a></li>
+
+</ul>
+
+
+

@@ -1,0 +1,8 @@
+﻿2015-10-01 14:08:45,538 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 1210] An error occurred with the scheduled publishing
+System.Net.WebException: The underlying connection was closed: A connection that was expected to be kept alive was closed by the server.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2015-10-01 16:47:00,405 [10] INFO  umbraco.BusinessLogic.Log - [Thread 524] Log scrubbed.  Removed all items older than 2015-08-02 16:47:00
+2015-10-01 21:46:57,350 [10] INFO  umbraco.BusinessLogic.Log - [Thread 516] Log scrubbed.  Removed all items older than 2015-08-02 21:46:57
+2015-10-01 21:46:57,350 [10] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 516] Application shutdown. Reason: HostingEnvironment

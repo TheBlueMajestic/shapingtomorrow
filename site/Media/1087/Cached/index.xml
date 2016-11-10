@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_s>
+    <image>
+      <originalFileName>st1.png</originalFileName>
+      <size>1504793</size>
+      <dateLastModified>Mon, 12 Oct 2015 15:48:54 GMT</dateLastModified>
+      <width>980</width>
+      <height>620</height>
+      <cachedImage>
+        <fileName>ST1_3afc2e4b4331d932c65a40ed8b0dfbf3c421abcad6d4804f3421be312d8e8f59.jpeg</fileName>
+        <dateCreated>Tue, 10 Nov 2015 18:44:57 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1897</width>
+        <height>1200</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_s>
+</imageIndex>

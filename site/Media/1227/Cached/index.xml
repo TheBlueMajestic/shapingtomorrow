@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_a>
+    <image>
+      <originalFileName>anywhere.jpg</originalFileName>
+      <size>273477</size>
+      <dateLastModified>Thu, 04 Aug 2016 13:05:46 GMT</dateLastModified>
+      <width>1920</width>
+      <height>1015</height>
+      <cachedImage>
+        <fileName>ANY_bfe35b53706edb2e3cd11d769144f7009f52fb2b4393ba77930717059f681e90.jpeg</fileName>
+        <dateCreated>Thu, 04 Aug 2016 13:09:31 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1920</width>
+        <height>1015</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_a>
+</imageIndex>

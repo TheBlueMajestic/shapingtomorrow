@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_b>
+    <image>
+      <originalFileName>bsa-mikes-ice-cream.jpg</originalFileName>
+      <size>990045</size>
+      <dateLastModified>Tue, 10 Nov 2015 20:43:52 GMT</dateLastModified>
+      <width>1920</width>
+      <height>2880</height>
+      <cachedImage>
+        <fileName>BSA_f90b4adcc6abaac7f722c1deceaa366ff5447deb6e87564ce0c9b1bcad334c70.jpeg</fileName>
+        <dateCreated>Tue, 10 Nov 2015 21:14:01 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>800</width>
+        <height>1200</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_b>
+</imageIndex>

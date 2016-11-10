@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_b>
+    <image>
+      <originalFileName>bsa-countrymusichalloffame.jpg</originalFileName>
+      <size>261061</size>
+      <dateLastModified>Tue, 10 Nov 2015 19:54:25 GMT</dateLastModified>
+      <width>1280</width>
+      <height>630</height>
+      <cachedImage>
+        <fileName>BSA_72df764441520390f2ddef86c018804d31eff8e3528b37c8368cf9a25b91c1bf.jpeg</fileName>
+        <dateCreated>Tue, 10 Nov 2015 20:37:16 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1920</width>
+        <height>945</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_b>
+</imageIndex>

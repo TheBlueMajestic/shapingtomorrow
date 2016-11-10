@@ -1,0 +1,41 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	var activate = "";
+	var activateImg = "/site-images/sideNav-arrow.gif";
+	var page = @CurrentPage.Name;
+}
+
+
+@* Setup Active State *@
+@if(page == @Model.Content.AncestorOrSelf(2).Name){
+	
+	activate ="active";
+	
+}else{
+	
+	activate = "";
+	
+}
+<h2><a href="@Model.Content.AncestorOrSelf(2).Url" class="@activate">@Model.Content.AncestorOrSelf(2).Name</a></h2>
+
+	
+<ul>
+@foreach(var item in @Model.Content.AncestorOrSelf(2).Children().Where("Visible")){
+	
+	@* Setup Active States *@
+	if(page == @item.Name){
+		
+		activate ="active";
+		activateImg = "/site-images/sideNav-arrow-o.gif";
+		
+	}else{
+		
+		activate = "";
+		activateImg = "/site-images/sideNav-arrow.gif";
+	
+	}
+	
+	<li><a href="@item.Url" class="@activate">@item.Name &nbsp;<img src="@activateImg"></a></li>
+						
+}
+</ul>

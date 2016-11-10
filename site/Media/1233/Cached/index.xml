@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_f>
+    <image>
+      <originalFileName>fitness.jpg</originalFileName>
+      <size>248199</size>
+      <dateLastModified>Fri, 05 Aug 2016 12:47:52 GMT</dateLastModified>
+      <width>1723</width>
+      <height>1080</height>
+      <cachedImage>
+        <fileName>FIT_63ff5ed508e860f5a962e019e3de5aad5ef2cd4caef2869a876a7e9b9aea8006.jpeg</fileName>
+        <dateCreated>Fri, 05 Aug 2016 12:50:59 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1914</width>
+        <height>1200</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_f>
+</imageIndex>

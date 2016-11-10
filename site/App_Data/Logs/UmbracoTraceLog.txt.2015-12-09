@@ -1,0 +1,17 @@
+﻿2015-12-09 01:08:37,557 [10] INFO  Umbraco.Core.PluginManager - [Thread 305] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-12-09 01:08:37,557 [10] INFO  Umbraco.Core.PluginManager - [Thread 305] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2015-12-09 01:08:37,620 [10] INFO  Umbraco.Core.PluginManager - [Thread 305] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-12-09 01:08:37,635 [10] INFO  Umbraco.Core.PluginManager - [Thread 305] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2015-12-09 10:44:23,644 [10] INFO  Umbraco.Core.PluginManager - [Thread 123] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2015-12-09 10:44:23,644 [10] INFO  Umbraco.Core.PluginManager - [Thread 123] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 3ms)
+2015-12-09 10:44:23,706 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 123] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-12-09 10:44:24,315 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 123] New document 1857
+2015-12-09 10:44:24,346 [10] INFO  Umbraco.Core.PluginManager - [Thread 123] Starting resolution types of umbraco.interfaces.IDataType
+2015-12-09 10:44:24,346 [10] INFO  Umbraco.Core.PluginManager - [Thread 123] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 3ms)
+2015-12-09 10:44:24,362 [10] INFO  Umbraco.Core.PluginManager - [Thread 123] Starting resolution types of umbraco.interfaces.ITree
+2015-12-09 10:44:24,362 [10] INFO  Umbraco.Core.PluginManager - [Thread 123] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
+2015-12-09 10:44:24,533 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 123] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-12-09 10:44:24,814 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 123] Content 'Denise West' with Id '1857' has been published.
+2015-12-09 10:44:24,861 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 123] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-12-09 10:44:24,861 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 123] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-12-09 19:31:19,658 [10] INFO  umbraco.BusinessLogic.Log - [Thread 86] Log scrubbed.  Removed all items older than 2015-10-10 19:31:19

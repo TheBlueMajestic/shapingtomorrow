@@ -1,0 +1,64 @@
+﻿2016-06-08 01:53:10,700 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 637] An error occurred with the scheduled publishing
+System.Net.WebException: The underlying connection was closed: A connection that was expected to be kept alive was closed by the server.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-06-08 04:26:40,271 [10] INFO  umbraco.BusinessLogic.Log - [Thread 342] Log scrubbed.  Removed all items older than 2016-04-09 04:26:40
+2016-06-08 09:04:41,330 [10] INFO  Umbraco.Core.PluginManager - [Thread 131] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-06-08 09:04:41,330 [10] INFO  Umbraco.Core.PluginManager - [Thread 131] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 1ms)
+2016-06-08 09:04:41,377 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 131] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-06-08 09:04:41,970 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 131] New document 1973
+2016-06-08 09:04:42,001 [10] INFO  Umbraco.Core.PluginManager - [Thread 131] Starting resolution types of umbraco.interfaces.IDataType
+2016-06-08 09:04:42,001 [10] INFO  Umbraco.Core.PluginManager - [Thread 131] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 3ms)
+2016-06-08 09:04:42,017 [10] INFO  Umbraco.Core.PluginManager - [Thread 131] Starting resolution types of umbraco.interfaces.ITree
+2016-06-08 09:04:42,017 [10] INFO  Umbraco.Core.PluginManager - [Thread 131] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 0ms)
+2016-06-08 09:04:42,204 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 131] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-06-08 09:04:42,469 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 131] Content 'Joe Bounds (1)' with Id '1973' has been published.
+2016-06-08 09:04:42,516 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 131] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-06-08 09:04:42,531 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 131] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-06-08 09:26:22,536 [10] INFO  umbraco.BusinessLogic.Log - [Thread 524] Log scrubbed.  Removed all items older than 2016-04-09 09:26:22
+2016-06-08 09:26:22,551 [10] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 524] Application shutdown. Reason: HostingEnvironment
+2016-06-08 09:27:35,919 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-06-08 09:27:35,950 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 13ms)
+2016-06-08 09:27:35,950 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-06-08 09:27:35,965 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 35 (took 8ms)
+2016-06-08 09:27:36,059 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-06-08 09:27:36,059 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2016-06-08 09:27:36,059 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-06-08 09:27:36,059 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 1ms)
+2016-06-08 09:27:36,075 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-06-08 09:27:36,075 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2016-06-08 09:27:36,075 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-06-08 09:27:36,090 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 30 (took 2ms)
+2016-06-08 09:27:36,153 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-06-08 09:27:36,153 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2016-06-08 09:27:36,153 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-06-08 09:27:36,153 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-06-08 09:27:37,089 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2016-06-08 09:27:37,089 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 0ms)
+2016-06-08 09:27:37,135 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-06-08 09:27:37,135 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-06-08 09:27:37,151 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2016-06-08 09:27:37,151 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2016-06-08 09:27:37,151 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-06-08 09:27:37,323 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-06-08 09:27:37,650 [10] INFO  Umbraco.Web.UmbracoModule - [Thread 11] Setting OriginalRequestUrl: bsashapingtomorrow.com:80/umbraco
+2016-06-08 09:27:37,806 [10] INFO  umbraco.content - [Thread 11] Loading content from disk cache...
+2016-06-08 09:27:37,978 [10] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-06-08 09:27:37,993 [10] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 22 (took 1ms)
+2016-06-08 09:27:38,399 [10] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-06-08 09:27:38,399 [10] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 1ms)
+2016-06-08 10:10:21,341 [10] INFO  Umbraco.Core.PluginManager - [Thread 86] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-06-08 10:10:21,341 [10] INFO  Umbraco.Core.PluginManager - [Thread 86] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2016-06-08 10:10:21,404 [10] INFO  Umbraco.Core.PluginManager - [Thread 86] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-06-08 10:10:21,404 [10] INFO  Umbraco.Core.PluginManager - [Thread 86] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2016-06-08 12:52:24,985 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 184] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (522) Origin Connection Time-out.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-06-08 13:31:50,492 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 23] An error occurred with the scheduled publishing
+System.Net.WebException: The operation has timed out
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)

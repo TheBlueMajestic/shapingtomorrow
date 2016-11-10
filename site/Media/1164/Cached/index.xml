@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_b>
+    <image>
+      <originalFileName>bsa-14_fitness.jpg</originalFileName>
+      <size>1845090</size>
+      <dateLastModified>Tue, 10 Nov 2015 20:46:20 GMT</dateLastModified>
+      <width>1920</width>
+      <height>1204</height>
+      <cachedImage>
+        <fileName>BSA_75886a256deebe65d7c9788229fde2a38932a6170bccbfefc9feadf68518367a.jpeg</fileName>
+        <dateCreated>Tue, 10 Nov 2015 22:00:18 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1914</width>
+        <height>1200</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_b>
+</imageIndex>

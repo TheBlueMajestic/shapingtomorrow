@@ -1,0 +1,16 @@
+﻿2016-08-13 14:04:37,626 [10] INFO  Umbraco.Core.PluginManager - [Thread 216] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-08-13 14:04:37,626 [10] INFO  Umbraco.Core.PluginManager - [Thread 216] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2016-08-13 14:04:37,704 [10] INFO  Umbraco.Core.PluginManager - [Thread 216] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-08-13 14:04:37,704 [10] INFO  Umbraco.Core.PluginManager - [Thread 216] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2016-08-13 14:30:01,070 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 246] An error occurred with the scheduled publishing
+System.Net.WebException: The underlying connection was closed: A connection that was expected to be kept alive was closed by the server. ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-08-13 22:27:21,924 [10] INFO  umbraco.BusinessLogic.Log - [Thread 179] Log scrubbed.  Removed all items older than 2016-06-14 22:27:21

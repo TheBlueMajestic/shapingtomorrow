@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_b>
+    <image>
+      <originalFileName>bsa-22_putting-green.jpg</originalFileName>
+      <size>1748288</size>
+      <dateLastModified>Tue, 10 Nov 2015 20:46:18 GMT</dateLastModified>
+      <width>1920</width>
+      <height>1260</height>
+      <cachedImage>
+        <fileName>BSA_0d9e3836eb823d09bb3859d084152af4e3cc19fd9cbcb0b79724c7f0d620f3a7.jpeg</fileName>
+        <dateCreated>Tue, 10 Nov 2015 22:00:18 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1829</width>
+        <height>1200</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_b>
+</imageIndex>

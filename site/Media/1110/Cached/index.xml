@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_b>
+    <image>
+      <originalFileName>bsa_bridgestone-arena.jpg</originalFileName>
+      <size>1058205</size>
+      <dateLastModified>Tue, 10 Nov 2015 20:42:05 GMT</dateLastModified>
+      <width>1920</width>
+      <height>964</height>
+      <cachedImage>
+        <fileName>BSA_07412393178bca25644594f60e05e8a97b12cd731c65a9d212c301bd2cfebf95.jpeg</fileName>
+        <dateCreated>Tue, 10 Nov 2015 20:55:05 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1920</width>
+        <height>964</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_b>
+</imageIndex>

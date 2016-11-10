@@ -1,0 +1,20 @@
+﻿2016-01-29 02:37:40,015 [7] INFO  Umbraco.Core.PluginManager - [Thread 341] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-01-29 02:37:40,015 [7] INFO  Umbraco.Core.PluginManager - [Thread 341] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2016-01-29 02:37:40,093 [7] INFO  Umbraco.Core.PluginManager - [Thread 341] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-01-29 02:37:40,093 [7] INFO  Umbraco.Core.PluginManager - [Thread 341] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2016-01-29 09:56:07,373 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 115] User Id: 0 logged in
+2016-01-29 09:56:07,857 [7] INFO  Umbraco.Core.PluginManager - [Thread 118] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-01-29 09:56:07,857 [7] INFO  Umbraco.Core.PluginManager - [Thread 118] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-01-29 09:56:08,543 [7] INFO  Umbraco.Core.PluginManager - [Thread 110] Starting resolution types of umbraco.interfaces.ITree
+2016-01-29 09:56:08,543 [7] INFO  Umbraco.Core.PluginManager - [Thread 110] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
+2016-01-29 09:56:57,995 [7] INFO  Umbraco.Core.PluginManager - [Thread 134] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-01-29 09:56:57,995 [7] INFO  Umbraco.Core.PluginManager - [Thread 134] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 1ms)
+2016-01-29 10:13:52,674 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 130] User Id: 2 logged in
+2016-01-29 10:13:52,767 [7] INFO  Umbraco.Core.PluginManager - [Thread 118] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-01-29 10:13:52,767 [7] INFO  Umbraco.Core.PluginManager - [Thread 118] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-01-29 10:14:21,518 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 127] User Id: 2 logged in
+2016-01-29 10:14:55,994 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 86] User Id: 2 logged in
+2016-01-29 10:19:50,135 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 118] User Id: 2 logged in
+2016-01-29 10:19:50,384 [7] INFO  Umbraco.Core.PluginManager - [Thread 86] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-01-29 10:19:50,384 [7] INFO  Umbraco.Core.PluginManager - [Thread 86] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-01-29 21:44:59,503 [7] INFO  umbraco.BusinessLogic.Log - [Thread 86] Log scrubbed.  Removed all items older than 2015-11-30 21:44:59

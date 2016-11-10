@@ -1,0 +1,87 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@*
+	Model = The current page the macro is executed on
+			@Model.bodyText
+
+	Parameter = collection of parameter values passed from the macro
+			@Paramter.myParam
+
+    Library = utillity library with common methods
+    		@Library.NodeById(1233)
+*@
+
+@* The fun starts here *@
+test
+
+@using umbraco.cms.businesslogic.web;
+@using System.Net.Mail;
+
+
+@if (!IsPost){    
+	
+	<form method="POST">
+		
+		Name:<br/>
+		<input type="text" name="name"/><br/>
+			
+		Company:<br/>
+		<input type="text" name="company"/><br/>
+			
+		Feedback<br/>
+		<textarea name="feedback" rows="3" cols="40"></textarea><br/>
+			
+		<input type="submit" value="Send"/>
+	</form>
+			
+}else{  
+
+	var name = Request["name"];
+	var company = Request["company"];
+	var feedback = Request["feedback"];
+	var email = "jfdesign@gmail.com";
+	var dateTime = DateTime.Now.ToString();
+	var ipAddress = Request.UserHostAddress;
+	
+	var docTypeVar = DocumentType.GetByAlias("QuestionForm");
+	
+	@* Make sure its a valid document type alias *@
+	if(docTypeVar != null){
+		
+		var author = umbraco.BusinessLogic.User.GetUser(0);
+		
+		var doc = Document.MakeNew("Question Submission", docTypeVar, author, 1087);
+		//doc.getProperty("date").Value = dateTime; 
+		//doc.getProperty("name").Value = name;      
+		//doc.getProperty("company").Value = company;
+		//doc.getProperty("feedback").Value = feedback;
+		//doc.getProperty("ipAddress").Value = ipAddress;
+		
+		doc.Publish(author);
+		umbraco.library.UpdateDocumentCache(doc.Id);
+
+	}
+	
+	
+	try{
+		
+		//umbraco.library.SendMail("from@mysite.com","jfdesign@gmail.com","Message from " + name,comapny,feedback,false);
+		
+		MailMessage mail = new MailMessage();
+		//var from = new MailAddress(Email.Text);
+		mail.From = new MailAddress(email);
+		mail.To.Add("test@xxxx.com");
+		mail.Subject = "Contact Us";
+		mail.IsBodyHtml = false;
+		mail.Body = "You just got a contact email:\n" + "Name: " + name + "\n" + "companhy: " + company + "\n" + "feedback: " + feedback + "\n";       
+		SmtpClient smtp = new SmtpClient();
+		smtp.Send(mail);
+		
+		<strong>Thanks. We've recieved your question.</strong><br/>
+	}
+	catch(Exception ex){  
+		@ex.Message;
+	}
+	
+	
+}

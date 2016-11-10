@@ -1,0 +1,26 @@
+﻿2016-10-11 06:07:14,930 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 131] An error occurred with the scheduled publishing
+System.Net.WebException: The underlying connection was closed: A connection that was expected to be kept alive was closed by the server.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-10-11 07:47:49,615 [7] INFO  Umbraco.Core.PluginManager - [Thread 106] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-10-11 07:47:49,615 [7] INFO  Umbraco.Core.PluginManager - [Thread 106] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2016-10-11 07:47:49,693 [7] INFO  Umbraco.Core.PluginManager - [Thread 106] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-10-11 07:47:49,693 [7] INFO  Umbraco.Core.PluginManager - [Thread 106] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2016-10-11 08:49:25,282 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 121] User Id: 1 logged in
+2016-10-11 08:49:25,609 [7] INFO  Umbraco.Core.PluginManager - [Thread 139] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-10-11 08:49:25,609 [7] INFO  Umbraco.Core.PluginManager - [Thread 139] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-10-11 08:49:25,875 [7] INFO  Umbraco.Core.PluginManager - [Thread 113] Starting resolution types of umbraco.interfaces.ITree
+2016-10-11 08:49:25,875 [7] INFO  Umbraco.Core.PluginManager - [Thread 113] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
+2016-10-11 08:49:40,742 [7] INFO  Umbraco.Core.PluginManager - [Thread 233] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-10-11 08:49:40,757 [7] INFO  Umbraco.Core.PluginManager - [Thread 233] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 1ms)
+2016-10-11 08:50:07,511 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 230] Content 'Home' with Id '1052' has been published.
+2016-10-11 12:53:56,844 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 76] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-10-11 12:53:56,891 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 76] New document 2281
+2016-10-11 12:53:56,906 [7] INFO  Umbraco.Core.PluginManager - [Thread 76] Starting resolution types of umbraco.interfaces.IDataType
+2016-10-11 12:53:56,906 [7] INFO  Umbraco.Core.PluginManager - [Thread 76] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 1ms)
+2016-10-11 12:53:57,000 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 76] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-10-11 12:53:57,156 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content 'Jose Arbelaez' with Id '2281' has been published.
+2016-10-11 12:53:57,187 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 76] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-10-11 12:53:57,203 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 76] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-10-11 19:20:30,092 [7] INFO  umbraco.BusinessLogic.Log - [Thread 212] Log scrubbed.  Removed all items older than 2016-08-12 19:20:30

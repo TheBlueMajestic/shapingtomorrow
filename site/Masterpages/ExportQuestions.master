@@ -1,0 +1,9 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/umbraco/masterpages/default.master" 
+AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">
+<umbraco:Macro Source="1247" GetDescendantsOfSource="1" IncludeSourceNode="0" 
+Level="5" DocumentTypeAlias="QuestionForm" EncodeHtmlTags="1" StripHtmlTags="1" 
+Delimiter="," RemoveLineBreaks="1" Alias="EyeCatchCSVGenerator" 
+runat="server"></umbraco:Macro>
+</asp:Content>

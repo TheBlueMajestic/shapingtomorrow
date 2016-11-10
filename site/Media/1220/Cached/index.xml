@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <_v>
+    <image>
+      <originalFileName>visitor-checkin-rendering-for-site.jpg</originalFileName>
+      <size>262534</size>
+      <dateLastModified>Tue, 02 Aug 2016 12:48:17 GMT</dateLastModified>
+      <width>1832</width>
+      <height>1080</height>
+      <cachedImage>
+        <fileName>VIS_e5ea268dce32e7adccc3673966a341be07bd957158e84da2f42457430f5c17cf.jpeg</fileName>
+        <dateCreated>Tue, 02 Aug 2016 12:56:29 GMT</dateCreated>
+        <imageFormat>jpeg</imageFormat>
+        <compression>80</compression>
+        <width>1920</width>
+        <height>1132</height>
+        <bgColor>#FFFFFF</bgColor>
+        <transparent>True</transparent>
+        <border>0</border>
+        <borderColor>#000000</borderColor>
+        <constrain>True</constrain>
+        <pad>False</pad>
+      </cachedImage>
+    </image>
+  </_v>
+</imageIndex>
