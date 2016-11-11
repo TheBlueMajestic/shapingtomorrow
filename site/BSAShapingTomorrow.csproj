@@ -1500,7 +1500,6 @@
     <Content Include="data\Cached\HEL_da3aed17fe101000e2bda7938d59ce9731adb33dc74aa9e5c14c926b0b6f97f7.gif" />
     <Content Include="data\Cached\index.xml" />
     <Content Include="default.aspx" />
-    <Content Include="exported-DB\7102-DB-move-11-4-14.sql" />
     <Content Include="forum\advanced.aspx" />
     <Content Include="forum\App_Data\TEMP\ClientDependency\PROJECT7102BETT-e5b3730cb6e7dc5804fea82514aa5480-map.xml" />
     <Content Include="forum\auth.aspx" />
@@ -8280,6 +8279,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Content Include="App_Code\Controllers\LoginController.cs" />
     <Content Include="App_Code\CustomFilters\AuthorizeIPAddressAttribute.cs" />
     <Content Include="App_Code\Global.cs" />
@@ -8287,7 +8287,6 @@
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Media\1069\" />
