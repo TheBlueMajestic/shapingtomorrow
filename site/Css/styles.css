@@ -85,7 +85,7 @@ img { border: 0px; }
 #int-header { position: fixed; width: 100%; height: 500px; }
 
 #intContentBlockC { position: relative; top: 500px; width: 100%; background: #FFF; }
-    #intContentBlock { margin: 0px auto; padding: 40px 0px 40px 0px; width: 960px; overflow: auto; }
+    #intContentBlock { margin: 0px auto; padding: 40px 0px 40px 0px; width: 960px; overflow: auto; position:relative; }
         #contentLft { float: left; width: 630px; }
             #contentLft a { text-decoration: none; color: #01a8e5; }   
 
@@ -125,7 +125,8 @@ img { border: 0px; }
 
     #intContentBlock h1 { margin: 0px 0px 10px 0px; padding: 0px; color: #0f739a; font: 42px AlternateGotNo3D; text-transform: uppercase; }
     #intContentBlock h2 { margin-bottom: 0px; color: #0f739a; font: 26px AlternateGotNo3D; text-transform: uppercase; }
-    
+    #intContentBlock h2 a { color: #0f739a; }
+
 	#intContentBlock .anchorFix { display: block; height: 5px; position: relative; top: -100px; }
 	#intContentBlock #cultivcontactform { display: block; position: relative; top: -150px; }
     
@@ -481,4 +482,43 @@ a.gallery-item {
 #contentLft img {
 		max-width:100%;
 }
+
+/* Blog */
+.blog-post-excerpt { margin-bottom:30px; padding-bottom:30px; border-bottom:1px solid #ddd; }
+ul.blog-post-meta { margin:0; padding:0; }
+.blog-post-meta li {
+    display:inline-block;
+    border-left:1px solid #ddd;
+    padding-left:15px;
+    margin-left:15px;
+    line-height: 15px;
+}
+.blog-post-meta li:first-child {
+    margin-left:0;
+    padding-left:0;
+    border-left:none;
+}
+.pagination-links {
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-align:center;
+}
+.pagination-links li {
+    display:inline-block;
+}
+#contentLft .pagination-links a.nav-item {
+    display:block;
+    padding:5px 8px;
+}
+#contentLft .pagination-links a.nav-item-current,
+#contentLft .pagination-links a.nav-item-disabled {
+    color:inherit;
+    cursor:default;
+}
+.page-content-anchor {
+    position:absolute;
+    top:-100px;
+}
+
 /* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

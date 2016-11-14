@@ -1,0 +1,74 @@
+﻿@helper CategoryList(Umbraco.Web.UmbracoHelper helper, System.Web.Mvc.HtmlHelper Html, object ids)
+{
+    if (null != ids)
+    {
+        var idArray = (ids.ToString()).Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+        if (idArray.Any())
+        {
+            var links = new System.Text.StringBuilder();
+            foreach (var id in idArray)
+            {
+                var category = helper.TypedContent(id);
+                links.Append(", <a href=\"" + category.Url + "\">" + category.Name + "</a>");
+            }
+            <span>In @Html.Raw(links.ToString().TrimStart(new char[] { ',', ' ' }))</span>
+        }
+    }
+}
+@helper AuthorName(Umbraco.Web.UmbracoHelper helper, object id)
+{
+    if (null != id)
+    {
+        var author = helper.TypedContent(id);
+        if (null != author)
+        {
+            @author.Name
+        }
+    }
+}
+@helper PageLink(string label, int linkPage, int page, int totalPages, System.Web.Mvc.HtmlHelper Html)
+{
+    var classes = "nav-item";
+    var href = "?page=" + linkPage;
+    if (page == linkPage) {
+        classes += " nav-item-current";
+        href = "javascript:;";
+    }
+    if ((label.Equals("&lsaquo; Prev") && linkPage == 0)
+        || (label.Equals("Next &rsaquo;") && linkPage == totalPages + 1)) {
+        classes += " nav-item-disabled";
+        href = "javascript:;";
+    }
+    @Html.Raw("<li><a href=\""+href+"#top\" class=\""+classes+"\">"+label+"</a></li>")
+}
+@helper Pagination(int page, int totalPages, int perPage, System.Web.Mvc.HtmlHelper Html)
+{
+    var pages = new Dictionary<string, int>();
+    var amount = 5;
+    if (totalPages > 1)
+    {
+        <ul class="pagination-links">
+            @{pages.Add("&lsaquo; Prev", page - 1);}
+            @for (int p = page - (int)Math.Floor((double)amount / 2); p < page; p++)
+            {
+                if (p > 0)
+                {
+                    pages.Add(p.ToString(), p);
+                    amount--;
+                }
+            }
+            @for (int p = page; p < page + amount - 1; p++)
+            {
+                if (p <= totalPages)
+                {
+                    pages.Add(p.ToString(), p);
+                }
+            }
+            @{pages.Add("Next &rsaquo;", page + 1);}
+            @foreach (KeyValuePair<string,int> p in pages)
+            {
+                @Helpers.PageLink(p.Key, p.Value, page, totalPages, Html)
+            }
+        </ul>
+    }
+}

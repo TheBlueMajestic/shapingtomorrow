@@ -1,0 +1,70 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@functions{
+    bool HasCategory(IPublishedContent post, int categoryId)
+    {
+        if (!post.HasValue("categories"))
+            return false;
+        var categories = post.GetProperty("categories").DataValue.ToString();
+        return categoryId == 0
+            || (new System.Text.RegularExpressions.Regex("(^|,)" + categoryId.ToString() + "(,|$)")).IsMatch(categories);
+    }
+}
+@{
+    var blog = Model.Content.Parent.Parent;
+    var posts = blog.Children.Where(x => x.DocumentTypeAlias.Equals("Post") && HasCategory(x, Model.Content.Id) && x.IsVisible()).OrderByDescending(x => x.CreateDate);
+}
+<div id="top" class="page-content-anchor">&nbsp;</div>
+@if (posts.Any())
+{
+    var perPage = 10;
+    if (blog.HasValue("postsPerPage"))
+    {
+        perPage = blog.GetPropertyValue<int>("postsPerPage");
+    }
+
+    var page = 1;
+    int.TryParse(Request.QueryString["page"], out page);
+    var totalPages = (int)Math.Ceiling((double)posts.Count() / (double)perPage);
+
+    if (page > totalPages)
+    {
+        page = totalPages;
+    }
+    else if (page < 1)
+    {
+        page = 1;
+    }
+
+    foreach (var post in posts.Skip((page - 1) * perPage).Take(perPage))
+    {
+        <div class="blog-post-excerpt">
+            <h2><a href="@post.Url">@post.Name</a></h2>
+            <ul class="blog-post-meta">
+                <li>@post.GetPropertyValue("date").ToString().AsDateTime().ToString("MM/dd/yyyy")</li>
+                @if (post.HasValue("author"))
+                {
+                    <li>@Helpers.AuthorName(Umbraco, post.GetPropertyValue("author"))</li>
+                }
+                @if (post.HasValue("categories"))
+                {
+                    <li>@Helpers.CategoryList(Umbraco, Html, post.GetPropertyValue("categories"))</li>
+                }
+            </ul>
+            <br />
+            @{var description = post.GetPropertyValue("shortDescription");}
+            @if (null != description)
+            {
+                string desc = description.ToString();
+                if (desc.Length > 260)
+                {
+                    desc = desc.Substring(0, 260).TrimEnd(' ') + "...";
+                }
+
+                @desc
+            }
+        </div>
+    }
+
+    @Helpers.Pagination(page, totalPages, perPage, Html)
+}

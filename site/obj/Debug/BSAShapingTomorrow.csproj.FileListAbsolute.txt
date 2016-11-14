@@ -1,0 +1,6 @@
+C:\Users\David Russell\Documents\Client Projects\bridgestone-14600-shapingtomorrow\site\obj\Debug\BSAShapingTomorrow.csprojResolveAssemblyReference.cache
+C:\Users\David Russell\Documents\Client Projects\bridgestone-14600-shapingtomorrow\site\bin\BSAShapingTomorrow.dll.config
+C:\Users\David Russell\Documents\Client Projects\bridgestone-14600-shapingtomorrow\site\bin\BSAShapingTomorrow.dll
+C:\Users\David Russell\Documents\Client Projects\bridgestone-14600-shapingtomorrow\site\bin\BSAShapingTomorrow.pdb
+C:\Users\David Russell\Documents\Client Projects\bridgestone-14600-shapingtomorrow\site\obj\Debug\BSAShapingTomorrow.dll
+C:\Users\David Russell\Documents\Client Projects\bridgestone-14600-shapingtomorrow\site\obj\Debug\BSAShapingTomorrow.pdb

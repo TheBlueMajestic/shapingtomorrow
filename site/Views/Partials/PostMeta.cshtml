@@ -1,0 +1,16 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    var post = Model.Content;
+}
+<ul class="blog-post-meta">
+    <li>@post.GetPropertyValue("date").ToString().AsDateTime().ToString("MM/dd/yyyy")</li>
+    @if (post.HasValue("author"))
+    {
+        <li>@Helpers.AuthorName(Umbraco, post.GetPropertyValue("author"))</li>
+    }
+    @if (post.HasValue("categories"))
+    {
+        <li>@Helpers.CategoryList(Umbraco, Html, post.GetPropertyValue("categories"))</li>
+    }
+</ul>
+<br />

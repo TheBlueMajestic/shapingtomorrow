@@ -1,15 +1,35 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{
     Layout = "umbLayout.cshtml";
-	
+
+    var page = Model.Content;
 	var pageName = CurrentPage.Name.ToLower();
 	var catName = CurrentPage.AncestorOrSelf(2).Name.ToLower();
-	
+    var docType = CurrentPage.DocumentTypeAlias;
 	var counter = 0;
 	
 	//HeaderImg Path
-	var getImagePath = Umbraco.Media(CurrentPage.headerImage.ToString());
-	var count = 0;
+    IPublishedContent imagePage = null;
+    if (page.HasValue("headerImage"))
+    {
+        imagePage = page;
+    }
+    else if (page.Parent != null && page.Parent.HasValue("headerImage"))
+    {
+        imagePage = page.Parent;
+    }
+    else if (page.Parent.Parent != null && page.Parent.Parent.HasValue("headerImage"))
+    {
+        imagePage = page.Parent.Parent;
+    }
+    var getImagePath = "";
+    if(null != imagePage){
+        var media = imagePage.GetPropertyValue("headerImage");
+        if (media != null)
+        {
+            getImagePath = Umbraco.Media(media).umbracoFile;
+        }
+    }
 }
 
 @section head1{
@@ -19,7 +39,7 @@
 
 	
 	
-<div id="int-header" style="background:#CCC url(@getImagePath.umbracoFile) center top no-repeat; background-size: cover;" ></div>
+<div id="int-header" style="background:#CCC url(@getImagePath) center top no-repeat; background-size: cover;" ></div>
 
    <div id="intContentBlockC">
         
@@ -30,7 +50,9 @@
 	
                <h1>@CurrentPage.Name</h1>
 			   	
-	
+	            @if(docType == "Post"){
+                 Html.RenderPartial("PostMeta");
+                }
 			   @CurrentPage.mainContent
 			   
 			
@@ -89,6 +111,19 @@
 				}
 			}
 
+			   @* Blog *@
+			   @if(pageName == "blog"){
+				   
+			   		Html.RenderPartial("blog");
+				   
+			   }
+
+			   @* Category *@
+			   @if(docType == "Category"){
+				   
+			   		Html.RenderPartial("category");
+				   
+			   }
 			
 			   @* Render Recent Questions *@
 			   @if(pageName == "recent questions"){
@@ -126,7 +161,7 @@
             <div id="contentRt">
                 
 				@* Count number of children for 1st level nav item *@
-				@foreach(var item in @Model.Content.AncestorOrSelf(2).Children().Where("Visible")){
+				@foreach(var item in @page.AncestorOrSelf(2).Children().Where("Visible")){
 					counter = counter + 1;				
 				}
 				

@@ -1254,6 +1254,10 @@
     <Content Include="Views\Partials\sideNav.cshtml" />
     <Content Include="Views\umbLayout.cshtml" />
     <Content Include="Views\Web.config" />
+    <Content Include="Views\Partials\Blog.cshtml" />
+    <Content Include="App_Code\Helpers.cshtml" />
+    <Content Include="Views\Partials\Category.cshtml" />
+    <Content Include="Views\Partials\PostMeta.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
