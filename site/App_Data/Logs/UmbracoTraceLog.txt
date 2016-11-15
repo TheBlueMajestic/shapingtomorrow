@@ -209,3 +209,5 @@ System.Net.WebException: The remote server returned an error: (404) Not Found.
 2016-11-09 14:21:53,178 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 309] User Id: 1 logged in
 2016-11-09 14:21:53,241 [7] INFO  Umbraco.Core.PluginManager - [Thread 312] Starting resolution types of Umbraco.Web.Trees.TreeController
 2016-11-09 14:21:53,241 [7] INFO  Umbraco.Core.PluginManager - [Thread 312] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-11-15 11:12:55,220 [11] INFO  umbraco.BusinessLogic.Log - [Thread 19] Log scrubbed.  Removed all items older than 2016-09-16 11:12:55
+2016-11-15 11:12:55,222 [11] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 19] Application shutdown. Reason: CodeDirChangeOrDirectoryRename
