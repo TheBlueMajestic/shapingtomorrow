@@ -1,7 +1,0 @@
-﻿2016-04-30 17:22:41,598 [7] INFO  umbraco.BusinessLogic.Log - [Thread 227] Log scrubbed.  Removed all items older than 2016-03-01 17:22:41
-2016-04-30 17:30:15,264 [7] INFO  Umbraco.Core.PluginManager - [Thread 204] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
-2016-04-30 17:30:15,264 [7] INFO  Umbraco.Core.PluginManager - [Thread 204] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
-2016-04-30 17:30:15,327 [7] INFO  Umbraco.Core.PluginManager - [Thread 204] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
-2016-04-30 17:30:15,327 [7] INFO  Umbraco.Core.PluginManager - [Thread 204] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
-2016-04-30 22:22:28,667 [7] INFO  umbraco.BusinessLogic.Log - [Thread 332] Log scrubbed.  Removed all items older than 2016-03-01 22:22:28
-2016-04-30 22:22:28,667 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 332] Application shutdown. Reason: HostingEnvironment
