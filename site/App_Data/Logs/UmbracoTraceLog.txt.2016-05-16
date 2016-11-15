@@ -1,6 +1,0 @@
-﻿2016-05-16 21:04:19,174 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 470] An error occurred with the scheduled publishing
-System.Net.WebException: The operation has timed out
-   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
-   at System.Net.WebClient.UploadString(Uri address, String method, String data)
-   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
-2016-05-16 21:19:00,846 [10] INFO  umbraco.BusinessLogic.Log - [Thread 513] Log scrubbed.  Removed all items older than 2016-03-17 21:19:00
