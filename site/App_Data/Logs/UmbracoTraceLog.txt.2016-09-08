@@ -1,0 +1,129 @@
+﻿2016-09-08 07:49:41,265 [10] INFO  Umbraco.Core.PluginManager - [Thread 445] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-09-08 07:49:41,265 [10] INFO  Umbraco.Core.PluginManager - [Thread 445] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2016-09-08 07:49:41,327 [10] INFO  Umbraco.Core.PluginManager - [Thread 445] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-09-08 07:49:41,327 [10] INFO  Umbraco.Core.PluginManager - [Thread 445] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2016-09-08 10:17:36,434 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 342] User Id: 1 logged in
+2016-09-08 10:17:36,746 [10] INFO  Umbraco.Core.PluginManager - [Thread 544] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-09-08 10:17:36,746 [10] INFO  Umbraco.Core.PluginManager - [Thread 544] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-09-08 10:17:37,791 [10] INFO  Umbraco.Core.PluginManager - [Thread 540] Starting resolution types of umbraco.interfaces.ITree
+2016-09-08 10:17:37,791 [10] INFO  Umbraco.Core.PluginManager - [Thread 540] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
+2016-09-08 10:41:06,325 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 353] Content 'q1' with Id '1595' has been unpublished.
+2016-09-08 10:41:07,074 [10] INFO  Umbraco.Core.PluginManager - [Thread 353] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-09-08 10:41:07,074 [10] INFO  Umbraco.Core.PluginManager - [Thread 353] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 1ms)
+2016-09-08 12:15:59,836 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 421] User Id: 1 logged in
+2016-09-08 12:18:34,620 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 427] Content 'q2' with Id '0' has been published.
+2016-09-08 12:19:41,997 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 415] Content 'q11' with Id '0' has been published.
+2016-09-08 12:21:20,402 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 427] Content 'q12' with Id '0' has been published.
+2016-09-08 12:25:02,657 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 422] Content 'q13' with Id '0' has been published.
+2016-09-08 12:25:50,659 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 439] Content 'q9' with Id '0' has been published.
+2016-09-08 12:26:37,443 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 422] Content 'q10' with Id '0' has been published.
+2016-09-08 12:27:17,598 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 439] Content 'q14' with Id '0' has been published.
+2016-09-08 13:11:59,444 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 538] User Id: 1 logged in
+2016-09-08 13:13:00,082 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 534] Content 'BUILDING: THE SERVICE OPERATIONS CENTER' with Id '0' has been published.
+2016-09-08 13:13:23,763 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 320] Content 'BUILDING: THE SERVICE OPERATIONS CENTER' with Id '2222' has been published.
+2016-09-08 13:13:23,763 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 320] Content 'BUILDING' with Id '1589' has been published.
+2016-09-08 13:13:23,763 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 320] Content 'PARKING AND TRANSPORTATION' with Id '1594' has been published.
+2016-09-08 13:13:23,763 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 320] Content 'RELOCATION' with Id '1598' has been published.
+2016-09-08 13:13:23,763 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 320] Content 'OTHER' with Id '1654' has been published.
+2016-09-08 13:14:12,467 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 556] Content 'BUILDING: DOWNTOWN HQ' with Id '1589' has been published.
+2016-09-08 13:16:34,350 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 473] Content 'Q1' with Id '0' has been published.
+2016-09-08 13:16:55,098 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 470] Content 'Q2' with Id '0' has been published.
+2016-09-08 13:17:15,830 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 338] Content 'Q3' with Id '0' has been published.
+2016-09-08 13:17:30,682 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 529] Content 'q3' with Id '2225' has been published.
+2016-09-08 13:17:45,658 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 338] Content 'q1' with Id '2223' has been published.
+2016-09-08 13:17:52,522 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 482] Content 'q2' with Id '2224' has been published.
+2016-09-08 13:18:19,136 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 555] Content 'q11' with Id '2216' has been unpublished.
+2016-09-08 13:18:26,343 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 350] Content 'q12' with Id '2217' has been unpublished.
+2016-09-08 13:18:53,518 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 343] Content 'q13' with Id '2218' has been unpublished.
+2016-09-08 13:19:01,599 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 473] Content 'q11' with Id '2221' has been published.
+2016-09-08 13:20:30,145 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 514] Content 'Have we been working with the city's traffic department to improve traffic flow?' with Id '2177' has been published.
+2016-09-08 13:20:46,089 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 467] Content 'Can we revisit the four-day work week?' with Id '2178' has been published.
+2016-09-08 13:21:02,531 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 333] Content 'If I accept the offer and move to Nashville but do not stay the full two years after the move date, do I have to pay back a pro-rata share of the Relocation Benefits, the Transition Bonus or both?' with Id '2172' has been published.
+2016-09-08 13:21:22,515 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 470] Content 'Will the SOC location in Antioch have a Task Bar?' with Id '2173' has been published.
+2016-09-08 13:21:41,048 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 470] Content 'Is the workstation design (for the downtown facility) one size fits all, or will there be options for the teammates to choose so they can best perform their work?' with Id '2179' has been published.
+2016-09-08 13:21:54,745 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 470] Content 'Has the project team planned to include some bumper plates, Olympic lifting bars and pullup rigs in the new fitness facility at the downtown facility?' with Id '2184' has been published.
+2016-09-08 13:22:11,998 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 487] Content 'Will Bridgestone teammates receive a discounted rate when parking in the new building during non-business hours?' with Id '2174' has been published.
+2016-09-08 13:22:27,879 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 546] Content 'Will there be a food option that takes into account food allergies like gluten and dairy? Will the café and shared areas have built in chargers for laptops/cell phones?' with Id '0' has been published.
+2016-09-08 13:22:43,479 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 333] Content 'For the parking garage at the new downtown building will there be assigned levels to park on based on the time of day we come into work or the department we work in?' with Id '0' has been published.
+2016-09-08 13:22:56,818 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 333] Content 'Can we have a desktop surface that we can use dry erase markers on to jot down quick notes, to do list, illustrations, calculations, etc.?' with Id '0' has been published.
+2016-09-08 13:23:14,134 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 556] Content 'Will there be a concierge service in the parking garage for auto service?' with Id '0' has been published.
+2016-09-08 13:23:30,046 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 470] Content 'I am a certified jazzercise instructor and was wondering if I could teach my class in the group fitness room. Is this something that could be done in the new building?' with Id '0' has been published.
+2016-09-08 13:23:43,353 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 340] Content 'The downtown building looks like it will have a lot of smart features. Based on the Outlook meeting info, can the lights in the meeting rooms start to flash near the end of the meeting time to encourage wrapping up the meeting and clearing the room for the next meeting?' with Id '0' has been published.
+2016-09-08 13:23:43,368 [10] INFO  Umbraco.Core.Persistence.UmbracoDatabase - [Thread 340]    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteScalar()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClassa.<ExecuteScalarWithRetry>b__9()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.Database.Insert(String tableName, String primaryKeyName, Boolean autoIncrement, Object poco)
+2016-09-08 13:25:34,191 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 529] Content 'Will standing desks be an option in the new building?' with Id '0' has been published.
+2016-09-08 13:25:56,234 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 470] Content 'Will there be a company store (similar to Warren County) where we can purchase Company merchandise such as Bridgestone-Firestone shirts, jackets, pens, golf balls, hats and other items that we now order online?' with Id '0' has been published.
+2016-09-08 13:26:24,814 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 556] Content 'Is there any option that can raise the Facility Department's walls up a little more to make them taller and cut down on some of the noise? If not, how can a person concentrate when there is so much noise around them?' with Id '0' has been published.
+2016-09-08 13:26:41,646 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 470] Content 'Besides each teammate's office space, will there be any common storage/file space per department? This would be for reference materials and documents which are shared amongst several teammates within a department.' with Id '0' has been published.
+2016-09-08 13:26:59,087 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 514] Content 'Many of us need to reserve conference rooms months in advance and have already confirmed rooms in the ASC building for 2017. Will we be able to do advance booking of conference rooms in the new building or transfer active reservations prior to the move? How will we be able to plan and ensure continuation of business needs through the moving and transition process?' with Id '0' has been published.
+2016-09-08 13:26:59,103 [10] INFO  Umbraco.Core.Persistence.UmbracoDatabase - [Thread 514]    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteScalar()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClassa.<ExecuteScalarWithRetry>b__9()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.Database.Insert(String tableName, String primaryKeyName, Boolean autoIncrement, Object poco)
+2016-09-08 13:27:39,429 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 351] Content 'There has been much discussion on the Shaping Tomorrow website regarding "collaborative work space" and the definition of this phrase. Can the Shaping Tomorrow team offer greater clarification for all?' with Id '0' has been published.
+2016-09-08 13:28:02,112 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 340] Content 'How will the smoke, fumes and smells from the cafeteria be contained and prevented from wafting to the other floors through the grand staircase?' with Id '0' has been published.
+2016-09-08 13:28:19,896 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 507] Content 'Will there be any renderings of what the SOC in Antioch will look like and all the amenities that will be there?' with Id '0' has been published.
+2016-09-08 13:28:48,662 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 351] Content 'Why can't the group that is scheduled to be moved to Antioch go to the second floor of the Goo Goo Cluster/Standard Candy Co. office building at Two Dell Parkway?' with Id '0' has been published.
+2016-09-08 14:32:27,648 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 517] User Id: 1 logged in
+2016-09-08 15:11:04,530 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 521] User Id: 1 logged in
+2016-09-08 15:11:50,394 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 479] Content 'The downtown building looks like it will have a lot of smart features. Can the lights in the meeting rooms be programmed to  flash near the end of meetings to encourage teammates to wrap up?' with Id '0' has been published.
+2016-09-08 15:12:48,099 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 479] Content 'According to 2015 research by the National Institute of Mental Health, 10% of the US population has a fear of heights. Can some kind of window treatment be used on the lower 2 or 3 feet of the windows to mitigate the sense of no walls while still allowing city views?' with Id '0' has been published.
+2016-09-08 15:12:48,130 [10] INFO  Umbraco.Core.Persistence.UmbracoDatabase - [Thread 479]    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteScalar()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClassa.<ExecuteScalarWithRetry>b__9()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.Database.Insert(String tableName, String primaryKeyName, Boolean autoIncrement, Object poco)
+2016-09-08 15:14:10,389 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 407] Content 'For those who have a fear of heights, can some kind of window treatment be used on the lower 2 or 3 feet of the windows to mitigate the sense of no walls while still allowing city views?' with Id '0' has been published.
+2016-09-08 15:15:02,556 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 407] Content 'Will we be able to do advance booking of conference rooms in the new building or transfer active reservations prior to the move? How will we be able to plan and ensure continuation of business needs through the moving and transition process?' with Id '0' has been published.
+2016-09-08 15:16:45,486 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 529] Content 'Bridgestone joins initiative to bring Major League Soccer to Nashville' with Id '0' has been published.
+2016-09-08 15:17:25,952 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 353] Content '$1 billion expansion announced for Nashville International Airport' with Id '0' has been published.
+2016-09-08 15:19:06,698 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 471] Content 'Bridgestone joins initiative to bring Major League Soccer to Nashville' with Id '2245' has been published.
+2016-09-08 15:19:43,873 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 338] Content '$1 billion expansion announced for Nashville International Airport' with Id '2246' has been published.
+2016-09-08 15:20:05,573 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 353] Content '$1 billion expansion announced for Nashville International Airport' with Id '2246' has been published.
+2016-09-08 15:20:13,092 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 487] Content '$1 billion expansion announced for Nashville International Airport' with Id '2246' has been published.
+2016-09-08 15:20:25,245 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 511] Content 'Bridgestone joins initiative to bring Major League Soccer to Nashville' with Id '2245' has been published.
+2016-09-08 15:20:38,068 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 471] Content 'Bridgestone joins initiative to bring Major League Soccer to Nashville' with Id '2245' has been published.
+2016-09-08 15:20:45,057 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 338] Content '$1 billion expansion announced for Nashville International Airport' with Id '2246' has been published.
+2016-09-08 15:20:58,910 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 348] Content 'Bridgestone joins initiative to bring Major League Soccer to Nashville' with Id '2245' has been published.
+2016-09-08 15:21:39,953 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 505] Content '$1 billion expansion announced for Nashville International Airport' with Id '2246' has been published.
+2016-09-08 15:51:55,495 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 457] Content 'Home' with Id '1052' has been published.
+2016-09-08 15:53:05,617 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 436] Content 'Home' with Id '1052' has been published.
+2016-09-08 15:53:53,385 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 472] Content 'Home' with Id '1052' has been published.
+2016-09-08 15:55:02,134 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 494] Content 'Home' with Id '1052' has been published.
+2016-09-08 16:13:58,228 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 425] User Id: 1 logged in
+2016-09-08 16:13:58,306 [10] INFO  Umbraco.Core.PluginManager - [Thread 551] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-09-08 16:13:58,306 [10] INFO  Umbraco.Core.PluginManager - [Thread 551] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-09-08 16:26:05,583 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 463] Content 'Home' with Id '1052' has been published.
+2016-09-08 16:26:05,770 [10] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 544] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2016-09-08 19:28:40,871 [10] INFO  umbraco.BusinessLogic.Log - [Thread 497] Log scrubbed.  Removed all items older than 2016-07-10 19:28:40

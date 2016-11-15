@@ -1,0 +1,16 @@
+﻿2015-12-25 09:14:13,056 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 225] An error occurred with the scheduled publishing
+System.Net.WebException: The operation has timed out
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2015-12-25 13:51:16,816 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 45] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (524) Origin Time-out.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2015-12-25 20:46:22,472 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 152] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (524) Origin Time-out.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2015-12-25 22:07:02,002 [10] INFO  umbraco.BusinessLogic.Log - [Thread 165] Log scrubbed.  Removed all items older than 2015-10-26 22:07:02

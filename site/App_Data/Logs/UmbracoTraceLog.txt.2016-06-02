@@ -1,0 +1,73 @@
+﻿2016-06-02 00:03:39,267 [7] INFO  umbraco.BusinessLogic.Log - [Thread 175] Log scrubbed.  Removed all items older than 2016-04-03 00:03:39
+2016-06-02 05:03:37,834 [7] INFO  umbraco.BusinessLogic.Log - [Thread 322] Log scrubbed.  Removed all items older than 2016-04-03 05:03:37
+2016-06-02 05:03:37,850 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 322] Application shutdown. Reason: HostingEnvironment
+2016-06-02 05:36:26,116 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-06-02 05:36:26,131 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 14ms)
+2016-06-02 05:36:26,131 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-06-02 05:36:26,147 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 35 (took 8ms)
+2016-06-02 05:36:26,241 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-06-02 05:36:26,241 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2016-06-02 05:36:26,241 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-06-02 05:36:26,256 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 1ms)
+2016-06-02 05:36:26,272 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-06-02 05:36:26,272 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2016-06-02 05:36:26,272 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-06-02 05:36:26,272 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 30 (took 2ms)
+2016-06-02 05:36:26,334 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-06-02 05:36:26,334 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2016-06-02 05:36:26,334 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-06-02 05:36:26,334 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-06-02 05:36:27,255 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2016-06-02 05:36:27,255 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 0ms)
+2016-06-02 05:36:27,301 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-06-02 05:36:27,301 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-06-02 05:36:27,317 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2016-06-02 05:36:27,317 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2016-06-02 05:36:27,317 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-06-02 05:36:27,489 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-06-02 05:36:27,832 [7] INFO  Umbraco.Web.UmbracoModule - [Thread 10] Setting OriginalRequestUrl: bsashapingtomorrow.com:80/umbraco
+2016-06-02 05:36:27,925 [7] INFO  umbraco.content - [Thread 10] Loading content from disk cache...
+2016-06-02 05:36:28,144 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-06-02 05:36:28,144 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 22 (took 1ms)
+2016-06-02 05:36:28,487 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-06-02 05:36:28,487 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 1ms)
+2016-06-02 05:38:37,391 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 13] An error occurred with the scheduled publishing
+System.Net.WebException: The operation has timed out
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-06-02 05:57:37,619 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 92] An error occurred with the scheduled publishing
+System.Net.WebException: The operation has timed out
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-06-02 06:54:41,391 [7] INFO  Umbraco.Core.PluginManager - [Thread 215] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-06-02 06:54:41,391 [7] INFO  Umbraco.Core.PluginManager - [Thread 215] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2016-06-02 06:54:41,469 [7] INFO  Umbraco.Core.PluginManager - [Thread 215] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-06-02 06:54:41,469 [7] INFO  Umbraco.Core.PluginManager - [Thread 215] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2016-06-02 17:15:21,900 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 323] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (522) Origin Connection Time-out.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-06-02 17:19:46,884 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 254] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (524) Origin Time-out.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-06-02 17:20:06,930 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 460] An error occurred with the scheduled publishing
+System.Net.WebException: The underlying connection was closed: A connection that was expected to be kept alive was closed by the server. ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-06-02 17:42:47,228 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 471] An error occurred with the scheduled publishing
+System.Net.WebException: The operation has timed out
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)

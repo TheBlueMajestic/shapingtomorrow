@@ -1,0 +1,38 @@
+﻿2016-02-01 02:08:21,394 [10] INFO  Umbraco.Core.PluginManager - [Thread 194] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-02-01 02:08:21,394 [10] INFO  Umbraco.Core.PluginManager - [Thread 194] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2016-02-01 02:08:21,456 [10] INFO  Umbraco.Core.PluginManager - [Thread 194] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-02-01 02:08:21,456 [10] INFO  Umbraco.Core.PluginManager - [Thread 194] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2016-02-01 06:36:25,905 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 981] User Id: 2 logged in
+2016-02-01 06:36:26,326 [10] INFO  Umbraco.Core.PluginManager - [Thread 979] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-02-01 06:36:26,326 [10] INFO  Umbraco.Core.PluginManager - [Thread 979] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-02-01 06:36:27,434 [10] INFO  Umbraco.Core.PluginManager - [Thread 966] Starting resolution types of umbraco.interfaces.ITree
+2016-02-01 06:36:27,449 [10] INFO  Umbraco.Core.PluginManager - [Thread 966] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
+2016-02-01 08:06:21,172 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 970] User Id: 2 logged in
+2016-02-01 08:06:21,375 [10] INFO  Umbraco.Core.PluginManager - [Thread 963] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-02-01 08:06:21,375 [10] INFO  Umbraco.Core.PluginManager - [Thread 963] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-02-01 11:49:05,383 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 903] User Id: 1 logged in
+2016-02-01 11:49:05,492 [10] INFO  Umbraco.Core.PluginManager - [Thread 907] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-02-01 11:49:05,492 [10] INFO  Umbraco.Core.PluginManager - [Thread 907] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-02-01 11:50:25,489 [10] INFO  Umbraco.Core.PluginManager - [Thread 888] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-02-01 11:50:25,505 [10] INFO  Umbraco.Core.PluginManager - [Thread 888] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 1ms)
+2016-02-01 11:52:23,208 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 827] Content 'Project Committees' with Id '1443' has been published.
+2016-02-01 12:48:03,285 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 925] User Id: 2 logged in
+2016-02-01 12:48:03,488 [10] INFO  Umbraco.Core.PluginManager - [Thread 901] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-02-01 12:48:03,488 [10] INFO  Umbraco.Core.PluginManager - [Thread 901] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-02-01 13:38:38,162 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 881] User Id: 1 logged in
+2016-02-01 13:38:38,256 [10] INFO  Umbraco.Core.PluginManager - [Thread 872] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-02-01 13:38:38,256 [10] INFO  Umbraco.Core.PluginManager - [Thread 872] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-02-01 14:02:18,272 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 900] User Id: 0 logged in
+2016-02-01 14:02:18,443 [10] INFO  Umbraco.Core.PluginManager - [Thread 877] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-02-01 14:02:18,443 [10] INFO  Umbraco.Core.PluginManager - [Thread 877] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-02-01 14:12:35,397 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 876] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (524) Origin Time-out.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-02-01 14:14:29,761 [10] INFO  Umbraco.Core.PluginManager - [Thread 900] Starting resolution types of umbraco.interfaces.IDataType
+2016-02-01 14:14:29,761 [10] INFO  Umbraco.Core.PluginManager - [Thread 900] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 1ms)
+2016-02-01 14:14:40,166 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 912] Content 'Project Committees' with Id '1443' has been published.
+2016-02-01 18:19:20,917 [10] INFO  umbraco.BusinessLogic.Log - [Thread 676] Log scrubbed.  Removed all items older than 2015-12-03 18:19:20
+2016-02-01 23:19:08,392 [10] INFO  umbraco.BusinessLogic.Log - [Thread 348] Log scrubbed.  Removed all items older than 2015-12-03 23:19:08
+2016-02-01 23:19:08,392 [10] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 348] Application shutdown. Reason: HostingEnvironment

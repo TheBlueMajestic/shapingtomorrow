@@ -1,0 +1,16 @@
+﻿2016-02-10 13:21:40,711 [10] INFO  Umbraco.Core.PluginManager - [Thread 151] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-02-10 13:21:40,711 [10] INFO  Umbraco.Core.PluginManager - [Thread 151] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 3ms)
+2016-02-10 13:21:40,758 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 151] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-02-10 13:21:41,351 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 151] New document 1866
+2016-02-10 13:21:41,382 [10] INFO  Umbraco.Core.PluginManager - [Thread 151] Starting resolution types of umbraco.interfaces.IDataType
+2016-02-10 13:21:41,382 [10] INFO  Umbraco.Core.PluginManager - [Thread 151] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 3ms)
+2016-02-10 13:21:41,397 [10] INFO  Umbraco.Core.PluginManager - [Thread 151] Starting resolution types of umbraco.interfaces.ITree
+2016-02-10 13:21:41,397 [10] INFO  Umbraco.Core.PluginManager - [Thread 151] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
+2016-02-10 13:21:41,585 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 151] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-02-10 13:21:41,850 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 151] Content 'Shawn DeMers' with Id '1866' has been published.
+2016-02-10 13:21:41,897 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 151] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-02-10 13:21:41,897 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 151] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-02-10 14:31:13,008 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 212] User Id: 0 logged in
+2016-02-10 14:31:13,273 [10] INFO  Umbraco.Core.PluginManager - [Thread 199] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-02-10 14:31:13,273 [10] INFO  Umbraco.Core.PluginManager - [Thread 199] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-02-10 20:11:59,560 [10] INFO  umbraco.BusinessLogic.Log - [Thread 203] Log scrubbed.  Removed all items older than 2015-12-12 20:11:59

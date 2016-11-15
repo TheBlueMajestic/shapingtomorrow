@@ -1,0 +1,43 @@
+﻿2016-08-16 08:28:08,939 [7] INFO  umbraco.BusinessLogic.Log - [Thread 249] Log scrubbed.  Removed all items older than 2016-06-17 08:28:08
+2016-08-16 13:27:23,934 [7] INFO  umbraco.BusinessLogic.Log - [Thread 322] Log scrubbed.  Removed all items older than 2016-06-17 13:27:23
+2016-08-16 13:27:23,934 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 322] Application shutdown. Reason: HostingEnvironment
+2016-08-16 13:33:20,132 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-08-16 13:33:20,147 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 14ms)
+2016-08-16 13:33:20,163 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-08-16 13:33:20,179 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 35 (took 10ms)
+2016-08-16 13:33:20,272 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-08-16 13:33:20,272 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2016-08-16 13:33:20,272 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-08-16 13:33:20,272 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 1ms)
+2016-08-16 13:33:20,303 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-08-16 13:33:20,303 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2016-08-16 13:33:20,303 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-08-16 13:33:20,303 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 30 (took 2ms)
+2016-08-16 13:33:20,350 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-08-16 13:33:20,350 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2016-08-16 13:33:20,350 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-08-16 13:33:20,350 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-08-16 13:33:21,349 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2016-08-16 13:33:21,349 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 0ms)
+2016-08-16 13:33:21,411 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-08-16 13:33:21,411 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-08-16 13:33:21,427 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2016-08-16 13:33:21,427 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2016-08-16 13:33:21,442 [15] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-08-16 13:33:21,614 [15] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-08-16 13:33:22,035 [15] INFO  Umbraco.Web.UmbracoModule - [Thread 8] Setting OriginalRequestUrl: www.bsashapingtomorrow.com:80/umbraco
+2016-08-16 13:33:22,128 [15] INFO  umbraco.content - [Thread 8] Loading content from disk cache...
+2016-08-16 13:33:22,253 [15] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-08-16 13:33:22,269 [15] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 22 (took 1ms)
+2016-08-16 13:33:22,581 [15] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-08-16 13:33:22,581 [15] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 1ms)
+2016-08-16 13:37:31,481 [15] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 7] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (524) Origin Time-out.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-08-16 13:45:31,590 [15] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 12] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (524) Origin Time-out.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)

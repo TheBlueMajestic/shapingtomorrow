@@ -1,0 +1,19 @@
+﻿2015-07-15 08:58:28,316 [7] INFO  Umbraco.Core.PluginManager - [Thread 624] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-07-15 08:58:28,316 [7] INFO  Umbraco.Core.PluginManager - [Thread 624] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2015-07-15 08:58:28,394 [7] INFO  Umbraco.Core.PluginManager - [Thread 624] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-07-15 08:58:28,394 [7] INFO  Umbraco.Core.PluginManager - [Thread 624] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2015-07-15 15:20:56,955 [7] INFO  Umbraco.Core.PluginManager - [Thread 87] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2015-07-15 15:20:56,955 [7] INFO  Umbraco.Core.PluginManager - [Thread 87] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 3ms)
+2015-07-15 15:20:57,001 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 87] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-07-15 15:20:57,563 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 87] New document 1562
+2015-07-15 15:20:57,594 [7] INFO  Umbraco.Core.PluginManager - [Thread 87] Starting resolution types of umbraco.interfaces.IDataType
+2015-07-15 15:20:57,594 [7] INFO  Umbraco.Core.PluginManager - [Thread 87] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 3ms)
+2015-07-15 15:20:57,610 [7] INFO  Umbraco.Core.PluginManager - [Thread 87] Starting resolution types of umbraco.interfaces.ITree
+2015-07-15 15:20:57,610 [7] INFO  Umbraco.Core.PluginManager - [Thread 87] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
+2015-07-15 15:20:57,781 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 87] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-07-15 15:20:58,047 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 87] Content 'Jeff Owen (4)' with Id '1562' has been published.
+2015-07-15 15:20:58,093 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 87] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-07-15 15:20:58,093 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 87] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-07-15 17:03:40,902 [7] INFO  umbraco.BusinessLogic.Log - [Thread 98] Log scrubbed.  Removed all items older than 2015-05-16 17:03:40
+2015-07-15 22:03:31,373 [7] INFO  umbraco.BusinessLogic.Log - [Thread 286] Log scrubbed.  Removed all items older than 2015-05-16 22:03:31
+2015-07-15 22:03:31,373 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 286] Application shutdown. Reason: HostingEnvironment

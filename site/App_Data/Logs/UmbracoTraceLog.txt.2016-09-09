@@ -1,0 +1,58 @@
+﻿2016-09-09 00:23:23,645 [10] INFO  umbraco.BusinessLogic.Log - [Thread 473] Log scrubbed.  Removed all items older than 2016-07-11 00:23:23
+2016-09-09 00:23:23,645 [10] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 473] Application shutdown. Reason: HostingEnvironment
+2016-09-09 01:17:59,481 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-09-09 01:17:59,497 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 14ms)
+2016-09-09 01:17:59,512 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-09-09 01:17:59,528 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 35 (took 8ms)
+2016-09-09 01:17:59,622 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-09-09 01:17:59,622 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2016-09-09 01:17:59,622 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-09-09 01:17:59,622 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 0ms)
+2016-09-09 01:17:59,637 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-09-09 01:17:59,637 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2016-09-09 01:17:59,637 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-09-09 01:17:59,637 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 30 (took 2ms)
+2016-09-09 01:17:59,700 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-09-09 01:17:59,700 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2016-09-09 01:17:59,700 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-09-09 01:17:59,700 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-09-09 01:18:00,651 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2016-09-09 01:18:00,651 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 0ms)
+2016-09-09 01:18:00,698 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-09-09 01:18:00,698 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-09-09 01:18:00,714 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2016-09-09 01:18:00,714 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2016-09-09 01:18:00,729 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-09-09 01:18:00,885 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-09-09 01:18:01,228 [10] INFO  Umbraco.Web.UmbracoModule - [Thread 13] Setting OriginalRequestUrl: bsashapingtomorrow.com:80/umbraco
+2016-09-09 01:18:01,369 [10] INFO  umbraco.content - [Thread 13] Loading content from disk cache...
+2016-09-09 01:18:01,556 [10] INFO  Umbraco.Core.PluginManager - [Thread 13] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-09-09 01:18:01,572 [10] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 22 (took 1ms)
+2016-09-09 01:18:01,977 [10] INFO  Umbraco.Core.PluginManager - [Thread 13] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-09-09 01:18:01,977 [10] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 1ms)
+2016-09-09 12:44:07,865 [10] INFO  Umbraco.Core.PluginManager - [Thread 241] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-09-09 12:44:07,865 [10] INFO  Umbraco.Core.PluginManager - [Thread 241] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2016-09-09 12:44:07,927 [10] INFO  Umbraco.Core.PluginManager - [Thread 241] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-09-09 12:44:07,927 [10] INFO  Umbraco.Core.PluginManager - [Thread 241] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2016-09-09 12:55:01,650 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 234] User Id: 1 logged in
+2016-09-09 12:55:01,977 [10] INFO  Umbraco.Core.PluginManager - [Thread 250] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-09-09 12:55:01,977 [10] INFO  Umbraco.Core.PluginManager - [Thread 250] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-09-09 12:55:02,648 [10] INFO  Umbraco.Core.PluginManager - [Thread 241] Starting resolution types of umbraco.interfaces.ITree
+2016-09-09 12:55:02,648 [10] INFO  Umbraco.Core.PluginManager - [Thread 241] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
+2016-09-09 12:55:58,185 [10] INFO  Umbraco.Core.PluginManager - [Thread 204] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-09-09 12:55:58,185 [10] INFO  Umbraco.Core.PluginManager - [Thread 204] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 1ms)
+2016-09-09 12:58:54,388 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 201] Content 'Milestones & Updates' with Id '1057' has been published.
+2016-09-09 12:59:31,017 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 202] Content 'Milestones & Updates' with Id '1057' has been published.
+2016-09-09 13:02:49,341 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 244] User Id: 0 logged in
+2016-09-09 13:02:49,404 [10] INFO  Umbraco.Core.PluginManager - [Thread 236] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-09-09 13:02:49,404 [10] INFO  Umbraco.Core.PluginManager - [Thread 236] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-09-09 13:03:41,648 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 212] Content 'Milestones & Updates' with Id '1057' has been published.
+2016-09-09 13:53:41,799 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 295] User Id: 1 logged in
+2016-09-09 15:18:37,030 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 388] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-09 15:18:37,077 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 388] New document 2253
+2016-09-09 15:18:37,092 [10] INFO  Umbraco.Core.PluginManager - [Thread 388] Starting resolution types of umbraco.interfaces.IDataType
+2016-09-09 15:18:37,092 [10] INFO  Umbraco.Core.PluginManager - [Thread 388] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 2ms)
+2016-09-09 15:18:37,186 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 388] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-09 15:18:37,358 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 388] Content 'Tom Gebka (2)' with Id '2253' has been published.
+2016-09-09 15:18:37,420 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 388] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-09-09 15:18:37,436 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 388] There is no current Umbraco user logged in, the notifications will be sent from the administrator

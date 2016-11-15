@@ -1,0 +1,189 @@
+﻿2016-08-21 08:36:01,902 [10] INFO  umbraco.BusinessLogic.Log - [Thread 59] Log scrubbed.  Removed all items older than 2016-06-22 08:36:01
+2016-08-21 13:35:51,577 [10] INFO  umbraco.BusinessLogic.Log - [Thread 168] Log scrubbed.  Removed all items older than 2016-06-22 13:35:51
+2016-08-21 13:35:51,577 [10] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 168] Application shutdown. Reason: HostingEnvironment
+2016-08-21 15:26:07,709 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-08-21 15:26:07,740 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 14ms)
+2016-08-21 15:26:07,740 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-08-21 15:26:07,756 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 35 (took 8ms)
+2016-08-21 15:26:07,849 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-08-21 15:26:07,849 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2016-08-21 15:26:07,849 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-08-21 15:26:07,849 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 0ms)
+2016-08-21 15:26:07,865 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-08-21 15:26:07,865 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2016-08-21 15:26:07,865 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-08-21 15:26:07,865 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 30 (took 2ms)
+2016-08-21 15:26:07,927 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-08-21 15:26:07,927 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2016-08-21 15:26:07,927 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-08-21 15:26:07,927 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-08-21 15:26:08,941 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2016-08-21 15:26:08,941 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 0ms)
+2016-08-21 15:26:08,988 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-08-21 15:26:08,988 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-08-21 15:26:09,004 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2016-08-21 15:26:09,004 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2016-08-21 15:26:09,019 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-08-21 15:26:09,191 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-08-21 15:26:09,534 [7] INFO  Umbraco.Web.UmbracoModule - [Thread 10] Setting OriginalRequestUrl: testp3.pospr.waw.pl:80/umbraco
+2016-08-21 15:26:39,939 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 5] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-08-21 15:27:09,173 [7] ERROR Umbraco.Web.Scheduling.KeepAlive - [Thread 14] Error in ping
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at Umbraco.Web.Scheduling.KeepAlive.Start(Object sender)
+2016-08-21 15:27:39,188 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 15] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-08-21 15:28:39,202 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 16] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-08-21 15:29:39,215 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 21] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-08-21 15:30:39,244 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 14] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-08-21 15:31:39,242 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 29] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-08-21 15:32:09,241 [7] ERROR Umbraco.Web.Scheduling.KeepAlive - [Thread 21] Error in ping
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at Umbraco.Web.Scheduling.KeepAlive.Start(Object sender)
+2016-08-21 15:32:39,256 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 34] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-08-21 15:33:39,270 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 32] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-08-21 15:34:39,283 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 40] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-08-21 15:35:39,297 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 25] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-08-21 15:36:39,311 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 25] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-08-21 15:37:09,185 [7] ERROR Umbraco.Web.Scheduling.KeepAlive - [Thread 46] Error in ping
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at Umbraco.Web.Scheduling.KeepAlive.Start(Object sender)
+2016-08-21 15:37:39,324 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 50] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-08-21 15:38:39,338 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 51] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-08-21 15:39:39,352 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 45] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-08-21 15:40:39,365 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 25] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-08-21 15:41:39,379 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 32] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-08-21 15:42:09,222 [7] ERROR Umbraco.Web.Scheduling.KeepAlive - [Thread 56] Error in ping
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at Umbraco.Web.Scheduling.KeepAlive.Start(Object sender)
+2016-08-21 15:42:39,392 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 55] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-08-21 15:43:39,406 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 61] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-08-21 15:44:39,420 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 65] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-08-21 15:45:39,433 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 67] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-08-21 15:46:39,447 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 69] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-08-21 15:47:08,323 [7] INFO  umbraco.BusinessLogic.Log - [Thread 68] Log scrubbed.  Removed all items older than 2016-06-22 15:47:08
+2016-08-21 15:47:08,323 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 68] Application shutdown. Reason: HostingEnvironment
+2016-08-21 16:41:05,502 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-08-21 16:41:05,518 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 13ms)
+2016-08-21 16:41:05,518 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-08-21 16:41:05,533 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 35 (took 8ms)
+2016-08-21 16:41:05,627 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-08-21 16:41:05,627 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2016-08-21 16:41:05,627 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-08-21 16:41:05,627 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 1ms)
+2016-08-21 16:41:05,658 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-08-21 16:41:05,658 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2016-08-21 16:41:05,658 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-08-21 16:41:05,658 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 30 (took 2ms)
+2016-08-21 16:41:05,705 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-08-21 16:41:05,720 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2016-08-21 16:41:05,720 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-08-21 16:41:05,720 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-08-21 16:41:06,688 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2016-08-21 16:41:06,688 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 0ms)
+2016-08-21 16:41:06,734 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-08-21 16:41:06,734 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-08-21 16:41:06,750 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2016-08-21 16:41:06,750 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2016-08-21 16:41:06,750 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-08-21 16:41:06,922 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-08-21 16:41:07,265 [10] INFO  Umbraco.Web.UmbracoModule - [Thread 11] Setting OriginalRequestUrl: 23.253.69.79:80/umbraco
+2016-08-21 16:51:22,143 [10] INFO  umbraco.content - [Thread 55] Loading content from disk cache...
+2016-08-21 16:51:22,315 [10] INFO  Umbraco.Core.PluginManager - [Thread 55] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-08-21 16:51:22,315 [10] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 22 (took 2ms)
+2016-08-21 16:51:22,689 [10] INFO  Umbraco.Core.PluginManager - [Thread 55] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-08-21 16:51:22,689 [10] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 1ms)
+2016-08-21 17:09:05,353 [10] INFO  Umbraco.Core.PluginManager - [Thread 93] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-08-21 17:09:05,353 [10] INFO  Umbraco.Core.PluginManager - [Thread 93] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2016-08-21 17:09:05,431 [10] INFO  Umbraco.Core.PluginManager - [Thread 93] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-08-21 17:09:05,431 [10] INFO  Umbraco.Core.PluginManager - [Thread 93] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)

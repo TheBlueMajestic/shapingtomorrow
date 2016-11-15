@@ -1,0 +1,33 @@
+﻿2016-07-27 08:02:42,966 [7] INFO  Umbraco.Core.PluginManager - [Thread 124] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-07-27 08:02:42,966 [7] INFO  Umbraco.Core.PluginManager - [Thread 124] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2016-07-27 08:02:43,044 [7] INFO  Umbraco.Core.PluginManager - [Thread 124] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-07-27 08:02:43,044 [7] INFO  Umbraco.Core.PluginManager - [Thread 124] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2016-07-27 10:48:41,579 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 148] User Id: 1 logged in
+2016-07-27 10:48:41,828 [7] INFO  Umbraco.Core.PluginManager - [Thread 166] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-07-27 10:48:41,828 [7] INFO  Umbraco.Core.PluginManager - [Thread 166] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-07-27 10:48:42,390 [7] INFO  Umbraco.Core.PluginManager - [Thread 208] Starting resolution types of umbraco.interfaces.ITree
+2016-07-27 10:48:42,390 [7] INFO  Umbraco.Core.PluginManager - [Thread 208] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
+2016-07-27 10:51:38,889 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 208] Content 'Milestones & Updates' with Id '1057' has been published.
+2016-07-27 10:51:39,061 [7] INFO  Umbraco.Core.PluginManager - [Thread 208] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-07-27 10:51:39,061 [7] INFO  Umbraco.Core.PluginManager - [Thread 208] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 1ms)
+2016-07-27 11:04:55,026 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 145] Content 'When will this move take place?' with Id '1998' has been published.
+2016-07-27 12:09:24,321 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 50] An error occurred with the scheduled publishing
+System.Net.WebException: The operation has timed out
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-07-27 13:19:31,188 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 116] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-07-27 13:19:31,219 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 116] New document 2107
+2016-07-27 13:19:31,235 [7] INFO  Umbraco.Core.PluginManager - [Thread 116] Starting resolution types of umbraco.interfaces.IDataType
+2016-07-27 13:19:31,235 [7] INFO  Umbraco.Core.PluginManager - [Thread 116] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 1ms)
+2016-07-27 13:19:31,313 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 116] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-07-27 13:19:31,531 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 116] Content 'Gail Gray' with Id '2107' has been published.
+2016-07-27 13:19:31,562 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 116] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-07-27 13:19:31,578 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 116] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-07-27 13:45:22,962 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 94] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-07-27 13:45:22,993 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 94] New document 2108
+2016-07-27 13:45:23,025 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 94] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-07-27 13:45:23,071 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Lauralee Montgomery' with Id '2108' has been published.
+2016-07-27 13:45:23,103 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 94] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-07-27 13:45:23,103 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 94] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-07-27 21:10:20,089 [7] INFO  umbraco.BusinessLogic.Log - [Thread 337] Log scrubbed.  Removed all items older than 2016-05-28 21:10:20

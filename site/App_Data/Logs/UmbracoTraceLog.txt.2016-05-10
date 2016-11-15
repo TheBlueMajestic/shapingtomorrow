@@ -1,0 +1,82 @@
+﻿2016-05-10 09:00:29,520 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 242] User Id: 0 logged in
+2016-05-10 09:00:29,832 [10] INFO  Umbraco.Core.PluginManager - [Thread 178] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-05-10 09:00:29,832 [10] INFO  Umbraco.Core.PluginManager - [Thread 178] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-05-10 09:00:30,409 [10] INFO  Umbraco.Core.PluginManager - [Thread 159] Starting resolution types of umbraco.interfaces.ITree
+2016-05-10 09:00:30,409 [10] INFO  Umbraco.Core.PluginManager - [Thread 159] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
+2016-05-10 09:04:23,553 [10] INFO  Umbraco.Core.PluginManager - [Thread 167] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-05-10 09:04:23,553 [10] INFO  Umbraco.Core.PluginManager - [Thread 167] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2016-05-10 09:04:23,615 [10] INFO  Umbraco.Core.PluginManager - [Thread 167] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-05-10 09:04:23,615 [10] INFO  Umbraco.Core.PluginManager - [Thread 167] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 0ms)
+2016-05-10 09:10:49,141 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 206] Content 'Ask the Project Team' with Id '1087' has been published.
+2016-05-10 09:10:49,312 [10] INFO  Umbraco.Core.PluginManager - [Thread 206] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-05-10 09:10:49,312 [10] INFO  Umbraco.Core.PluginManager - [Thread 206] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 1ms)
+2016-05-10 09:11:34,194 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 201] New document 1965
+2016-05-10 09:11:34,209 [10] INFO  Umbraco.Core.PluginManager - [Thread 201] Starting resolution types of umbraco.interfaces.IDataType
+2016-05-10 09:11:34,209 [10] INFO  Umbraco.Core.PluginManager - [Thread 201] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 1ms)
+2016-05-10 09:11:34,443 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 201] Content 'test 5-10-16 test' with Id '1965' has been published.
+2016-05-10 09:12:02,555 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 201] Content 'Ask the Project Team' with Id '1087' has been published.
+2016-05-10 09:12:38,341 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 201] New document 1966
+2016-05-10 09:12:38,404 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 201] Content 'test2 5-10-16 test' with Id '1966' has been published.
+2016-05-10 09:13:34,065 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 275] Content 'Ask the Project Team' with Id '1087' has been published.
+2016-05-10 09:14:06,357 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 206] New document 1967
+2016-05-10 09:14:06,420 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 206] Content 'test3 5-10-16 test' with Id '1967' has been published.
+2016-05-10 09:16:46,992 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 201] Content 'Ask the Project Team' with Id '1087' has been published.
+2016-05-10 09:22:12,894 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 179] Content 'test 5-10-16 test' with Id '1965' has been unpublished.
+2016-05-10 09:22:19,664 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 197] Content 'test2 5-10-16 test' with Id '1966' has been unpublished.
+2016-05-10 09:22:25,467 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 179] Content 'test3 5-10-16 test' with Id '1967' has been unpublished.
+2016-05-10 09:24:15,354 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 141] Content 'Ask the Project Team' with Id '1087' has been published.
+2016-05-10 09:25:01,609 [10] INFO  umbraco.BusinessLogic.Log - [Thread 198] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Error | User: 0 | NodeId: -1 | Comment: Error creating or sending contact mail, check if there is a mailFrom property on your document and that it has a value, or specify a MailFrom parameter on the macro call exception: 
+2016-05-10 09:25:01,671 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 159] New document 1968
+2016-05-10 09:25:01,734 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 159] Content 'test4 5-10-16 test' with Id '1968' has been published.
+2016-05-10 09:25:53,900 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 261] Content 'Ask the Project Team' with Id '1087' has been published.
+2016-05-10 09:26:04,555 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 183] Content 'Ask the Project Team' with Id '1087' has been published.
+2016-05-10 09:27:18,094 [10] INFO  umbraco.BusinessLogic.Log - [Thread 198] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Error | User: 0 | NodeId: -1 | Comment: Error creating or sending contact mail, check if there is a mailFrom property on your document and that it has a value, or specify a MailFrom parameter on the macro call exception: 
+2016-05-10 09:27:18,157 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 245] New document 1969
+2016-05-10 09:27:18,235 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 245] Content 'test5 5-10-16 test' with Id '1969' has been published.
+2016-05-10 09:27:53,694 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 220] Content 'Ask the Project Team' with Id '1087' has been published.
+2016-05-10 09:35:59,543 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 223] Content 'Ask the Project Team' with Id '1087' has been published.
+2016-05-10 09:44:23,209 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 408] Content 'Ask the Project Team' with Id '1087' has been published.
+2016-05-10 09:55:07,852 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 236] New document 1970
+2016-05-10 09:55:07,977 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 236] Content 'test6 5-10-16 test' with Id '1970' has been published.
+2016-05-10 09:56:44,386 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 223] Content 'Ask the Project Team' with Id '1087' has been published.
+2016-05-10 09:57:03,387 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 182] Content 'test4 5-10-16 test' with Id '1968' has been unpublished.
+2016-05-10 09:57:16,959 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 418] Content 'test5 5-10-16 test' with Id '1969' has been unpublished.
+2016-05-10 09:57:22,434 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 280] Content 'test6 5-10-16 test' with Id '1970' has been unpublished.
+2016-05-10 10:53:55,365 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 286] An error occurred with the scheduled publishing
+System.Net.WebException: The operation has timed out
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-05-10 16:04:29,465 [10] INFO  umbraco.BusinessLogic.Log - [Thread 315] Log scrubbed.  Removed all items older than 2016-03-11 16:04:29
+2016-05-10 21:02:38,706 [10] INFO  umbraco.BusinessLogic.Log - [Thread 415] Log scrubbed.  Removed all items older than 2016-03-11 21:02:38
+2016-05-10 21:02:38,706 [10] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 415] Application shutdown. Reason: HostingEnvironment
+2016-05-10 21:35:30,732 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-05-10 21:35:30,763 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 14ms)
+2016-05-10 21:35:30,763 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-05-10 21:35:30,779 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 35 (took 9ms)
+2016-05-10 21:35:30,872 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-05-10 21:35:30,872 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2016-05-10 21:35:30,872 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-05-10 21:35:30,872 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 0ms)
+2016-05-10 21:35:30,903 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-05-10 21:35:30,903 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2016-05-10 21:35:30,903 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-05-10 21:35:30,903 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 30 (took 2ms)
+2016-05-10 21:35:30,950 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-05-10 21:35:30,950 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2016-05-10 21:35:30,950 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-05-10 21:35:30,950 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-05-10 21:35:32,027 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2016-05-10 21:35:32,027 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 0ms)
+2016-05-10 21:35:32,073 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-05-10 21:35:32,073 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-05-10 21:35:32,089 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2016-05-10 21:35:32,089 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2016-05-10 21:35:32,089 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-05-10 21:35:32,261 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-05-10 21:35:32,604 [10] INFO  Umbraco.Web.UmbracoModule - [Thread 11] Setting OriginalRequestUrl: 23.253.69.79:80/umbraco
+2016-05-10 21:35:32,697 [10] INFO  umbraco.content - [Thread 11] Loading content from disk cache...
+2016-05-10 21:35:32,822 [10] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-05-10 21:35:32,822 [10] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 22 (took 1ms)
+2016-05-10 21:35:33,134 [10] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-05-10 21:35:33,134 [10] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 1ms)

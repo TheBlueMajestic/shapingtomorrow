@@ -1,0 +1,10 @@
+﻿2015-08-21 07:28:13,099 [10] INFO  Umbraco.Core.PluginManager - [Thread 164] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-08-21 07:28:13,099 [10] INFO  Umbraco.Core.PluginManager - [Thread 164] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2015-08-21 07:28:13,177 [10] INFO  Umbraco.Core.PluginManager - [Thread 164] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-08-21 07:28:13,177 [10] INFO  Umbraco.Core.PluginManager - [Thread 164] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2015-08-21 08:52:50,327 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 103] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (524) Origin Time-out.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2015-08-21 23:27:39,525 [10] INFO  umbraco.BusinessLogic.Log - [Thread 422] Log scrubbed.  Removed all items older than 2015-06-22 23:27:39

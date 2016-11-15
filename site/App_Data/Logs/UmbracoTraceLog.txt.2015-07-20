@@ -1,0 +1,14 @@
+﻿2015-07-20 06:55:23,771 [10] INFO  Umbraco.Core.PluginManager - [Thread 134] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-07-20 06:55:23,771 [10] INFO  Umbraco.Core.PluginManager - [Thread 134] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2015-07-20 06:55:23,834 [10] INFO  Umbraco.Core.PluginManager - [Thread 134] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-07-20 06:55:23,834 [10] INFO  Umbraco.Core.PluginManager - [Thread 134] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2015-07-20 17:17:39,816 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 308] User Id: 1 logged in
+2015-07-20 17:17:40,159 [10] INFO  Umbraco.Core.PluginManager - [Thread 189] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-07-20 17:17:40,159 [10] INFO  Umbraco.Core.PluginManager - [Thread 189] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-07-20 17:17:40,689 [10] INFO  Umbraco.Core.PluginManager - [Thread 283] Starting resolution types of umbraco.interfaces.ITree
+2015-07-20 17:17:40,689 [10] INFO  Umbraco.Core.PluginManager - [Thread 283] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
+2015-07-20 17:17:56,227 [10] INFO  Umbraco.Core.PluginManager - [Thread 188] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2015-07-20 17:17:56,227 [10] INFO  Umbraco.Core.PluginManager - [Thread 188] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 1ms)
+2015-07-20 17:22:07,155 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 338] Content 'Committee Updates' with Id '1529' has been published.
+2015-07-20 17:23:23,642 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 280] Content 'Home' with Id '1052' has been published.
+2015-07-20 20:20:19,784 [10] INFO  umbraco.BusinessLogic.Log - [Thread 570] Log scrubbed.  Removed all items older than 2015-05-21 20:20:19

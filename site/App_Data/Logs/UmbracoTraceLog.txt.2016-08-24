@@ -1,0 +1,70 @@
+﻿2016-08-24 03:11:35,848 [7] INFO  umbraco.BusinessLogic.Log - [Thread 228] Log scrubbed.  Removed all items older than 2016-06-25 03:11:35
+2016-08-24 03:11:35,848 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 228] Application shutdown. Reason: HostingEnvironment
+2016-08-24 05:02:05,410 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-08-24 05:02:05,441 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 14ms)
+2016-08-24 05:02:05,441 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-08-24 05:02:05,456 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 35 (took 9ms)
+2016-08-24 05:02:05,550 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-08-24 05:02:05,550 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2016-08-24 05:02:05,550 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-08-24 05:02:05,550 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 1ms)
+2016-08-24 05:02:05,581 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-08-24 05:02:05,581 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2016-08-24 05:02:05,581 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-08-24 05:02:05,581 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 30 (took 2ms)
+2016-08-24 05:02:05,628 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-08-24 05:02:05,628 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2016-08-24 05:02:05,628 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-08-24 05:02:05,628 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-08-24 05:02:06,626 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2016-08-24 05:02:06,626 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 0ms)
+2016-08-24 05:02:06,673 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-08-24 05:02:06,673 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-08-24 05:02:06,689 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2016-08-24 05:02:06,689 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2016-08-24 05:02:06,704 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-08-24 05:02:06,892 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-08-24 05:02:07,266 [7] INFO  Umbraco.Web.UmbracoModule - [Thread 10] Setting OriginalRequestUrl: bsashapingtomorrow.com:80/umbraco
+2016-08-24 05:02:07,375 [7] INFO  umbraco.content - [Thread 10] Loading content from disk cache...
+2016-08-24 05:02:07,547 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-08-24 05:02:07,547 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 22 (took 2ms)
+2016-08-24 05:02:08,046 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-08-24 05:02:08,046 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 1ms)
+2016-08-24 06:55:31,879 [7] INFO  Umbraco.Core.PluginManager - [Thread 162] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-08-24 06:55:31,879 [7] INFO  Umbraco.Core.PluginManager - [Thread 162] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2016-08-24 06:55:31,941 [7] INFO  Umbraco.Core.PluginManager - [Thread 162] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-08-24 06:55:31,941 [7] INFO  Umbraco.Core.PluginManager - [Thread 162] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2016-08-24 09:44:17,116 [7] INFO  Umbraco.Core.PluginManager - [Thread 222] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-08-24 09:44:17,116 [7] INFO  Umbraco.Core.PluginManager - [Thread 222] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 1ms)
+2016-08-24 09:44:17,163 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 222] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-08-24 09:44:17,755 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 222] New document 2196
+2016-08-24 09:44:17,787 [7] INFO  Umbraco.Core.PluginManager - [Thread 222] Starting resolution types of umbraco.interfaces.IDataType
+2016-08-24 09:44:17,787 [7] INFO  Umbraco.Core.PluginManager - [Thread 222] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 3ms)
+2016-08-24 09:44:17,802 [7] INFO  Umbraco.Core.PluginManager - [Thread 222] Starting resolution types of umbraco.interfaces.ITree
+2016-08-24 09:44:17,802 [7] INFO  Umbraco.Core.PluginManager - [Thread 222] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 0ms)
+2016-08-24 09:44:17,989 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 222] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-08-24 09:44:18,286 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 222] Content 'Michele Wilson (1)' with Id '2196' has been published.
+2016-08-24 09:44:18,348 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 222] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-08-24 09:44:18,348 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 222] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-08-24 16:34:50,176 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 72] User Id: 1 logged in
+2016-08-24 16:34:50,442 [7] INFO  Umbraco.Core.PluginManager - [Thread 99] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-08-24 16:34:50,442 [7] INFO  Umbraco.Core.PluginManager - [Thread 99] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-08-24 16:40:02,038 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 223] Content 'Pre-tax Commuter Benefits' with Id '1822' has been published.
+2016-08-24 16:44:16,601 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 184] Content 'What’s Hot in Nashville' with Id '1953' has been published.
+2016-08-24 16:44:40,906 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 212] Content 'What’s Hot in Nashville' with Id '1953' has been published.
+2016-08-24 16:45:04,914 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 77] Content 'What’s Hot in Nashville' with Id '1953' has been published.
+2016-08-24 16:47:24,832 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content 'Nashville Leads Nation in Advanced Manufacturing and Tech Industries Job Growth' with Id '0' has been published.
+2016-08-24 16:47:40,167 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 77] Content 'Nashville Leads Nation in Advanced Manufacturing and Tech Industries Job Growth' with Id '2199' has been published.
+2016-08-24 16:47:54,550 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 171] Content 'Nashville Leads Nation in Advanced Manufacturing and Tech Industries Job Growth' with Id '2199' has been published.
+2016-08-24 16:48:10,181 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 119] Content 'Nashville Leads Nation in Advanced Manufacturing and Tech Industries Job Growth' with Id '2199' has been published.
+2016-08-24 16:52:27,942 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content 'Nashville Leads Nation in Advanced Manufacturing and Tech Industries Job Growth' with Id '2199' has been published.
+2016-08-24 16:52:49,096 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 105] Content 'Nashville Leads Nation in Advanced Manufacturing and Tech Industries Job Growth' with Id '2199' has been published.
+2016-08-24 16:53:12,527 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 97] Content 'Nashville Leads Nation in Advanced Manufacturing and Tech Industries Job Growth' with Id '2199' has been published.
+2016-08-24 16:53:19,219 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 160] Content 'Nashville Leads Nation in Advanced Manufacturing and Tech Industries Job Growth' with Id '2199' has been published.
+2016-08-24 16:53:32,370 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 96] Content 'Nashville Leads Nation in Advanced Manufacturing and Tech Industries Job Growth' with Id '2199' has been published.
+2016-08-24 16:53:40,202 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 97] Content 'Nashville Leads Nation in Advanced Manufacturing and Tech Industries Job Growth' with Id '2199' has been published.
+2016-08-24 16:59:29,223 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 77] Content 'Newsweek Names Three Nashville-Area Schools Among Best in America' with Id '0' has been published.
+2016-08-24 16:59:38,162 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 242] Content 'Newsweek Names Three Nashville-Area Schools Among Best in America' with Id '2206' has been published.
+2016-08-24 17:00:19,268 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 194] Content 'Newsweek Names Three Nashville-Area Schools Among Best in America' with Id '2206' has been published.
+2016-08-24 17:01:06,614 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 160] Content 'Newsweek Names Three Nashville-Area Schools Among Best in America' with Id '2206' has been published.
+2016-08-24 17:01:27,363 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 119] Content 'Newsweek Names Three Nashville-Area Schools Among Best in America' with Id '2206' has been published.

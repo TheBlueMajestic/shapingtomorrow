@@ -1,0 +1,159 @@
+﻿2015-07-22 00:54:05,414 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 403] An error occurred with the scheduled publishing
+System.Net.WebException: The underlying connection was closed: A connection that was expected to be kept alive was closed by the server. ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2015-07-22 03:12:08,635 [10] INFO  umbraco.BusinessLogic.Log - [Thread 393] Log scrubbed.  Removed all items older than 2015-05-23 03:12:08
+2015-07-22 08:12:16,983 [10] INFO  umbraco.BusinessLogic.Log - [Thread 63] Log scrubbed.  Removed all items older than 2015-05-23 08:12:16
+2015-07-22 08:12:16,983 [10] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 63] Application shutdown. Reason: HostingEnvironment
+2015-07-22 08:54:21,642 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2015-07-22 08:54:21,658 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 10ms)
+2015-07-22 08:54:21,674 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-07-22 08:54:21,674 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 35 (took 9ms)
+2015-07-22 08:54:21,767 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-07-22 08:54:21,767 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2015-07-22 08:54:21,767 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-07-22 08:54:21,783 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 1ms)
+2015-07-22 08:54:21,798 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-07-22 08:54:21,798 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2015-07-22 08:54:21,798 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-07-22 08:54:21,798 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 30 (took 2ms)
+2015-07-22 08:54:21,845 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-07-22 08:54:21,845 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2015-07-22 08:54:21,845 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-07-22 08:54:21,845 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2015-07-22 08:54:22,797 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-07-22 08:54:22,797 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-07-22 08:54:22,812 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2015-07-22 08:54:22,828 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2015-07-22 08:54:22,828 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2015-07-22 08:54:23,000 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2015-07-22 08:54:23,015 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2015-07-22 08:54:23,015 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 0ms)
+2015-07-22 08:54:23,093 [7] INFO  Umbraco.Web.UmbracoModule - [Thread 11] Setting OriginalRequestUrl: bsashapingtomorrow.com:80/umbraco
+2015-07-22 08:54:23,187 [7] INFO  umbraco.content - [Thread 11] Loading content from disk cache...
+2015-07-22 08:54:23,296 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-07-22 08:54:23,296 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 22 (took 1ms)
+2015-07-22 08:54:23,577 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-07-22 08:54:23,577 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 2ms)
+2015-07-22 09:38:54,176 [7] INFO  Umbraco.Core.PluginManager - [Thread 165] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-07-22 09:38:54,176 [7] INFO  Umbraco.Core.PluginManager - [Thread 165] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2015-07-22 09:38:54,238 [7] INFO  Umbraco.Core.PluginManager - [Thread 165] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-07-22 09:38:54,238 [7] INFO  Umbraco.Core.PluginManager - [Thread 165] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2015-07-22 10:45:09,365 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 371] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (522) Origin Connection Time-out.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2015-07-22 10:47:09,408 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 379] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (522) Origin Connection Time-out.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2015-07-22 10:50:34,425 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 388] An error occurred with the scheduled publishing
+System.Net.WebException: The operation has timed out
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2015-07-22 10:56:34,491 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 351] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (524) Origin Time-out.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2015-07-22 11:08:34,670 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 428] An error occurred with the scheduled publishing
+System.Net.WebException: The operation has timed out
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2015-07-22 11:30:34,954 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 333] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (524) Origin Time-out.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2015-07-22 11:47:35,186 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 281] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (524) Origin Time-out.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2015-07-22 13:11:36,331 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 326] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (524) Origin Time-out.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2015-07-22 16:15:11,679 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 331] User Id: 1 logged in
+2015-07-22 16:15:12,054 [7] INFO  Umbraco.Core.PluginManager - [Thread 330] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-07-22 16:15:12,054 [7] INFO  Umbraco.Core.PluginManager - [Thread 330] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-07-22 16:15:12,646 [7] INFO  Umbraco.Core.PluginManager - [Thread 295] Starting resolution types of umbraco.interfaces.ITree
+2015-07-22 16:15:12,646 [7] INFO  Umbraco.Core.PluginManager - [Thread 295] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
+2015-07-22 16:17:07,136 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 236] Content 'There once was a time-lapse construction cam on the site. Has the video been moved? I haven't been able to locate it for some time.' with Id '1493' has been published.
+2015-07-22 16:17:07,338 [7] INFO  Umbraco.Core.PluginManager - [Thread 236] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2015-07-22 16:17:07,338 [7] INFO  Umbraco.Core.PluginManager - [Thread 236] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 1ms)
+2015-07-22 16:17:28,757 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 295] Content 'For those who offered to move to Nashville but may not be able to move quickly due to family issues OR for those who are near retirement and want to work a number of years in Nashville but leave the family behind in Chicago (and would want to go back to Chicago after X number of years), is there a subsidized housing available?' with Id '1494' has been published.
+2015-07-22 16:17:28,804 [7] INFO  Umbraco.Core.Persistence.UmbracoDatabase - [Thread 295]    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteNonQuery()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass1.<ExecuteNonQueryWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.Database.Update(String tableName, String primaryKeyName, Object poco, Object primaryKeyValue, IEnumerable`1 columns)
+2015-07-22 16:18:13,764 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 312] Content 'For those who offered to move to Nashville but may not be able to move quickly due to family issues OR for those who are near retirement and want to work a number of years in Nashville but leave the family behind in Chicago (and would want to go back to Chicago after X number of years), is there a subsidized housing available?' with Id '1494' has been published.
+2015-07-22 16:18:13,795 [7] INFO  Umbraco.Core.Persistence.UmbracoDatabase - [Thread 312]    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteNonQuery()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass1.<ExecuteNonQueryWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.Database.Update(String tableName, String primaryKeyName, Object poco, Object primaryKeyValue, IEnumerable`1 columns)
+2015-07-22 16:18:39,457 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 242] Content 'If a family is paying in-state tuition for their son or daughter to attend college, will the tuition increase if the family moves?' with Id '1494' has been unpublished.
+2015-07-22 16:19:09,784 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 338] Content 'For those who offered to move to Nashville but may not be able to move quickly due to family issues OR for those who are near retirement and want to work a number of years in Nashville but leave the family behind in Chicago (and would want to go back to Chicago after X number of years), is there a subsidized housing available?' with Id '1495' has been published.
+2015-07-22 16:19:09,799 [7] INFO  Umbraco.Core.Persistence.UmbracoDatabase - [Thread 338]    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteNonQuery()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass1.<ExecuteNonQueryWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.Database.Update(String tableName, String primaryKeyName, Object poco, Object primaryKeyValue, IEnumerable`1 columns)
+2015-07-22 16:19:39,861 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 298] Content 'I think it would be nice to provide either a Firestone Complete Auto Care service at discounted prices and deals for lube and detail service.' with Id '1493' has been published.
+2015-07-22 16:20:13,058 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 245] Content 'For those who offered to move to Nashville but may not be able to move quickly due to family issues OR for those who are near retirement and want to work a number of years in Nashville but leave the family behind in Chicago (and would want to go back to Chicago after X number of years), is there a subsidized housing available?' with Id '0' has been published.
+2015-07-22 16:20:13,089 [7] INFO  Umbraco.Core.Persistence.UmbracoDatabase - [Thread 245]    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteScalar()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClassa.<ExecuteScalarWithRetry>b__9()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.Database.Insert(String tableName, String primaryKeyName, Boolean autoIncrement, Object poco)
+2015-07-22 16:21:35,692 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 320] Content 'Is there a subsidized housing available?' with Id '0' has been published.
+2015-07-22 16:22:18,358 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 331] Content 'I think it would be nice to provide either a Firestone Complete Auto Care service at discounted prices and deals for lube and detail service.' with Id '1493' has been published.
+2015-07-22 16:23:00,868 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 242] Content 'Will there eventually be a specific link to ask questions about the move itself? For instance, I would like to know what happens if an individual changes their mind on the move after signing the intent form.' with Id '0' has been published.
+2015-07-22 16:23:20,212 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 272] Content 'Will there eventually be a specific link to ask questions about the move itself? For instance, I would like to know what happens if an individual changes their mind on the move after signing the intent form.' with Id '1567' has been published.
+2015-07-22 16:23:37,903 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 242] Content 'Is there subsidized housing available?' with Id '1566' has been published.
+2015-07-22 16:25:09,179 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 304] Content 'The Law Department is having its annual meeting in Nashville in September 2015. Are there any objections to the Law Department putting together a neighborhood tour for its teammates?' with Id '0' has been published.
+2015-07-22 16:40:06,872 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 236] Content 'Home' with Id '1052' has been published.

@@ -1,0 +1,5 @@
+﻿2016-03-30 11:23:47,362 [10] INFO  Umbraco.Core.PluginManager - [Thread 686] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-03-30 11:23:47,378 [10] INFO  Umbraco.Core.PluginManager - [Thread 686] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2016-03-30 11:23:47,440 [10] INFO  Umbraco.Core.PluginManager - [Thread 686] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-03-30 11:23:47,440 [10] INFO  Umbraco.Core.PluginManager - [Thread 686] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2016-03-30 22:04:19,595 [10] INFO  umbraco.BusinessLogic.Log - [Thread 622] Log scrubbed.  Removed all items older than 2016-01-30 22:04:19

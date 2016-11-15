@@ -1,0 +1,137 @@
+﻿2016-03-08 08:23:43,714 [10] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 330] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (524) Origin Time-out.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2016-03-08 08:25:03,384 [10] INFO  Umbraco.Web.Security.WebSecurity - [Thread 42] User Id: 1 logged in
+2016-03-08 08:25:03,852 [10] INFO  Umbraco.Core.PluginManager - [Thread 252] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-03-08 08:25:03,852 [10] INFO  Umbraco.Core.PluginManager - [Thread 252] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-03-08 08:32:12,965 [10] INFO  Umbraco.Core.PluginManager - [Thread 44] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-03-08 08:32:12,965 [10] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-03-08 08:32:32,792 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'With the new building, how do we put in a request for a conference room name?' with Id '1566' has been published.
+2016-03-08 08:32:55,444 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 330] Content 'Has there been any updates on if there will be a daycare available for teammates at the new building?' with Id '1567' has been published.
+2016-03-08 08:33:24,943 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'Will the new building offer dry cleaning, drop off/delivery on site? Expedia used to have this service.' with Id '1568' has been published.
+2016-03-08 08:34:49,512 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 265] Content 'We are given 12 months from the date that relocation begins to take advantage of the moving benefits. Can the Shaping Tomorrow team give a little more detail on what happens if we can't complete the move in that 12-month period? What benefits would become "taxable"? Are there state tax issues as well? My concern with the timing is that my family may not be moved until the end of the "current" school year. Working the sale of the house around this may affect the "current residence" status, and in-state vs. out of state tuition for my college student.' with Id '1574' has been published.
+2016-03-08 08:34:49,558 [10] INFO  Umbraco.Core.Persistence.UmbracoDatabase - [Thread 265]    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteNonQuery()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass1.<ExecuteNonQueryWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.Database.Update(String tableName, String primaryKeyName, Object poco, Object primaryKeyValue, IEnumerable`1 columns)
+2016-03-08 08:35:57,325 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 245] Content 'What is the medium unit housing price ($/square foot) of Brentwood, Franklin and downtown Nashville?' with Id '1574' has been published.
+2016-03-08 08:36:06,779 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 281] Content 'Many of us would like 24/7 Fitness Center hours – some of us work out late; some work out early. Since the fitness center is unstaffed, can it be set to allow for "all-hours" access? If not, why not, and what are the issues?' with Id '1575' has been unpublished.
+2016-03-08 08:36:13,503 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 44] Content 'Though it is still quite soon to look for housing, I was wondering if Bridgestone could work with apartment complexes in the area to get discounts for transitional housing.' with Id '1493' has been unpublished.
+2016-03-08 08:36:20,866 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 281] Content 'Will there be sufficient motorcycle parking in the garage to encourage the use of motorcycles?' with Id '1495' has been unpublished.
+2016-03-08 08:39:14,682 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 278] Content 'What is the medium unit housing price ($/square foot) of Brentwood, Franklin and downtown Nashville?' with Id '1574' has been published.
+2016-03-08 08:45:01,317 [10] INFO  Umbraco.Core.PluginManager - [Thread 254] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-03-08 08:45:01,317 [10] INFO  Umbraco.Core.PluginManager - [Thread 254] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-03-08 08:45:20,864 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 209] Content 'q5' with Id '0' has been published.
+2016-03-08 08:45:56,588 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content '96' with Id '0' has been published.
+2016-03-08 08:46:07,118 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 245] Content 'q6' with Id '1906' has been published.
+2016-03-08 08:46:23,202 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'q7' with Id '0' has been published.
+2016-03-08 08:48:55,521 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 252] Content 'q6' with Id '0' has been published.
+2016-03-08 08:49:12,463 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 252] Content 'q7' with Id '0' has been published.
+2016-03-08 08:49:38,312 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 162] Content 'q8' with Id '0' has been published.
+2016-03-08 08:50:25,737 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 252] Content 'q7' with Id '0' has been published.
+2016-03-08 08:50:45,003 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 266] Content 'q8' with Id '0' has been published.
+2016-03-08 08:51:00,946 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 44] Content 'q7' with Id '1909' has been published.
+2016-03-08 08:51:50,196 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 264] Content 'Home' with Id '1052' has been published.
+2016-03-08 08:58:30,604 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 278] Content 'EAST NASHVILLE' with Id '0' could not be published because its parent is not published.
+2016-03-08 08:58:52,288 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 276] Couldn't find any page with nodeId=1853. This is most likely caused by the page not being published.
+2016-03-08 08:59:02,210 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 144] Couldn't find any page with nodeId=1853. This is most likely caused by the page not being published.
+2016-03-08 08:59:19,994 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 144] Content 'Second section' with Id '1853' has been unpublished.
+2016-03-08 08:59:31,288 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 257] Content 'EAST NASHVILLE' with Id '0' could not be published because its parent is not published.
+2016-03-08 08:59:32,879 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 257] Couldn't find any page with nodeId=1850. This is most likely caused by the page not being published.
+2016-03-08 08:59:42,505 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 227] Content 'EAST NASHVILLE' with Id '0' could not be published because its parent is not published.
+2016-03-08 09:00:00,726 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 35] Content 'EAST NASHVILLE' with Id '0' could not be published because its parent is not published.
+2016-03-08 09:00:02,348 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 237] Couldn't find any page with nodeId=1852. This is most likely caused by the page not being published.
+2016-03-08 09:00:28,837 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 237] Content 'EAST NASHVILLE' with Id '1916' could not be published because its parent is not published.
+2016-03-08 09:05:19,826 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 270] Content 'FRANKLIN' with Id '0' could not be published because its parent is not published.
+2016-03-08 09:05:28,484 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 14] Content 'FRANKLIN' with Id '1917' could not be published because its parent is not published.
+2016-03-08 09:05:43,788 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 215] Content 'Tour the Towns' with Id '1840' has been published.
+2016-03-08 09:05:44,693 [10] INFO  Umbraco.Core.PluginManager - [Thread 215] Starting resolution types of umbraco.interfaces.IDataType
+2016-03-08 09:05:44,693 [10] INFO  Umbraco.Core.PluginManager - [Thread 215] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 1ms)
+2016-03-08 09:05:51,947 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 173] Content 'EAST NASHVILLE' with Id '1914' has been published.
+2016-03-08 09:06:00,293 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 173] Content 'EAST NASHVILLE' with Id '1915' has been published.
+2016-03-08 09:06:04,458 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 173] Content 'EAST NASHVILLE' with Id '1916' has been published.
+2016-03-08 09:06:43,224 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 273] Content 'EAST NASHVILLE' with Id '1916' has been unpublished.
+2016-03-08 09:07:10,041 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 238] Content 'EAST NASHVILLE' with Id '0' has been published.
+2016-03-08 09:07:14,549 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 215] Content 'FRANKLIN' with Id '1917' has been published.
+2016-03-08 09:07:26,499 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 265] Content 'FRANKLIN' with Id '0' has been published.
+2016-03-08 09:08:01,740 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 58] Content 'FRANKLIN' with Id '0' has been published.
+2016-03-08 09:08:17,059 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 58] Content 'HENDERSONVILLE' with Id '0' has been published.
+2016-03-08 09:08:23,814 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 58] Content 'HENDERSONVILLE' with Id '0' has been published.
+2016-03-08 09:08:52,736 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 243] Content 'HENDERSONVILLE' with Id '0' has been published.
+2016-03-08 09:09:04,624 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 215] Content 'LEBANON' with Id '0' has been published.
+2016-03-08 09:09:13,781 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 267] Content 'LEBANON' with Id '1924' has been unpublished.
+2016-03-08 09:09:41,221 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 215] Content 'LEBANON' with Id '0' has been published.
+2016-03-08 09:09:47,633 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 77] Content 'LEBANON' with Id '0' has been published.
+2016-03-08 09:10:07,071 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 267] Content 'LEBANON' with Id '0' has been published.
+2016-03-08 09:10:30,721 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 268] Content 'MT. JULIET' with Id '0' has been published.
+2016-03-08 09:10:36,680 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content 'MT. JULIET' with Id '0' has been published.
+2016-03-08 09:11:05,212 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 215] Content 'MT. JULIET' with Id '0' has been published.
+2016-03-08 09:11:17,661 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 88] Content 'MURFREESBORO' with Id '0' has been published.
+2016-03-08 09:11:25,851 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content 'MURFREESBORO' with Id '0' has been published.
+2016-03-08 09:11:42,185 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content 'MURFREESBORO' with Id '0' has been published.
+2016-03-08 09:12:09,625 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 5] Content 'MURFREESBORO' with Id '1933' has been published.
+2016-03-08 09:12:25,834 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'NOLENSVILLE' with Id '0' has been published.
+2016-03-08 09:12:31,606 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 268] Content 'NOLENSVILLE' with Id '0' has been published.
+2016-03-08 09:12:57,783 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 260] Content 'NOLENSVILLE' with Id '0' has been published.
+2016-03-08 09:13:09,202 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 244] Content 'SMYRNA' with Id '0' has been published.
+2016-03-08 09:13:14,771 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 228] Content 'SMYRNA' with Id '0' has been published.
+2016-03-08 09:13:34,412 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 228] Content 'SMYRNA' with Id '0' has been published.
+2016-03-08 09:14:17,827 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 228] Content 'SPRING HILL' with Id '0' has been published.
+2016-03-08 09:14:23,958 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 233] Content 'SPRING HILL' with Id '0' has been published.
+2016-03-08 09:14:49,183 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 246] Content 'SPRING HILL' with Id '0' has been published.
+2016-03-08 09:17:23,656 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'Second section' with Id '0' has been published.
+2016-03-08 09:17:23,858 [10] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 294] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2016-03-08 12:19:05,841 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 229] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-03-08 12:19:05,872 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 229] New document 1944
+2016-03-08 12:19:05,903 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 229] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-03-08 12:19:06,043 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 229] Content 'Jim Keating (2)' with Id '1944' has been published.
+2016-03-08 12:19:06,090 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 229] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-03-08 12:19:06,090 [10] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 229] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2016-03-08 12:45:08,894 [10] INFO  umbraco.BusinessLogic.Log - [Thread 368] Log scrubbed.  Removed all items older than 2016-01-08 12:45:08
+2016-03-08 17:42:40,882 [10] INFO  umbraco.BusinessLogic.Log - [Thread 223] Log scrubbed.  Removed all items older than 2016-01-08 17:42:40
+2016-03-08 17:42:40,882 [10] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 223] Application shutdown. Reason: HostingEnvironment
+2016-03-08 17:44:09,163 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-03-08 17:44:09,194 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 14ms)
+2016-03-08 17:44:09,194 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-03-08 17:44:09,210 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 35 (took 8ms)
+2016-03-08 17:44:09,303 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-03-08 17:44:09,303 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2016-03-08 17:44:09,303 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-03-08 17:44:09,303 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 0ms)
+2016-03-08 17:44:09,319 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-03-08 17:44:09,319 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2016-03-08 17:44:09,319 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-03-08 17:44:09,319 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 30 (took 2ms)
+2016-03-08 17:44:09,397 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-03-08 17:44:09,397 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2016-03-08 17:44:09,397 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-03-08 17:44:09,397 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-03-08 17:44:10,317 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2016-03-08 17:44:10,317 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 0ms)
+2016-03-08 17:44:10,364 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-03-08 17:44:10,364 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-03-08 17:44:10,380 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2016-03-08 17:44:10,380 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2016-03-08 17:44:10,380 [18] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-03-08 17:44:10,520 [18] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-03-08 17:44:10,739 [18] INFO  Umbraco.Web.UmbracoModule - [Thread 7] Setting OriginalRequestUrl: bsashapingtomorrow.com:80/umbraco
+2016-03-08 17:44:10,739 [18] INFO  Umbraco.Web.UmbracoModule - [Thread 10] Setting OriginalRequestUrl: www.bsashapingtomorrow.com:80/umbraco
+2016-03-08 17:44:10,879 [18] INFO  umbraco.content - [Thread 10] Loading content from disk cache...
+2016-03-08 17:44:11,066 [18] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-03-08 17:44:11,066 [18] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 22 (took 1ms)
+2016-03-08 17:44:11,644 [18] INFO  Umbraco.Core.PluginManager - [Thread 7] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-03-08 17:44:11,644 [18] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 2ms)
+2016-03-08 19:41:13,114 [18] INFO  Umbraco.Core.PluginManager - [Thread 619] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-03-08 19:41:13,114 [18] INFO  Umbraco.Core.PluginManager - [Thread 619] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2016-03-08 19:41:13,192 [18] INFO  Umbraco.Core.PluginManager - [Thread 619] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-03-08 19:41:13,192 [18] INFO  Umbraco.Core.PluginManager - [Thread 619] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)

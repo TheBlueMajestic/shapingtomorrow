@@ -1,0 +1,103 @@
+﻿2015-08-03 06:26:01,714 [10] INFO  umbraco.BusinessLogic.Log - [Thread 302] Log scrubbed.  Removed all items older than 2015-06-04 06:26:01
+2015-08-03 11:25:46,989 [10] INFO  umbraco.BusinessLogic.Log - [Thread 302] Log scrubbed.  Removed all items older than 2015-06-04 11:25:46
+2015-08-03 11:25:46,989 [10] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 302] Application shutdown. Reason: HostingEnvironment
+2015-08-03 11:26:05,382 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2015-08-03 11:26:05,397 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 11ms)
+2015-08-03 11:26:05,413 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-08-03 11:26:05,428 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 35 (took 10ms)
+2015-08-03 11:26:05,522 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-08-03 11:26:05,522 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2015-08-03 11:26:05,522 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-08-03 11:26:05,522 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 1ms)
+2015-08-03 11:26:05,538 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-08-03 11:26:05,538 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 1ms)
+2015-08-03 11:26:05,538 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-08-03 11:26:05,553 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 30 (took 2ms)
+2015-08-03 11:26:05,600 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-08-03 11:26:05,600 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2015-08-03 11:26:05,600 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-08-03 11:26:05,600 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2015-08-03 11:26:06,567 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-08-03 11:26:06,567 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-08-03 11:26:06,583 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2015-08-03 11:26:06,583 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2015-08-03 11:26:06,598 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2015-08-03 11:26:06,770 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2015-08-03 11:26:06,786 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2015-08-03 11:26:06,786 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 0ms)
+2015-08-03 11:26:06,864 [7] INFO  Umbraco.Web.UmbracoModule - [Thread 11] Setting OriginalRequestUrl: www.bsashapingtomorrow.com:80/umbraco
+2015-08-03 11:26:06,957 [7] INFO  umbraco.content - [Thread 11] Loading content from disk cache...
+2015-08-03 11:26:07,066 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-08-03 11:26:07,066 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 22 (took 1ms)
+2015-08-03 11:26:07,363 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-08-03 11:26:07,363 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 2ms)
+2015-08-03 11:27:33,585 [7] INFO  Umbraco.Core.PluginManager - [Thread 16] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-08-03 11:27:33,585 [7] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 43 (took 0ms)
+2015-08-03 11:27:33,663 [7] INFO  Umbraco.Core.PluginManager - [Thread 16] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-08-03 11:27:33,663 [7] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2015-08-03 12:25:17,402 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 290] An error occurred with the scheduled publishing
+System.Net.WebException: The remote server returned an error: (524) Origin Time-out.
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2015-08-03 13:32:05,945 [7] INFO  Umbraco.Core.PluginManager - [Thread 234] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2015-08-03 13:32:05,945 [7] INFO  Umbraco.Core.PluginManager - [Thread 234] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 3ms)
+2015-08-03 13:32:05,992 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 234] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-08-03 13:32:06,553 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 234] New document 1581
+2015-08-03 13:32:06,584 [7] INFO  Umbraco.Core.PluginManager - [Thread 234] Starting resolution types of umbraco.interfaces.IDataType
+2015-08-03 13:32:06,584 [7] INFO  Umbraco.Core.PluginManager - [Thread 234] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 3ms)
+2015-08-03 13:32:06,600 [7] INFO  Umbraco.Core.PluginManager - [Thread 234] Starting resolution types of umbraco.interfaces.ITree
+2015-08-03 13:32:06,600 [7] INFO  Umbraco.Core.PluginManager - [Thread 234] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 1ms)
+2015-08-03 13:32:06,772 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 234] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-08-03 13:32:07,084 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 234] Content 'Michele Wilson' with Id '1581' has been published.
+2015-08-03 13:32:07,130 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 234] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-08-03 13:32:07,130 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 234] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-08-03 13:33:45,224 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 162] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-08-03 13:33:45,224 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 162] New document 1582
+2015-08-03 13:33:45,255 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 162] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-08-03 13:33:45,271 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 162] Content 'Micheel Wilson' with Id '1582' has been published.
+2015-08-03 13:33:45,302 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 162] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-08-03 13:33:45,302 [7] WARN  Umbraco.Web.NotificationServiceExtensions - [Thread 162] There is no current Umbraco user logged in, the notifications will be sent from the administrator
+2015-08-03 14:03:46,803 [7] ERROR Umbraco.Web.Scheduling.KeepAlive - [Thread 281] Error in ping
+System.Net.WebException: The remote server returned an error: (524) Origin Time-out.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at Umbraco.Web.Scheduling.KeepAlive.Start(Object sender)
+2015-08-03 14:12:18,876 [7] ERROR Umbraco.Web.Scheduling.ScheduledPublishing - [Thread 166] An error occurred with the scheduled publishing
+System.Net.WebException: The operation has timed out
+   at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)
+   at System.Net.WebClient.UploadString(Uri address, String method, String data)
+   at Umbraco.Web.Scheduling.ScheduledPublishing.Start(ApplicationContext appContext)
+2015-08-03 14:53:24,069 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 268] User Id: 0 logged in
+2015-08-03 14:53:24,318 [7] INFO  Umbraco.Core.PluginManager - [Thread 260] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-08-03 14:53:24,318 [7] INFO  Umbraco.Core.PluginManager - [Thread 260] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-08-03 15:06:58,644 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 218] Content 'Answers' with Id '0' has been published.
+2015-08-03 15:07:37,909 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 163] Content 'Is there subsidized housing available?' with Id '1566' has been published.
+2015-08-03 15:07:53,229 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 269] Content 'Will there eventually be a specific link to ask questions about the move itself? For instance, I would like to know what happens if an individual changes their mind on the move after signing the intent form.' with Id '1567' has been published.
+2015-08-03 15:08:08,158 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 218] Content 'The Law Department is having its annual meeting in Nashville in September 2015. Are there any objections to the Law Department putting together a neighborhood tour for its teammates?' with Id '1568' has been published.
+2015-08-03 15:08:27,393 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 295] Content 'Would teammates who arrive to the office prior to 6:00 a.m. on business days have to pay for parking? Not sure teammates who begin working very early (4:30-5:00 a.m.) should be penalized and expected to pay.' with Id '1574' has been published.
+2015-08-03 15:08:41,917 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 171] Content 'Will there still be Pool Cars available? I believe Consumer Marketing has Pool Cars available for teammates to use if Corporate Pool Cars are not available. Just wondering if these vehicles will still be in the mix.' with Id '1575' has been published.
+2015-08-03 15:08:42,026 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 282] Content 'Will there still be Pool Cars available? I believe Consumer Marketing has Pool Cars available for teammates to use if Corporate Pool Cars are not available. Just wondering if these vehicles will still be in the mix.' with Id '1575' has been published.
+2015-08-03 15:08:53,492 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 163] Content 'I think it would be nice to provide either a Firestone Complete Auto Care service at discounted prices and deals for lube and detail service.' with Id '1493' has been published.
+2015-08-03 15:09:09,311 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 238] Content 'Is there any support being offered to curb the impact of tuition increases?' with Id '1495' has been published.
+2015-08-03 15:21:14,092 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 163] Content 'Previous Questions' with Id '0' has been published.
+2015-08-03 15:21:22,765 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 218] Content 'Answers' with Id '1584' has been published.
+2015-08-03 15:21:48,833 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 278] Content 'Building' with Id '0' has been published.
+2015-08-03 15:22:16,087 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 171] Content 'q1' with Id '0' has been published.
+2015-08-03 15:22:33,574 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 164] Content 'q2' with Id '0' has been published.
+2015-08-03 15:22:54,229 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 282] Content 'q3' with Id '0' has been published.
+2015-08-03 16:18:07,552 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 268] User Id: 1 logged in
+2015-08-03 16:18:07,646 [7] INFO  Umbraco.Core.PluginManager - [Thread 270] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-08-03 16:18:07,646 [7] INFO  Umbraco.Core.PluginManager - [Thread 270] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-08-03 22:05:45,276 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 44] User Id: 1 logged in
+2015-08-03 22:05:45,370 [7] INFO  Umbraco.Core.PluginManager - [Thread 46] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-08-03 22:05:45,370 [7] INFO  Umbraco.Core.PluginManager - [Thread 46] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-08-03 22:07:07,957 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 48] Content 'q4' with Id '0' has been published.
+2015-08-03 22:16:51,994 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 46] Content 'PARKING AND TRANSPORTATION' with Id '0' has been published.
+2015-08-03 22:28:06,278 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 315] Content 'q1' with Id '0' has been published.
+2015-08-03 22:30:08,395 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 313] Content 'q2' with Id '0' has been published.
+2015-08-03 22:32:23,523 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 327] Content 'q3' with Id '0' has been published.
+2015-08-03 22:34:06,172 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 308] Content 'RELOCATION' with Id '0' has been published.
+2015-08-03 22:37:52,842 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 327] Content 'q1' with Id '0' has been published.
+2015-08-03 22:41:10,152 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 312] Content 'q2' with Id '0' has been published.
+2015-08-03 22:42:26,343 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 306] Content 'q3' with Id '0' has been published.
