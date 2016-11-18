@@ -12,7 +12,7 @@
 }
 @{
     var blog = Model.Content.Parent.Parent;
-    var posts = blog.Children.Where(x => x.DocumentTypeAlias.Equals("Post") && HasCategory(x, Model.Content.Id) && x.IsVisible()).OrderByDescending(x => x.CreateDate);
+    var posts = blog.Children.Where(x => x.DocumentTypeAlias.Equals("Post") && HasCategory(x, Model.Content.Id) && x.IsVisible()).OrderByDescending(x => Helpers.PostDate(x));
 }
 <div id="top" class="page-content-anchor">&nbsp;</div>
 @if (posts.Any())
@@ -35,13 +35,14 @@
     {
         page = 1;
     }
-
-    foreach (var post in posts.Skip((page - 1) * perPage).Take(perPage))
+    
+    <div class="blog-post-excerpts">
+    @foreach (var post in posts.Skip((page - 1) * perPage).Take(perPage))
     {
         <div class="blog-post-excerpt">
             <h2><a href="@post.Url">@post.Name</a></h2>
             <ul class="blog-post-meta">
-                <li>@post.GetPropertyValue("date").ToString().AsDateTime().ToString("MM/dd/yyyy")</li>
+                <li>@Helpers.PostDate(post).ToString("MM/dd/yyyy")</li>
                 @if (post.HasValue("author"))
                 {
                     <li>@Helpers.AuthorName(Umbraco, post.GetPropertyValue("author"))</li>
@@ -65,6 +66,11 @@
             }
         </div>
     }
-
+    </div>
+    
     @Helpers.Pagination(page, totalPages, perPage, Html)
+}
+else
+{
+    @(blog.HasValue("noPostsMessage") ? blog.GetPropertyValue("noPostsMessage").ToString() : "There are no posts to show at this moment.");
 }

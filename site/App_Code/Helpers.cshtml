@@ -1,4 +1,15 @@
-﻿@helper CategoryList(Umbraco.Web.UmbracoHelper helper, System.Web.Mvc.HtmlHelper Html, object ids)
+﻿@functions {
+    public static DateTime PostDate(Umbraco.Core.Models.IPublishedContent post)
+    {
+        var date = post.GetProperty("date");
+        if(null != date && date.HasValue)
+        {
+            return post.GetProperty("date").DataValue.ToString().AsDateTime();
+        }
+        return post.CreateDate;
+    }
+}
+@helper CategoryList(Umbraco.Web.UmbracoHelper helper, System.Web.Mvc.HtmlHelper Html, object ids)
 {
     if (null != ids)
     {
@@ -9,7 +20,10 @@
             foreach (var id in idArray)
             {
                 var category = helper.TypedContent(id);
-                links.Append(", <a href=\"" + category.Url + "\">" + category.Name + "</a>");
+                if(null != category)
+                {
+                    links.Append(", <a href=\"" + category.Url + "\">" + category.Name + "</a>");
+                }
             }
             <span>In @Html.Raw(links.ToString().TrimStart(new char[] { ',', ' ' }))</span>
         }
