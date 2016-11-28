@@ -15,6 +15,26 @@
     var posts = blog.Children.Where(x => x.DocumentTypeAlias.Equals("Post") && HasCategory(x, Model.Content.Id) && x.IsVisible()).OrderByDescending(x => Helpers.PostDate(x));
 }
 <div id="top" class="page-content-anchor">&nbsp;</div>
+
+<select onchange="window.location=this.value">
+    <option value="@(Model.Content.Url)#">Select a category</option>
+    <option value="@(blog.Url)">View All</option>
+    @{
+        var categories = blog.Children.Where(x => x.DocumentTypeAlias.Equals("Categories") && x.IsVisible());
+        if (categories.Any())
+        {
+            var categoryList = categories.First().Children.Where(x => x.DocumentTypeAlias == "Category" && x.IsVisible());
+            if (categoryList.Any())
+            {
+                foreach (var category in categoryList)
+                {
+                    <option value="@category.Url" @(category.Id.Equals(Model.Content.Id) ? " selected=selected" : "")>@category.Name</option>
+                }
+            }
+        }
+    }
+</select>
+
 @if (posts.Any())
 {
     var perPage = 10;
@@ -72,5 +92,5 @@
 }
 else
 {
-    @(blog.HasValue("noPostsMessage") ? blog.GetPropertyValue("noPostsMessage").ToString() : "There are no posts to show at this moment.");
+    <div><br />No posts were found in @(Model.Content.Name).</div>
 }

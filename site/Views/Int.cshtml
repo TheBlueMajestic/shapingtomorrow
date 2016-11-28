@@ -5,7 +5,7 @@
     var page = Model.Content;
 	var pageName = CurrentPage.Name.ToLower();
 	var catName = CurrentPage.AncestorOrSelf(2).Name.ToLower();
-    var docType = CurrentPage.DocumentTypeAlias;
+    var docType = page.DocumentTypeAlias;
 	var counter = 0;
 	
 	//HeaderImg Path
@@ -48,7 +48,7 @@
             <div id="contentLft">
            
 	
-               <h1>@CurrentPage.Name</h1>
+               <h1>@(docType.Equals("Category") ? page.Parent.Parent.Name : CurrentPage.Name)</h1>
 			   	
 	            @if(docType == "Post"){
                  Html.RenderPartial("PostMeta");
